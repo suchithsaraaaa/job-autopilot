@@ -20,7 +20,23 @@ def slug(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")[:60]
 
 
+def _scaled(scale: float):
+    """Copies of the styles at `scale`, so a long resume can shrink to one page."""
+    return [ParagraphStyle(st.name, parent=st, fontSize=st.fontSize * scale, leading=st.leading * scale,
+                           spaceBefore=st.spaceBefore * scale, spaceAfter=st.spaceAfter * scale)
+            for st in (BASE, H1, H2, ROLE, BUL)]
+
+
 def build_pdf(resume: dict, tailored: dict, path: Path) -> Path:
+    """One page if it can be done at a readable size (>= 8pt), else the smallest that fits or two pages."""
+    for scale in (1.0, 0.95, 0.9, 0.86, 0.82):
+        pages = _build(resume, tailored, path, *_scaled(scale))
+        if pages == 1:
+            break
+    return path
+
+
+def _build(resume, tailored, path, BASE, H1, H2, ROLE, BUL) -> int:
     e = escape
     b = resume["basics"]
     bullets = {(r["id"], x["id"]): x["text"] for r in resume["experience"] for x in r["bullets"]}
@@ -65,7 +81,8 @@ def build_pdf(resume: dict, tailored: dict, path: Path) -> Path:
             story.append(Paragraph(e(x), BUL, bulletText="•"))
 
     path.parent.mkdir(parents=True, exist_ok=True)
-    SimpleDocTemplate(str(path), pagesize=A4, leftMargin=16 * mm, rightMargin=16 * mm,
-                      topMargin=13 * mm, bottomMargin=12 * mm, title=f'{b["name"]} — Resume',
-                      author=b["name"]).build(story)
-    return path
+    doc = SimpleDocTemplate(str(path), pagesize=A4, leftMargin=14 * mm, rightMargin=14 * mm,
+                            topMargin=11 * mm, bottomMargin=10 * mm, title=f'{b["name"]} — Resume',
+                            author=b["name"])
+    doc.build(story)
+    return doc.page

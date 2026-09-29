@@ -16,7 +16,7 @@ VOCAB = {
     "Redis": r"redis", "Kafka": r"kafka", "Git": r"\bgit\b", "Linux": r"linux",
     "LLMs": r"\bllms?\b|large language models?", "RAG": r"\brag\b|retrieval[- ]augmented",
     "Llama": r"llama", "vLLM": r"vllm", "Qdrant": r"qdrant", "Embeddings": r"embeddings?",
-    "Vector databases": r"vector (?:db|databases?|stores?|search)", "NLP": r"\bnlp\b|natural language",
+    "Vector databases": r"vector (?:db|databases?|stores?|search)|qdrant|pinecone|weaviate|milvus|pgvector", "NLP": r"\bnlp\b|natural language",
     "PyTorch": r"pytorch", "TensorFlow": r"tensorflow", "Transformers": r"transformers?",
     "Machine learning": r"machine learning|\bml\b", "Deep learning": r"deep learning",
     "Fine-tuning": r"fine[- ]?tun", "Prompt engineering": r"prompt engineering", "Quantisation": r"quantis|quantiz",
