@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 
 import pytest
 
-from jobautopilot import keywords, config, legit, match, render, sources, tailor
+from jobautopilot import keywords, config, legit, match, notify, render, sources, tailor
 from jobautopilot.models import Job
 
 os.environ.setdefault("PROFILE_EMAIL", "me@example.com")
@@ -163,7 +163,7 @@ def test_tailor_falls_back_without_key(monkeypatch):
 
 def test_tailor_falls_back_when_llm_errors(monkeypatch):
     monkeypatch.setenv("ANTHROPIC_API_KEY", "x")
-    import anthropic
+    anthropic = pytest.importorskip("anthropic")
 
     class Boom:
         def __init__(self, *a, **k): raise RuntimeError("no network")
@@ -177,3 +177,39 @@ def test_render_pdf(tmp_path):
     p = render.build_pdf(RESUME, t, tmp_path / "r.pdf")
     data = p.read_bytes()
     assert data.startswith(b"%PDF") and len(data) > 2000
+
+
+def test_contact_info_correctness():
+    prof = config.profile()
+    resume = config.resume()
+    assert prof["apply"]["answers"]["email"] == "suchithsara.work@gmail.com"
+    assert "8686478510" in prof["apply"]["answers"]["phone"]
+    assert resume["basics"]["email"] == "suchithsara.work@gmail.com"
+    assert "8686478510" in resume["basics"]["phone"]
+
+
+def test_rendered_resume_is_single_page(tmp_path):
+    import re
+    t = tailor.deterministic(RESUME, "Python AI Platform Backend AWS")
+    pdf_path = render.build_pdf(RESUME, t, tmp_path / "Suchith_Sara_Resume.pdf")
+    data = pdf_path.read_bytes()
+    page_count = len(re.findall(rb"/Type\s*/Page\b", data))
+    assert page_count == 1
+
+
+def test_telegram_error_redacts_token(monkeypatch):
+    secret_token = "secret123token456"
+    tg = notify.Telegram(token=secret_token, chat_id="99999")
+    import requests
+
+    def fake_post(*a, **kw):
+        raise requests.HTTPError(f"401 error for https://api.telegram.org/bot{secret_token}/sendMessage")
+
+    monkeypatch.setattr(requests, "post", fake_post)
+    with pytest.raises(RuntimeError) as exc_info:
+        tg.message("hello")
+    err_str = str(exc_info.value)
+    assert secret_token not in err_str
+    assert "[REDACTED]" in err_str
+
+

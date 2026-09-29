@@ -16,10 +16,20 @@ class Telegram:
     def enabled(self) -> bool:
         return bool(self.token and self.chat_id)
 
+    def __repr__(self) -> str:
+        return f"<Telegram enabled={self.enabled}>"
+
     def _call(self, method: str, **kw):
-        r = requests.post(API.format(token=self.token, method=method), timeout=60, **kw)
-        r.raise_for_status()
-        return r.json()
+        url = API.format(token=self.token, method=method)
+        try:
+            r = requests.post(url, timeout=60, **kw)
+            r.raise_for_status()
+            return r.json()
+        except Exception as e:
+            msg = str(e)
+            if self.token and self.token in msg:
+                msg = msg.replace(self.token, "[REDACTED]")
+            raise RuntimeError(f"Telegram API error ({method}): {msg}") from None
 
     def message(self, text: str, button: tuple[str, str] | None = None):
         import json
