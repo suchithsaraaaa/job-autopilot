@@ -80,7 +80,10 @@ def run(args) -> int:
         if problems:
             bits.append(f"⚠️ {len(problems)} boards failed (check slugs)")
         if batch or problems:
-            tg.message("\n".join(bits))
+            try:
+                tg.message("\n".join(bits))
+            except Exception as e:
+                log.error("Failed to send Telegram summary message: %s", e)
     for p in problems:
         log.warning("board problem: %s", p)
     return 0

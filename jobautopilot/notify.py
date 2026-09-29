@@ -1,6 +1,7 @@
 """Telegram notifications."""
 import html
 import os
+import re
 
 import requests
 
@@ -9,8 +10,17 @@ API = "https://api.telegram.org/bot{token}/{method}"
 
 class Telegram:
     def __init__(self, token: str | None = None, chat_id: str | None = None):
-        self.token = token or os.environ.get("TELEGRAM_BOT_TOKEN")
-        self.chat_id = chat_id or os.environ.get("TELEGRAM_CHAT_ID")
+        tok = token or os.environ.get("TELEGRAM_BOT_TOKEN")
+        if tok:
+            tok = tok.strip().replace(" ", "")
+            if tok.endswith("Ø") or tok.endswith("ø"):
+                tok = tok[:-1] + "0"
+        self.token = tok
+
+        cid = chat_id or os.environ.get("TELEGRAM_CHAT_ID")
+        if cid:
+            cid = str(cid).strip().replace(" ", "")
+        self.chat_id = cid
 
     @property
     def enabled(self) -> bool:
@@ -27,7 +37,9 @@ class Telegram:
             return r.json()
         except Exception as e:
             msg = str(e)
-            if self.token and self.token in msg:
+            # Redact any instance of the token or bot<token> in URLs
+            msg = re.sub(r"bot[^/\s]+", "bot[REDACTED]", msg)
+            if self.token:
                 msg = msg.replace(self.token, "[REDACTED]")
             raise RuntimeError(f"Telegram API error ({method}): {msg}") from None
 
