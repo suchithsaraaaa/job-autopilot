@@ -1,85 +1,254 @@
-# Your source-of-truth resume. The tailoring step may SELECT, ORDER and lightly
-# re-summarise these facts for each job, but it can never add a fact, skill,
-# employer or number that is not written here.
-#
-# Personal details use ${ENV} so they can live in GitHub Secrets.
+# Your source-of-truth resume, generated from Suchith_Sara_ATS_Resume.docx.
+# Tailoring may SELECT, ORDER and lightly re-summarise these facts per job but
+# can never add a fact, skill, employer or number that is not written here.
+# Contact details are stored here, so keep this repository PRIVATE.
 basics:
   name: Suchith Sara
-  email: "${PROFILE_EMAIL}"
-  phone: "${PROFILE_PHONE}"
-  location: Hyderabad, India
+  email: suchithssara@gmail.com
+  phone: +91 8686478510
+  location: Hyderabad, Telangana
   links:
+    LinkedIn: https://linkedin.com/in/suchith-sara-903133339
     GitHub: https://github.com/suchithsaraaaa
     Site: https://suchithsara.com
-    # LinkedIn: https://linkedin.com/in/<you>
-
-summary: >-
-  Python developer with 7+ months of internship experience in backend
-  engineering and applied AI.
-
+summary: Computer Science and Information Technology undergraduate and Python Developer with hands-on experience building and deploying production software, REST APIs, backend systems, automation workflows, and AI applications. Built a real-time police command platform supporting 14,900+ idols across 72 police stations and infrastructure designed for 3,000–4,000 concurrent users.
 skills:
-  Languages: [Python, SQL]
-  Backend: [Django, Flask, REST APIs, OAuth2, Webhooks, CI/CD]
-  "AI / ML": [LLMs, RAG, Llama, vLLM, BGE-M3, Qdrant, Anthropic API, Quantisation]
-  Cloud: [AWS]
-
+  Programming:
+  - Python
+  - SQL
+  - JSON
+  - Kotlin
+  Software Development:
+  - Django
+  - Django REST Framework
+  - Flask
+  - FastAPI
+  - REST APIs
+  - WebRTC
+  - OAuth2
+  - Webhooks
+  - API Integration
+  Databases:
+  - PostgreSQL
+  - MySQL
+  - MongoDB
+  - SQLite
+  - Qdrant
+  Cloud and DevOps:
+  - AWS
+  - EC2
+  - S3
+  - IAM
+  - Docker
+  - Git
+  - GitHub
+  - Linux
+  - Nginx
+  - Gunicorn
+  - CI/CD
+  AI and ML:
+  - Machine Learning
+  - Deep Learning
+  - NLP
+  - LLMs
+  - Generative AI
+  - RAG
+  - Computer Vision
+  - OpenCV
+  AI Infrastructure:
+  - Llama
+  - BGE-M3
+  - vLLM
+  - Anthropic API
+  - Quantisation
+  Engineering:
+  - Testing
+  - Debugging
+  - Database Optimization
+  - System Integration
+  - Automation
+  - Legacy System Modernization
 experience:
-  - id: police-tech
-    title: Technical Engineer Intern
-    org: Telangana Police IT Cell
-    dates: Sep 2026–Present
-    bullets: []
-  - id: police-ml
-    title: AI/ML and Full Stack Intern
-    org: Telangana Police IT Cell
-    dates: May–Jun 2026
-    bullets:
-      - id: rag
-        text: "Architected an on-premises retrieval-augmented generation system for internal government use: LLM selection, infrastructure sizing and deployment planning."
-        tags: [rag, llm, architecture, deployment]
-      - id: llm-serving
-        text: "Two-tier LLM architecture, Llama 3.1 8B and Llama 3.3 70B with AWQ INT4 quantisation, served through vLLM across 6 NVIDIA A100 80GB GPUs."
-        tags: [llm, llama, vllm, quantization, gpu, inference]
-      - id: multilingual
-        text: "Multilingual retrieval across English, Telugu and Hindi with BGE-M3 embeddings and Qdrant."
-        tags: [embeddings, retrieval, qdrant, vector, nlp, multilingual]
-      - id: pdf-enrich
-        text: "Automated bulk processing and AI enrichment of information memo PDFs with the Anthropic API."
-        tags: [automation, anthropic, pdf, llm, api]
-      - id: tco
-        text: "Prepared a 5-year total cost of ownership analysis, on-premises against public and private cloud."
-        tags: [cloud, cost, analysis]
-  - id: meta-scifor
-    title: Python Developer Intern
-    org: Meta SciFor Technologies
-    dates: Feb–Sep 2025
-    bullets:
-      - id: apis
-        text: "Built 20+ secure REST APIs with OAuth2, in Django and Flask."
-        tags: [rest, api, oauth, django, flask, python, backend, security]
-      - id: db
-        text: "Improved database query performance and storage efficiency by 40%."
-        tags: [database, sql, performance, optimization]
-      - id: workflows
-        text: "Automated 7+ workflows with webhooks and third-party integrations."
-        tags: [automation, webhooks, integration]
-      - id: teams
-        text: "Worked across 3 cross-functional teams on backend systems and CI/CD pipelines."
-        tags: [ci, cd, pipeline, backend, teamwork]
-
-projects: []
-  # - name: Example
-  #   text: One line on what it is and the result.
-  #   tags: [python]
-
+- id: police-tech
+  title: Technical Engineer Intern
+  org: Telangana Police IT Cell
+  dates: 2026 – Present
+  bullets:
+  - id: command-platform
+    text: Built a production-grade real-time police command platform managing 14,900+ idols across 72 police stations with jurisdiction-aware role-based access control and automated officer assignment.
+    tags:
+    - backend
+    - rbac
+    - production
+    - django
+    - real-time
+    - access control
+  - id: gps
+    text: Developed live GPS tracking and journey visualization using Kotlin, Android Location Services, Django REST APIs, PostgreSQL, and real-time dashboard polling.
+    tags:
+    - kotlin
+    - android
+    - gps
+    - django
+    - rest
+    - postgresql
+    - real-time
+  - id: scale
+    text: Architected and optimized infrastructure for 3,000–4,000 concurrent users through database indexing, telemetry optimization, connection pooling, and Gunicorn/Nginx tuning.
+    tags:
+    - scalability
+    - performance
+    - database
+    - optimization
+    - gunicorn
+    - nginx
+    - postgresql
+  - id: deploy
+    text: Deployed the platform using AWS EC2, Docker, Nginx, Gunicorn, PostgreSQL, and S3, implementing secure telemetry ingestion, audit trails, assignment lifecycle controls, and remote session termination.
+    tags:
+    - aws
+    - ec2
+    - docker
+    - nginx
+    - gunicorn
+    - s3
+    - deployment
+    - security
+    - devops
+- id: police-ml
+  title: AI/ML and Full Stack Intern
+  org: Telangana Police IT Cell
+  dates: '2026'
+  bullets:
+  - id: rag
+    text: Architected an on-premises Retrieval-Augmented Generation system for internal government use, covering LLM selection, infrastructure sizing, and deployment planning.
+    tags:
+    - rag
+    - llm
+    - architecture
+    - deployment
+  - id: llm-serving
+    text: Supported Llama 3.1 8B and Llama 3.3 70B with AWQ INT4 quantization through vLLM across 6 NVIDIA A100 80GB GPUs.
+    tags:
+    - llm
+    - llama
+    - vllm
+    - quantization
+    - gpu
+    - inference
+  - id: multilingual
+    text: Implemented multilingual retrieval across English, Telugu, and Hindi using BGE-M3 embeddings and Qdrant.
+    tags:
+    - embeddings
+    - retrieval
+    - qdrant
+    - vector
+    - nlp
+    - multilingual
+  - id: pdf-enrich
+    text: Automated bulk processing and AI enrichment of information memo PDFs using the Anthropic API.
+    tags:
+    - automation
+    - anthropic
+    - pdf
+    - llm
+    - api
+  - id: tco
+    text: Prepared a 5-year Total Cost of Ownership analysis comparing on-premises infrastructure with public and private cloud alternatives.
+    tags:
+    - cloud
+    - cost
+    - analysis
+- id: meta-scifor
+  title: Python Developer Intern
+  org: Meta SciFor Technologies (Remote)
+  dates: Feb 2025 – Sep 2025
+  bullets:
+  - id: apis
+    text: Engineered 20+ secure REST APIs with OAuth2 authentication using Django and Flask.
+    tags:
+    - rest
+    - api
+    - oauth
+    - django
+    - flask
+    - python
+    - backend
+    - security
+  - id: db
+    text: Improved database query performance and storage efficiency by 40% through database optimization.
+    tags:
+    - database
+    - sql
+    - performance
+    - optimization
+  - id: workflows
+    text: Automated 7+ workflows using webhooks and third-party integrations, reducing repetitive manual processing.
+    tags:
+    - automation
+    - webhooks
+    - integration
+  - id: teams
+    text: Collaborated across 3 cross-functional teams to deliver backend systems and maintain CI/CD pipelines.
+    tags:
+    - ci
+    - cd
+    - pipeline
+    - backend
+    - teamwork
+- id: google
+  title: Google Campus Ambassador
+  org: Google, CMR Technical Campus
+  dates: Jul 2025 – Dec 2025
+  bullets:
+  - id: g1
+    text: Engaged 1,000+ students through technical sessions, workshops, hackathons, and developer programs.
+    tags:
+    - community
+    - leadership
+    - workshops
+  - id: g2
+    text: Organized 10+ technical events including study jams, workshops, and coding competitions.
+    tags:
+    - community
+    - leadership
+    - events
+projects:
+- name: ResQMesh AI, Offline-First AI and Tactical Mesh Platform
+  text: Offline-first platform on Python, FastAPI, SQLite, React and Electron with an on-device RAG engine for emergency SOP retrieval and incident correlation, plus peer-to-peer mesh networking (UDP, mDNS discovery, multi-hop routing, packet caching, link-quality metrics).
+  tags:
+  - python
+  - fastapi
+  - sqlite
+  - react
+  - electron
+  - rag
+  - networking
+- name: NestIQ, Intelligent Real Estate Forecasting
+  text: AI property valuation platform using Random Forest Regression, Pandas, Scikit-learn and geospatial analytics across 7 global regions; Django REST APIs with OSMnx, Shapely and Geopy; deployed on AWS EC2 with Gunicorn and Nginx.
+  tags:
+  - machine learning
+  - django
+  - aws
+  - pandas
+  - scikit-learn
+- name: V-CONF, Real-Time Video Conferencing Platform
+  text: 'Real-time video conferencing with Django, WebRTC and ZEGOCLOUD SDK: authentication, dynamic room management, video communication and screen sharing.'
+  tags:
+  - django
+  - webrtc
+  - real-time
 education:
-  - degree: B.Tech, Computer Science & Information Technology
-    school: CMR Technical Campus, Hyderabad
-    years: 2023–2027
-
+- degree: Bachelor of Technology, Computer Science and Information Technology
+  school: CMR Technical Campus, Hyderabad
+  years: Expected 2027
 certifications:
-  - AWS Academy Cloud Architecting
-  - AWS Academy Cloud Foundations
-
+- AWS Academy Cloud Architecting
+- AWS Academy Cloud Foundations
+- ServiceNow CSA
+- ServiceNow CAD
+- DLT and Hedera Network Certification
+- Generative AI Tools Certification
+- Scrum Bootcamp Certification
 extras:
-  - "Google Campus Ambassador, CMR Technical Campus (Jul–Dec 2025): 1,000+ students engaged; 10+ technical events organised."
+- National Hackathon Finalist (2-time participant); McKinsey Forward Program Graduate; Treasurer and Core Committee Member, Lexis Club; organized 10+ college-wide technical and cultural events

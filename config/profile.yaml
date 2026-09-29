@@ -24,7 +24,7 @@ max_notify_per_run: 12     # first run may find hundreds; the rest arrive on lat
 
 # Used for the match score.
 skills: [Python, Django, Flask, FastAPI, REST, API, SQL, LLM, RAG, NLP, PyTorch, Transformers,
-         Docker, AWS, Kubernetes, PostgreSQL, Qdrant, vLLM, embeddings, machine learning, AWS]
+         Docker, AWS, Kubernetes, PostgreSQL, Qdrant, vLLM, embeddings, machine learning, Kotlin, WebRTC, Generative AI, Linux, CI/CD]
 skills_for_full_score: 5
 entry_level_words: ['\bgraduate\b', '\bentry[- ]level\b', '\bjunior\b', '\bintern', '\b0-2 years\b',
                     '\bnew grad', '\bfresher', '\bearly[- ]career\b', '\b(0|1|2)\+? years?\b']
@@ -37,9 +37,9 @@ apply:
   answers:                 # used to fill forms
     first_name: Suchith
     last_name: Sara
-    email: "${PROFILE_EMAIL}"
-    phone: "${PROFILE_PHONE}"
-    linkedin: ""
+    email: suchithssara@gmail.com
+    phone: "+91 8686478510"
+    linkedin: https://linkedin.com/in/suchith-sara-903133339
     github: https://github.com/suchithsaraaaa
     website: https://suchithsara.com
-    location: Hyderabad, India
+    location: Hyderabad, Telangana

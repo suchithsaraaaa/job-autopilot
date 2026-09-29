@@ -15,8 +15,8 @@ Runs free on GitHub Actions every 3 hours. No server, no laptop.
 ## Setup (10 minutes)
 
 1. **Telegram bot**: message `@BotFather`, send `/newbot`, copy the token. Send any message to your new bot, then open `https://api.telegram.org/bot<TOKEN>/getUpdates` and copy `chat.id`.
-2. **Repo secrets** (Settings → Secrets and variables → Actions): `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `PROFILE_EMAIL`, `PROFILE_PHONE`, and optionally `ANTHROPIC_API_KEY` (tailoring is better with it).
-3. **Edit** `config/resume.yaml` (your real facts, add your projects and LinkedIn) and `config/profile.yaml` (roles, locations, skills).
+2. **Repo secrets** (Settings → Secrets and variables → Actions): `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, and optionally `ANTHROPIC_API_KEY` (tailoring is better with it).
+3. **Review** `config/resume.yaml` (built from your resume; it holds your email and phone, so keep this repo private) and `config/profile.yaml` (roles, locations, skills).
 4. **Check the company slugs**: `pip install -r requirements.txt && python -m jobautopilot check-companies`. Fix or delete any that fail.
 5. **Test the phone**: `TELEGRAM_BOT_TOKEN=... TELEGRAM_CHAT_ID=... python -m jobautopilot test-notify`.
 6. **Actions tab → job-search → Run workflow** (tick *dry run* first if you want to look at matches without sending).
