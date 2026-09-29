@@ -1,0 +1,43 @@
+# THE LEGITIMACY ALLOWLIST. Only companies listed here are ever searched, and
+# each is fetched from its own Greenhouse / Lever / Ashby board, never from an
+# aggregator, so there are no anonymous "consultancy" or agency postings.
+#
+# Add a company: find its careers page; if the URL is
+#   boards.greenhouse.io/<slug> or job-boards.greenhouse.io/<slug>  -> ats: greenhouse
+#   jobs.lever.co/<slug>                                          -> ats: lever
+#   jobs.ashbyhq.com/<slug>                                       -> ats: ashby
+# then run:  python -m jobautopilot check-companies
+# to confirm every slug resolves (a wrong slug is skipped, never fatal).
+# Optional `domains:` lists the company's own careers domain if its links leave the ATS.
+companies:
+  # India-based / India-hiring
+  - {name: Razorpay,      ats: greenhouse, slug: razorpay}
+  - {name: Postman,       ats: greenhouse, slug: postman}
+  - {name: CRED,          ats: lever,      slug: cred}
+  - {name: Meesho,        ats: lever,      slug: meesho}
+  - {name: Groww,         ats: greenhouse, slug: groww}
+  - {name: PhonePe,       ats: lever,      slug: phonepe}
+  - {name: Sarvam AI,     ats: ashby,      slug: sarvam}
+  # Global, hire in India or remote-friendly
+  - {name: Anthropic,     ats: greenhouse, slug: anthropic}
+  - {name: Databricks,    ats: greenhouse, slug: databricks}
+  - {name: Stripe,        ats: greenhouse, slug: stripe,  domains: [stripe.com]}
+  - {name: Cloudflare,    ats: greenhouse, slug: cloudflare}
+  - {name: Datadog,       ats: greenhouse, slug: datadog}
+  - {name: MongoDB,       ats: greenhouse, slug: mongodb}
+  - {name: GitLab,        ats: greenhouse, slug: gitlab}
+  - {name: Elastic,       ats: greenhouse, slug: elastic}
+  - {name: Twilio,        ats: greenhouse, slug: twilio}
+  - {name: Okta,          ats: greenhouse, slug: okta}
+  - {name: Coinbase,      ats: greenhouse, slug: coinbase}
+  - {name: Figma,         ats: greenhouse, slug: figma}
+  - {name: Discord,       ats: greenhouse, slug: discord}
+  - {name: Pinterest,     ats: greenhouse, slug: pinterest}
+  - {name: Spotify,       ats: lever,      slug: spotify}
+  - {name: Palantir,      ats: lever,      slug: palantir}
+  - {name: OpenAI,        ats: ashby,      slug: openai}
+  - {name: Cohere,        ats: ashby,      slug: cohere}
+  - {name: Notion,        ats: ashby,      slug: notion}
+  - {name: Ramp,          ats: ashby,      slug: ramp}
+  - {name: Supabase,      ats: ashby,      slug: supabase}
+  - {name: Perplexity,    ats: ashby,      slug: perplexity-ai}

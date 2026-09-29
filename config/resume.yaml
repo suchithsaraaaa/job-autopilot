@@ -1,0 +1,85 @@
+# Your source-of-truth resume. The tailoring step may SELECT, ORDER and lightly
+# re-summarise these facts for each job, but it can never add a fact, skill,
+# employer or number that is not written here.
+#
+# Personal details use ${ENV} so they can live in GitHub Secrets.
+basics:
+  name: Suchith Sara
+  email: "${PROFILE_EMAIL}"
+  phone: "${PROFILE_PHONE}"
+  location: Hyderabad, India
+  links:
+    GitHub: https://github.com/suchithsaraaaa
+    Site: https://suchithsara.com
+    # LinkedIn: https://linkedin.com/in/<you>
+
+summary: >-
+  Python developer with 7+ months of internship experience in backend
+  engineering and applied AI.
+
+skills:
+  Languages: [Python, SQL]
+  Backend: [Django, Flask, REST APIs, OAuth2, Webhooks, CI/CD]
+  "AI / ML": [LLMs, RAG, Llama, vLLM, BGE-M3, Qdrant, Anthropic API, Quantisation]
+  Cloud: [AWS]
+
+experience:
+  - id: police-tech
+    title: Technical Engineer Intern
+    org: Telangana Police IT Cell
+    dates: Sep 2026–Present
+    bullets: []
+  - id: police-ml
+    title: AI/ML and Full Stack Intern
+    org: Telangana Police IT Cell
+    dates: May–Jun 2026
+    bullets:
+      - id: rag
+        text: "Architected an on-premises retrieval-augmented generation system for internal government use: LLM selection, infrastructure sizing and deployment planning."
+        tags: [rag, llm, architecture, deployment]
+      - id: llm-serving
+        text: "Two-tier LLM architecture, Llama 3.1 8B and Llama 3.3 70B with AWQ INT4 quantisation, served through vLLM across 6 NVIDIA A100 80GB GPUs."
+        tags: [llm, llama, vllm, quantization, gpu, inference]
+      - id: multilingual
+        text: "Multilingual retrieval across English, Telugu and Hindi with BGE-M3 embeddings and Qdrant."
+        tags: [embeddings, retrieval, qdrant, vector, nlp, multilingual]
+      - id: pdf-enrich
+        text: "Automated bulk processing and AI enrichment of information memo PDFs with the Anthropic API."
+        tags: [automation, anthropic, pdf, llm, api]
+      - id: tco
+        text: "Prepared a 5-year total cost of ownership analysis, on-premises against public and private cloud."
+        tags: [cloud, cost, analysis]
+  - id: meta-scifor
+    title: Python Developer Intern
+    org: Meta SciFor Technologies
+    dates: Feb–Sep 2025
+    bullets:
+      - id: apis
+        text: "Built 20+ secure REST APIs with OAuth2, in Django and Flask."
+        tags: [rest, api, oauth, django, flask, python, backend, security]
+      - id: db
+        text: "Improved database query performance and storage efficiency by 40%."
+        tags: [database, sql, performance, optimization]
+      - id: workflows
+        text: "Automated 7+ workflows with webhooks and third-party integrations."
+        tags: [automation, webhooks, integration]
+      - id: teams
+        text: "Worked across 3 cross-functional teams on backend systems and CI/CD pipelines."
+        tags: [ci, cd, pipeline, backend, teamwork]
+
+projects: []
+  # - name: Example
+  #   text: One line on what it is and the result.
+  #   tags: [python]
+
+education:
+  - degree: B.Tech, Computer Science & Information Technology
+    school: CMR Technical Campus, Hyderabad
+    years: 2023–2027
+
+certifications:
+  - AWS Academy Cloud Architecting
+  - AWS Academy Cloud Foundations
+
+extras:
+  - "Google Campus Ambassador, CMR Technical Campus (Jul–Dec 2025): 1,000+ students engaged; 10+ technical events organised."
