@@ -86,7 +86,7 @@ def fetch_ashby(company: dict) -> list[Job]:
 FETCHERS = {"greenhouse": fetch_greenhouse, "lever": fetch_lever, "ashby": fetch_ashby}
 
 
-def fetch_all(companies: list[dict]) -> tuple[list[Job], list[str]]:
+def fetch_all(companies: list[dict], source_type: str = "company") -> tuple[list[Job], list[str]]:
     """Returns (jobs, problems). One dead board never stops the run."""
     jobs, problems = [], []
     for c in companies:
@@ -96,8 +96,24 @@ def fetch_all(companies: list[dict]) -> tuple[list[Job], list[str]]:
             continue
         try:
             got = fetch(c)
+            for j in got:
+                if not j.source:
+                    j.source = source_type
+                if source_type == "startup" and "startup" not in j.categories:
+                    j.categories.append("startup")
             log.info("%s (%s): %d postings", c["name"], c["ats"], len(got))
             jobs.extend(got)
         except Exception as e:  # network, 404 for a wrong slug, bad JSON
             problems.append(f"{c['name']} ({c['ats']}/{c['slug']}): {e}")
     return jobs, problems
+
+
+def fetch_everything(companies: list[dict], startups: list[dict]) -> tuple[list[Job], list[str]]:
+    """Fetch both verified enterprise companies and curated startups."""
+    jobs, problems = fetch_all(companies, source_type="company")
+    if startups:
+        s_jobs, s_probs = fetch_all(startups, source_type="startup")
+        jobs.extend(s_jobs)
+        problems.extend(s_probs)
+    return jobs, problems
+

@@ -64,12 +64,42 @@ def esc(s: str) -> str:
     return html.escape(s or "", quote=False)
 
 
+def category_badge(job, match=None) -> str:
+    cats = (getattr(match, "categories", []) if match else None) or getattr(job, "categories", []) or []
+    is_st = "startup" in cats or getattr(job, "source", "") == "startup"
+    is_in = "internship" in cats or getattr(job, "employment_type", "") == "internship"
+
+    if is_st and is_in:
+        return "🚀 STARTUP • 🎓 INTERNSHIP"
+    if is_st:
+        return "🚀 STARTUP"
+    if is_in:
+        return "🎓 INTERNSHIP"
+    return "💼 FULL-TIME"
+
+
 def job_card(job, match, *, status_line: str, gaps: list[str] | None = None, coverage: tuple[int, int] | None = None) -> str:
-    lines = [f"<b>{esc(job.title)}</b>", f"{esc(job.company)} · {esc(job.location or 'Location n/a')}",
-             f"Match {match.score}/100" + (f" · {esc(', '.join(match.hits[:6]))}" if match.hits else "")]
+    badge = category_badge(job, match)
+    lines = [f"<b>{badge}</b>", f"<b>{esc(job.title)}</b>\n"]
+    lines.append(f"Company: {esc(job.company)}")
+    lines.append(f"Location: {esc(job.location or 'Location n/a')}")
+    cats = (getattr(match, "categories", []) if match else None) or getattr(job, "categories", []) or []
+    emp_type = "Internship" if ("internship" in cats or getattr(job, "employment_type", "") == "internship") else "Full-time"
+    lines.append(f"Type: {emp_type}")
+    lines.append(f"Match: {match.score}%")
+
+    if match.hits:
+        lines.append("\nWhy it matches:\n• " + "\n• ".join(esc(h) for h in match.hits[:5]))
+
+    elig = getattr(match, "eligibility", None) or getattr(job, "eligibility", "unknown")
+    if elig and elig != "unknown":
+        lines.append(f"\nEligibility:\n{esc(elig)}")
+
     if coverage and coverage[1]:
-        lines.append(f"Resume covers {coverage[0]}/{coverage[1]} JD keywords")
+        lines.append(f"\nResume covers {coverage[0]}/{coverage[1]} JD keywords")
     if gaps:
         lines.append("Not in your resume: " + esc(", ".join(gaps[:5])))
-    lines.append(status_line)
+
+    lines.append(f"\n{status_line}")
     return "\n".join(lines)
+

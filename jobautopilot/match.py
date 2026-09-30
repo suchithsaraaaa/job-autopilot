@@ -3,6 +3,7 @@ import re
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 
+from .classify import classify_job
 from .models import Job
 
 _YEARS = re.compile(
@@ -19,6 +20,9 @@ class Match:
     score: int = 0
     reasons: list[str] = field(default_factory=list)   # why it was rejected
     hits: list[str] = field(default_factory=list)       # profile skills found in the JD
+    categories: list[str] = field(default_factory=list)
+    eligibility: str = "unknown"
+
 
 
 def _has(patterns: list[str], text: str) -> bool:
@@ -41,14 +45,18 @@ def location_ok(job: Job, prof: dict) -> bool:
 
 
 def evaluate(job: Job, prof: dict, now: datetime | None = None) -> Match:
+    classify_job(job)
+    cats = job.categories
+    elig = job.eligibility
+
     title = job.title
     t = prof["titles"]
     if not _has(t["include"], title):
-        return Match(False, reasons=["title not in target roles"])
+        return Match(False, reasons=["title not in target roles"], categories=cats, eligibility=elig)
     if _has(t["exclude"], title):
-        return Match(False, reasons=["title excluded (seniority/other field)"])
+        return Match(False, reasons=["title excluded (seniority/other field)"], categories=cats, eligibility=elig)
     if not location_ok(job, prof):
-        return Match(False, reasons=[f"location: {job.location or 'unspecified'}"])
+        return Match(False, reasons=[f"location: {job.location or 'unspecified'}"], categories=cats, eligibility=elig)
 
     if job.posted_at and prof.get("max_age_days"):
         try:
@@ -56,20 +64,21 @@ def evaluate(job: Job, prof: dict, now: datetime | None = None) -> Match:
             if posted.tzinfo is None:
                 posted = posted.replace(tzinfo=timezone.utc)
             if (now or datetime.now(timezone.utc)) - posted > timedelta(days=prof["max_age_days"]):
-                return Match(False, reasons=["posting too old"])
+                return Match(False, reasons=["posting too old"], categories=cats, eligibility=elig)
         except ValueError:
             pass
 
     text = f"{job.title}\n{job.description}"
     yrs = required_years(text)
     if yrs is not None and yrs > prof.get("max_years_required", 2):
-        return Match(False, reasons=[f"asks for {yrs}+ years"])
+        return Match(False, reasons=[f"asks for {yrs}+ years"], categories=cats, eligibility=elig)
 
     hits = [s for s in prof["skills"] if re.search(rf"(?<![\w+#]){re.escape(s)}(?![\w+#])", text, re.I)]
     skill_part = 60 * min(1.0, len(hits) / max(1, prof.get("skills_for_full_score", 5)))
-    entry_part = 25 if _has(prof.get("entry_level_words", []), text) else 0
+    entry_part = 25 if (_has(prof.get("entry_level_words", []), text) or "internship" in cats or elig == "2027 students eligible") else 0
     title_part = 15 if _has(prof.get("preferred_title_words", []), title) else 0
     score = round(skill_part + entry_part + title_part)
     if score < prof.get("min_score", 40):
-        return Match(False, score, [f"score {score} below minimum"], hits)
-    return Match(True, score, [], hits)
+        return Match(False, score, [f"score {score} below minimum"], hits, cats, elig)
+    return Match(True, score, [], hits, cats, elig)
+

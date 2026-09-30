@@ -9,11 +9,21 @@ on:
         description: "Print matches only; send nothing, remember nothing"
         type: boolean
         default: false
+      trigger_source:
+        description: "Source triggering the workflow (manual, telegram, schedule)"
+        type: string
+        default: "manual"
+      categories:
+        description: "Job categories to search (all, full_time, internship, startup)"
+        type: string
+        default: "all"
 
 permissions:
   contents: write                # to commit data/state.json (which jobs were already sent)
 
-concurrency: job-search          # never two runs at once
+concurrency:
+  group: job-autopilot-search
+  cancel-in-progress: false
 
 jobs:
   run:
@@ -36,7 +46,11 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           PROFILE_EMAIL: ${{ secrets.PROFILE_EMAIL }}
           PROFILE_PHONE: ${{ secrets.PROFILE_PHONE }}
-        run: python -m jobautopilot run ${{ inputs.dry_run && '--dry-run' || '' }}
+        run: |
+          python -m jobautopilot run \
+            ${{ inputs.dry_run && '--dry-run' || '' }} \
+            --categories "${{ inputs.categories || 'all' }}" \
+            --trigger-source "${{ inputs.trigger_source || (github.event_name == 'schedule' && 'schedule' || 'manual') }}"
       - name: Remember what was sent
         if: ${{ !inputs.dry_run }}
         run: |

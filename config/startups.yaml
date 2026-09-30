@@ -1,0 +1,24 @@
+# STARTUP ALLOWLIST.
+# Verified startups queried directly through Greenhouse, Lever, or Ashby.
+# Prioritizing Indian hubs (Bangalore, Hyderabad, Delhi NCR, Pune, Mumbai, Chennai)
+# and leading global AI / infrastructure startups hiring in India or remote.
+
+startups:
+  # India-based / Indian Tech Hubs
+  - {name: InMobi,        ats: greenhouse, slug: inmobi,        hubs: ["Bangalore", "India"]}
+  - {name: Porter,        ats: lever,      slug: porter,        hubs: ["Bangalore", "India"]}
+  - {name: Pocket FM,     ats: lever,      slug: pocketfm,      hubs: ["Bangalore", "India"]}
+  - {name: SigNoz,        ats: ashby,      slug: signoz,        hubs: ["Bangalore", "Remote", "India"]}
+  - {name: Fi Money,      ats: lever,      slug: epifi,         hubs: ["Bangalore", "India"]}
+  - {name: Netomi,        ats: lever,      slug: netomi,        hubs: ["Gurgaon", "Remote", "India"]}
+  - {name: Observe.ai,    ats: greenhouse, slug: observeai,     hubs: ["Bangalore", "Remote", "India"]}
+  - {name: Glean,         ats: greenhouse, slug: gleanwork,     hubs: ["Bangalore", "Remote", "India"]}
+
+  # Global AI & Cloud Infrastructure Startups (Remote / India-friendly)
+  - {name: LlamaIndex,    ats: ashby,      slug: llamaindex,    hubs: ["Remote"]}
+  - {name: LangChain,     ats: ashby,      slug: langchain,     hubs: ["Remote"]}
+  - {name: Scale AI,      ats: greenhouse, slug: scaleai,       hubs: ["Remote"]}
+  - {name: Modal,         ats: ashby,      slug: modal,         hubs: ["Remote"]}
+  - {name: Baseten,       ats: ashby,      slug: baseten,       hubs: ["Remote"]}
+  - {name: Anyscale,      ats: ashby,      slug: anyscale,      hubs: ["Remote"]}
+  - {name: ElevenLabs,    ats: ashby,      slug: elevenlabs,    hubs: ["Remote"]}

@@ -1,6 +1,6 @@
 import argparse
 import logging
-import sys
+import os
 from collections import Counter
 from pathlib import Path
 
@@ -12,20 +12,34 @@ OUT = config.ROOT / "out"
 
 def run(args) -> int:
     prof, comps, resume = config.profile(), config.companies(), config.resume()
-    by_name = {c["name"]: c for c in comps}
+    st_comps = config.startups()
+    by_name = {c["name"]: c for c in comps + st_comps}
     tg = notify.Telegram()
     dry = args.dry_run or not tg.enabled
     if not tg.enabled:
         log.warning("Telegram not configured (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID): printing instead")
 
-    jobs, problems = sources.fetch_all(comps)
+    req_cats = getattr(args, "categories", None) or os.environ.get("JOB_CATEGORIES") or "all"
+    trig_src = getattr(args, "trigger_source", None) or os.environ.get("TRIGGER_SOURCE") or "manual"
+
+    if req_cats == "startup":
+        jobs, problems = sources.fetch_all(st_comps, source_type="startup")
+        sources_searched = st_comps
+    elif req_cats == "full_time":
+        jobs, problems = sources.fetch_all(comps, source_type="company")
+        sources_searched = comps
+    else:  # "all" or "internship"
+        jobs, problems = sources.fetch_everything(comps, st_comps)
+        sources_searched = comps + st_comps
+
     state = store.load()
     fresh = [j for j in jobs if not store.seen(state, j)]
-    log.info("%d postings fetched, %d new", len(jobs), len(fresh))
+    log.info("%d postings fetched (%s, %s), %d new", len(jobs), trig_src, req_cats, len(fresh))
 
     passed, rejected = [], Counter()
     for j in fresh:
-        ok, why = legit.check(j, by_name[j.company])
+        c_meta = by_name.get(j.company, {"name": j.company, "ats": j.ats})
+        ok, why = legit.check(j, c_meta)
         if not ok:
             store.mark(state, j, "blocked-legitimacy", reasons=why)
             rejected["legitimacy"] += 1
@@ -35,6 +49,15 @@ def run(args) -> int:
             store.mark(state, j, "rejected", reasons=m.reasons)
             rejected[m.reasons[0].split(":")[0].split(" (")[0]] += 1
             continue
+
+        # Category constraint filtering
+        if req_cats == "internship" and "internship" not in m.categories:
+            continue
+        if req_cats == "startup" and "startup" not in m.categories:
+            continue
+        if req_cats == "full_time" and "internship" in m.categories:
+            continue
+
         passed.append((m.score, j, m))
     passed.sort(key=lambda x: -x[0])
     batch, later = passed[: prof.get("max_notify_per_run", 12)], passed[prof.get("max_notify_per_run", 12):]
@@ -71,7 +94,7 @@ def run(args) -> int:
     if not dry or args.save_state:
         store.save(state)
     if not dry:
-        bits = [f"Scanned {len(jobs)} postings from {len(comps)} verified companies.",
+        bits = [f"Scanned {len(jobs)} postings from {len(sources_searched)} boards ({trig_src}, category: {req_cats}).",
                 f"{len(fresh)} new, {len(passed)} matched, {len(batch)} sent"]
         if later:
             bits.append(f"{len(later)} more held for the next run")
@@ -92,6 +115,12 @@ def run(args) -> int:
 def check_companies(args) -> int:
     _, problems = sources.fetch_all(config.companies())
     print("All company boards resolved." if not problems else "\n".join(problems))
+    return 1 if problems else 0
+
+
+def check_startups(args) -> int:
+    _, problems = sources.fetch_all(config.startups(), source_type="startup")
+    print("All startup boards resolved." if not problems else "\n".join(problems))
     return 1 if problems else 0
 
 
@@ -125,8 +154,13 @@ def cli(argv=None) -> int:
     r.add_argument("--dry-run", action="store_true", help="print matches, send nothing, remember nothing")
     r.add_argument("--no-llm", action="store_true", help="keyword tailoring only")
     r.add_argument("--save-state", action="store_true", help="with --dry-run, still record seen jobs")
+    r.add_argument("--categories", choices=["all", "full_time", "internship", "startup"], default="all",
+                   help="job categories to search: all, full_time, internship, startup")
+    r.add_argument("--trigger-source", default="manual",
+                   help="source triggering the workflow (manual, telegram, schedule)")
     r.set_defaults(fn=run)
     sub.add_parser("check-companies").set_defaults(fn=check_companies)
+    sub.add_parser("check-startups").set_defaults(fn=check_startups)
     sub.add_parser("test-notify").set_defaults(fn=test_notify)
     d = sub.add_parser("demo")
     d.add_argument("--jd", help="path to a job description text file")

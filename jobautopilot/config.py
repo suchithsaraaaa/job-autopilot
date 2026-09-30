@@ -22,5 +22,14 @@ def companies() -> list[dict]:
     return load_yaml("companies.yaml")["companies"]
 
 
+def startups() -> list[dict]:
+    p = ROOT / "config" / "startups.yaml"
+    if p.exists():
+        data = load_yaml("startups.yaml")
+        return data.get("startups", []) if data else []
+    return []
+
+
 def resume() -> dict:
     return load_yaml("resume.yaml")
+

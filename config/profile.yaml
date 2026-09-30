@@ -3,18 +3,18 @@
 # Regexes matched against the job TITLE. A job must match `include` and not `exclude`.
 titles:
   include:
-    - '\b(ai|ml|machine learning|llm|nlp|data)\b.*\b(engineer|developer|scientist)\b'
-    - '\b(python|backend|back-end|full[- ]?stack|software|sde|platform|applied)\b.*\b(engineer|developer)\b'
+    - '\b(ai|ml|machine learning|llm|nlp|data|rag|genai|generative ai|research)\b.*\b(engineer|developer|scientist)\b'
+    - '\b(python|backend|back-end|full[- ]?stack|software|sde|platform|applied|cloud)\b.*\b(engineer|developer)\b'
     - '\bsoftware (development )?engineer\b'
-    - '\b(graduate|associate|junior|entry)\b'
+    - '\b(graduate|associate|junior|entry|student|trainee|apprentice)\b'
     - '\bintern(ship)?\b'
   exclude:
     - '\b(senior|sr\.?|staff|principal|lead|head|director|manager|vp|architect)\b'
-    - '\b(sales|marketing|recruit|account|legal|finance|hr|designer|support)\b'
-    - '\b(ios|android|embedded|firmware|hardware|mechanical|devops|sre|security)\b'
+    - '\b(sales|marketing|recruit|account|legal|finance|hr|people|designer|support|creative|communications?|content|operations?|growth|brand)\b'
+    - '\b(ios|android|embedded|firmware|hardware|mechanical|security)\b'
 
 locations:
-  include: [india, hyderabad, bengaluru, bangalore, pune, chennai, mumbai, gurugram, gurgaon, noida, delhi]
+  include: [india, hyderabad, bengaluru, bangalore, pune, chennai, mumbai, gurugram, gurgaon, noida, delhi, ncr]
   remote_ok: true          # remote roles are kept unless limited to another region (US-only, EU-only...)
 
 max_years_required: 2      # skip postings that ask for more than this many years
