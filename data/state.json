@@ -26738,6 +26738,16 @@
    "title": "Data Center Global Repairs Program Support",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439369008"
   },
+  "greenhouse:anthropic:5439391008": {
+   "at": "2026-10-02T09:52:05+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Technical Program Manager, Life Sciences",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439391008"
+  },
   "greenhouse:anthropic:5439499008": {
    "at": "2026-09-30T12:42:54+00:00",
    "company": "Anthropic",
@@ -33153,6 +33163,17 @@
    "title": "Senior Threat Intelligence Engineer",
    "url": "https://www.coinbase.com/careers/positions/8209803?gh_jid=8209803"
   },
+  "greenhouse:coinbase:8211452": {
+   "at": "2026-10-02T09:52:05+00:00",
+   "company": "Coinbase",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.coinbase.com/careers/positions/8211452?gh_jid=8211452",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Software Engineer, Backend - Platform (Core AI Automation)",
+   "url": "https://www.coinbase.com/careers/positions/8211452?gh_jid=8211452"
+  },
   "greenhouse:coinbase:8211486": {
    "at": "2026-09-29T15:41:30+00:00",
    "company": "Coinbase",
@@ -33273,6 +33294,17 @@
    "status": "blocked-legitimacy",
    "title": "Senior Counsel, Business Legal",
    "url": "https://www.coinbase.com/careers/positions/8224901?gh_jid=8224901"
+  },
+  "greenhouse:coinbase:8224979": {
+   "at": "2026-10-02T09:52:05+00:00",
+   "company": "Coinbase",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.coinbase.com/careers/positions/8224979?gh_jid=8224979",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Accountant ",
+   "url": "https://www.coinbase.com/careers/positions/8224979?gh_jid=8224979"
   },
   "greenhouse:coinbase:8227393": {
    "at": "2026-09-29T15:41:29+00:00",
@@ -43438,6 +43470,17 @@
    "title": "Strategic Account Executive - Retail vertical ",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8855804002"
   },
+  "greenhouse:databricks:8855874002": {
+   "at": "2026-10-02T09:52:05+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8855874002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Startup Core Account Executive",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8855874002"
+  },
   "greenhouse:databricks:8856501002": {
    "at": "2026-09-30T12:42:54+00:00",
    "company": "Databricks",
@@ -51051,6 +51094,17 @@
    "title": "Emerging Enterprise Account Executive, West",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8140318&gh_jid=8140318"
   },
+  "greenhouse:elastic:8140339": {
+   "at": "2026-10-02T09:52:05+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8140339&gh_jid=8140339",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Territory Account Executive - Central",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8140339&gh_jid=8140339"
+  },
   "greenhouse:elastic:8140341": {
    "at": "2026-09-29T15:41:28+00:00",
    "company": "Elastic",
@@ -53426,6 +53480,28 @@
    "status": "blocked-legitimacy",
    "title": "Support Manager - 3rd Shift",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8244557&gh_jid=8244557"
+  },
+  "greenhouse:elastic:8245817": {
+   "at": "2026-10-02T09:52:05+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8245817&gh_jid=8245817",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Principal Software Engineer I - Platform Billing Core",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8245817&gh_jid=8245817"
+  },
+  "greenhouse:elastic:8248494": {
+   "at": "2026-10-02T09:52:05+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8248494&gh_jid=8248494",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Territory Account Executive - West",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8248494&gh_jid=8248494"
   },
   "greenhouse:figma:5415515004": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -65212,6 +65288,17 @@
    "title": "Principal Site Reliability Engineer",
    "url": "https://www.okta.com/company/careers/opportunity/8002576?gh_jid=8002576"
   },
+  "greenhouse:okta:8003027": {
+   "at": "2026-10-02T09:52:05+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8003027?gh_jid=8003027",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Enterprise Account Executive, Bengaluru",
+   "url": "https://www.okta.com/company/careers/opportunity/8003027?gh_jid=8003027"
+  },
   "greenhouse:okta:8007071": {
    "at": "2026-09-29T15:41:29+00:00",
    "company": "Okta",
@@ -68313,6 +68400,28 @@
    "status": "blocked-legitimacy",
    "title": "Senior Product Manager - Developer Productivity",
    "url": "https://www.okta.com/company/careers/opportunity/8247721?gh_jid=8247721"
+  },
+  "greenhouse:okta:8248800": {
+   "at": "2026-10-02T09:52:05+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8248800?gh_jid=8248800",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Enterprise Account Executive, Mumbai",
+   "url": "https://www.okta.com/company/careers/opportunity/8248800?gh_jid=8248800"
+  },
+  "greenhouse:okta:8248830": {
+   "at": "2026-10-02T09:52:05+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8248830?gh_jid=8248830",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Enterprise Account Executive, Delhi",
+   "url": "https://www.okta.com/company/careers/opportunity/8248830?gh_jid=8248830"
   },
   "greenhouse:pinterest:5412514": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -80681,6 +80790,16 @@
    "title": "Fast Track Operations Specialist 2",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8097524"
   },
+  "greenhouse:twilio:8099162": {
+   "at": "2026-10-02T09:52:05+00:00",
+   "company": "Twilio",
+   "reasons": [
+    "scam-style wording: 'gift cards'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Software Engineer (L3)",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/8099162"
+  },
   "greenhouse:twilio:8100236": {
    "at": "2026-09-29T15:41:29+00:00",
    "company": "Twilio",
@@ -86388,6 +86507,16 @@
    "status": "rejected",
    "title": "Senior Revenue Operations Analyst",
    "url": "https://jobs.lever.co/spotify/8c8c3cfc-4156-4dad-bb6d-48266766e94a"
+  },
+  "lever:spotify:8d54dd6d-d7e0-4298-b051-423bcec4089e": {
+   "at": "2026-10-02T09:52:05+00:00",
+   "company": "Spotify",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Legal Counsel, Litigation and Copyright",
+   "url": "https://jobs.lever.co/spotify/8d54dd6d-d7e0-4298-b051-423bcec4089e"
   },
   "lever:spotify:973b0b71-e8d2-4d7d-9c4b-1c716bd45c8b": {
    "at": "2026-09-29T15:41:30+00:00",
