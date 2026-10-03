@@ -1820,6 +1820,16 @@
    "title": "Lead Member of Technical Staff, Inference Infrastructure",
    "url": "https://jobs.ashbyhq.com/cohere/5806a521-8584-4bbe-b60a-49031b919251"
   },
+  "ashby:cohere:582c4a60-14a2-49d5-b4d3-24c4ec50508d": {
+   "at": "2026-10-03T16:27:02+00:00",
+   "company": "Cohere",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Staff Technical Program Manager, Machine Learning",
+   "url": "https://jobs.ashbyhq.com/cohere/582c4a60-14a2-49d5-b4d3-24c4ec50508d"
+  },
   "ashby:cohere:595a2d50-46a5-4ff9-af1c-d58cea9d8e68": {
    "at": "2026-09-29T15:41:33+00:00",
    "company": "Cohere",
@@ -38311,6 +38321,17 @@
    "status": "blocked-legitimacy",
    "title": "Named Core Account Executive (Public Sector)",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8537058002"
+  },
+  "greenhouse:databricks:8538833002": {
+   "at": "2026-10-03T16:27:02+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8538833002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Director, Enterprise Sales, Public Sector",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8538833002"
   },
   "greenhouse:databricks:8538884002": {
    "at": "2026-09-29T15:41:22+00:00",
@@ -80471,6 +80492,16 @@
    "status": "rejected",
    "title": "Account Executive Product - Issuing & Treasury ",
    "url": "https://stripe.com/jobs/search?gh_jid=8203649"
+  },
+  "greenhouse:stripe:8203653": {
+   "at": "2026-10-03T16:27:02+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Operations Program Manager",
+   "url": "https://stripe.com/jobs/search?gh_jid=8203653"
   },
   "greenhouse:stripe:8203973": {
    "at": "2026-09-29T15:41:24+00:00",
