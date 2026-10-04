@@ -17840,6 +17840,16 @@
    "title": "Senior Analyst, Global Mobility & Immigration",
    "url": "https://jobs.ashbyhq.com/ramp/1be5d28f-fa06-4b39-b81c-1e1e0cdd8337"
   },
+  "ashby:ramp:1c8e2b03-fcb3-4949-9113-07812f138eb6": {
+   "at": "2026-10-04T18:39:56+00:00",
+   "company": "Ramp",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Analyst, Employee Lifecycle Data (Workday)",
+   "url": "https://jobs.ashbyhq.com/ramp/1c8e2b03-fcb3-4949-9113-07812f138eb6"
+  },
   "ashby:ramp:218e3fef-0fa7-4ad4-b401-9ba0c76c0ff0": {
    "at": "2026-09-29T15:41:34+00:00",
    "company": "Ramp",
@@ -54061,6 +54071,17 @@
    "title": "Mid Market Account Executive",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8227630&gh_jid=8227630"
   },
+  "greenhouse:elastic:8229992": {
+   "at": "2026-10-04T18:39:56+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8229992&gh_jid=8229992",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Software Engineer - Streams - Observability",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8229992&gh_jid=8229992"
+  },
   "greenhouse:elastic:8232032": {
    "at": "2026-09-29T15:41:28+00:00",
    "company": "Elastic",
@@ -54401,6 +54422,39 @@
    "status": "blocked-legitimacy",
    "title": "Senior Software Engineer - Security Integrations - Prompt Engineering",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8249192&gh_jid=8249192"
+  },
+  "greenhouse:elastic:8255435": {
+   "at": "2026-10-04T18:39:56+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8255435&gh_jid=8255435",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Software Engineer - Streams - Observability",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8255435&gh_jid=8255435"
+  },
+  "greenhouse:elastic:8255436": {
+   "at": "2026-10-04T18:39:56+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8255436&gh_jid=8255436",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Software Engineer - Streams - Observability",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8255436&gh_jid=8255436"
+  },
+  "greenhouse:elastic:8255438": {
+   "at": "2026-10-04T18:39:56+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8255438&gh_jid=8255438",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Software Engineer - Streams - Observability",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8255438&gh_jid=8255438"
   },
   "greenhouse:figma:5415515004": {
    "at": "2026-09-29T15:41:30+00:00",
