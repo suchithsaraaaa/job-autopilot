@@ -16240,6 +16240,16 @@
    "title": "Software Engineer, Data Infrastructure",
    "url": "https://jobs.ashbyhq.com/openai/f763c6b3-5167-4a67-b691-4c3fa2c44156"
   },
+  "ashby:openai:f76d120b-7d1b-4e80-aaf8-5d2c6b38a7ca": {
+   "at": "2026-10-05T05:49:00+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Strategy & Operations Lead - Japan",
+   "url": "https://jobs.ashbyhq.com/openai/f76d120b-7d1b-4e80-aaf8-5d2c6b38a7ca"
+  },
   "ashby:openai:f794c64d-bc5c-430b-b645-bff8c202b80e": {
    "at": "2026-09-29T15:41:31+00:00",
    "company": "OpenAI",
@@ -26828,6 +26838,16 @@
    "title": "[London] Applied AI Architect, Partnerships",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432583008"
   },
+  "greenhouse:anthropic:5432590008": {
+   "at": "2026-10-05T05:49:00+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Enterprise Account Executive - Healthcare & Life Science",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432590008"
+  },
   "greenhouse:anthropic:5432626008": {
    "at": "2026-09-29T15:41:22+00:00",
    "company": "Anthropic",
@@ -27357,6 +27377,16 @@
    "status": "rejected",
    "title": "Staff Research Engineer, Multi-Agent Scaling",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5442680008"
+  },
+  "greenhouse:anthropic:5443281008": {
+   "at": "2026-10-05T05:49:00+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Enterprise Account Executive - Manufacturing",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5443281008"
   },
   "greenhouse:cloudflare:5390243": {
    "at": "2026-09-29T15:41:25+00:00",
@@ -44116,6 +44146,17 @@
    "title": "Staff Product Manager, US Public Sector",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8831555002"
   },
+  "greenhouse:databricks:8839016002": {
+   "at": "2026-10-05T05:49:00+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8839016002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Sr. Manager, Sales Development",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8839016002"
+  },
   "greenhouse:databricks:8842226002": {
    "at": "2026-09-29T15:41:22+00:00",
    "company": "Databricks",
@@ -51530,6 +51571,17 @@
    "status": "blocked-legitimacy",
    "title": "Sr. Director, Demand and Digital Marketing",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8110185&gh_jid=8110185"
+  },
+  "greenhouse:elastic:8111756": {
+   "at": "2026-10-05T05:49:00+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8111756&gh_jid=8111756",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Solutions Architect - Mumbai, India",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8111756&gh_jid=8111756"
   },
   "greenhouse:elastic:8111792": {
    "at": "2026-09-29T15:41:28+00:00",
@@ -69579,6 +69631,17 @@
    "title": "Staff Software Engineer-FullStack",
    "url": "https://www.okta.com/company/careers/opportunity/8242227?gh_jid=8242227"
   },
+  "greenhouse:okta:8242557": {
+   "at": "2026-10-05T05:49:00+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8242557?gh_jid=8242557",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Software engineer - Advanced Threat Protection",
+   "url": "https://www.okta.com/company/careers/opportunity/8242557?gh_jid=8242557"
+  },
   "greenhouse:okta:8242975": {
    "at": "2026-09-30T20:06:07+00:00",
    "company": "Okta",
@@ -72037,6 +72100,16 @@
    "status": "blocked-legitimacy",
    "title": "Manager, Enterprise Partnership",
    "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4733878005"
+  },
+  "greenhouse:razorpaysoftwareprivatelimited:4734959005": {
+   "at": "2026-10-05T05:49:00+00:00",
+   "company": "Razorpay",
+   "reasons": [
+    "scam-style wording: 'WhatsApp'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Business Analyst",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4734959005"
   },
   "greenhouse:razorpaysoftwareprivatelimited:4736132005": {
    "at": "2026-09-29T15:41:20+00:00",
