@@ -220,6 +220,26 @@
    "title": "Engineering Manager, Platform Infrastructure (Foundations)",
    "url": "https://jobs.ashbyhq.com/anyscale/c7b78c30-5df7-4351-a136-f9e9f1486b19"
   },
+  "ashby:anyscale:e386718f-62f0-47d5-b2bb-da92178ae379": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Anyscale",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Detection and Response Engineer",
+   "url": "https://jobs.ashbyhq.com/anyscale/e386718f-62f0-47d5-b2bb-da92178ae379"
+  },
+  "ashby:anyscale:fb47b03a-547b-4c59-85da-ecee7122e129": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Anyscale",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Product Security Engineer",
+   "url": "https://jobs.ashbyhq.com/anyscale/fb47b03a-547b-4c59-85da-ecee7122e129"
+  },
   "ashby:baseten:0626d5fa-86eb-4441-8e11-01bf8d2cab68": {
    "at": "2026-10-01T18:28:06+00:00",
    "company": "Baseten",
@@ -3366,6 +3386,16 @@
    "title": "Account Manager - Mid-Market",
    "url": "https://jobs.ashbyhq.com/elevenlabs/3b7a423c-01fd-4405-ab9a-ee51ed354ba9"
   },
+  "ashby:elevenlabs:3b807ff1-a6b0-4f1c-b4f4-6ab265ac6d2f": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "ElevenLabs",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Analytics Engineer",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/3b807ff1-a6b0-4f1c-b4f4-6ab265ac6d2f"
+  },
   "ashby:elevenlabs:3b87fadd-0da6-4cc6-aaef-5d84726ac35a": {
    "at": "2026-09-30T06:59:10+00:00",
    "company": "ElevenLabs",
@@ -4895,6 +4925,16 @@
    "status": "rejected",
    "title": "Compliance Engineer",
    "url": "https://jobs.ashbyhq.com/elevenlabs/f80d0420-b6e6-4110-940c-293f64b9761e"
+  },
+  "ashby:elevenlabs:f8b19a29-af85-4a5d-87ae-1ba0a1b6dd9b": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "ElevenLabs",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Adoption Strategist - Europe",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/f8b19a29-af85-4a5d-87ae-1ba0a1b6dd9b"
   },
   "ashby:elevenlabs:fef4499d-6191-43ad-b4f4-e646544f510d": {
    "at": "2026-09-30T06:59:09+00:00",
@@ -16786,6 +16826,16 @@
    "title": "Strategic Sourcing Manager, Data Center Infrastructure, Electrical",
    "url": "https://jobs.ashbyhq.com/openai/fe753283-d232-4470-8e20-fbeb217ea9e2"
   },
+  "ashby:openai:fecac6f9-2b94-454e-95ef-80d9b7abeb5a": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Account Director, Large Enterprise",
+   "url": "https://jobs.ashbyhq.com/openai/fecac6f9-2b94-454e-95ef-80d9b7abeb5a"
+  },
   "ashby:openai:ff316e82-c88a-4c94-91e1-2ccea6de129e": {
    "at": "2026-09-29T15:41:33+00:00",
    "company": "OpenAI",
@@ -17675,6 +17725,16 @@
    "status": "rejected",
    "title": "Lead Product Designer, Enterprise",
    "url": "https://jobs.ashbyhq.com/perplexity/9ce0fef8-7ead-4c0d-a71e-433bdd5b4d82"
+  },
+  "ashby:perplexity:9cec9b33-06f2-4ba1-8c9e-20a598361ca2": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Perplexity",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Member of Technical Staff (Machine Learning Engineer, Search & Agents)",
+   "url": "https://jobs.ashbyhq.com/perplexity/9cec9b33-06f2-4ba1-8c9e-20a598361ca2"
   },
   "ashby:perplexity:9e3a4516-b893-4579-9a6a-3720658e4b6d": {
    "at": "2026-09-29T15:41:34+00:00",
@@ -19394,6 +19454,16 @@
    "title": "AI Solutions Strategist",
    "url": "https://jobs.ashbyhq.com/ramp/cbdf2857-1675-4b68-8cb5-2f92a20faa75"
   },
+  "ashby:ramp:cc0af88a-2a19-493d-93cf-c5090f986f1f": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Ramp",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "AI Partnerships Manager",
+   "url": "https://jobs.ashbyhq.com/ramp/cc0af88a-2a19-493d-93cf-c5090f986f1f"
+  },
   "ashby:ramp:cc861080-4e19-43a2-bbeb-5b4dc5c6f92a": {
    "at": "2026-09-29T15:41:34+00:00",
    "company": "Ramp",
@@ -20874,6 +20944,16 @@
    "title": "Engineering Manager, Billing",
    "url": "https://jobs.ashbyhq.com/supabase/b4a2f5e5-5c51-4c1a-abde-a89de27451c7"
   },
+  "ashby:supabase:b566fbf8-2894-4314-9533-8fa920e80c19": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Supabase",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Executive Assistant to the CEO",
+   "url": "https://jobs.ashbyhq.com/supabase/b566fbf8-2894-4314-9533-8fa920e80c19"
+  },
   "ashby:supabase:b75ba81e-54cc-4393-a575-bc41776b0113": {
    "at": "2026-09-29T15:41:34+00:00",
    "company": "Supabase",
@@ -20973,6 +21053,16 @@
    "status": "rejected",
    "title": "Software Engineer - Auth",
    "url": "https://jobs.ashbyhq.com/supabase/e569b7f7-fa8f-4139-86f6-4f52b456882d"
+  },
+  "ashby:supabase:e84502e7-9dab-437a-af38-9da03542fab7": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Supabase",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "People Business Partner - GTM",
+   "url": "https://jobs.ashbyhq.com/supabase/e84502e7-9dab-437a-af38-9da03542fab7"
   },
   "ashby:supabase:f035bda1-b5d3-4c5b-8736-b9c335fe1c3b": {
    "at": "2026-09-29T15:41:34+00:00",
@@ -22863,6 +22953,16 @@
    "status": "rejected",
    "title": "Applied AI Architect, Digital Natives Business ",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5226862008"
+  },
+  "greenhouse:anthropic:5228098008": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Economic Mobility Partnerships Manager - Career Pathways",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5228098008"
   },
   "greenhouse:anthropic:5228463008": {
    "at": "2026-09-29T15:41:22+00:00",
@@ -27954,6 +28054,16 @@
    "title": "Software Engineer - Platforms & Productivity",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/6972536?gh_jid=6972536"
   },
+  "greenhouse:cloudflare:6998777": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Design Engineer",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/6998777?gh_jid=6998777"
+  },
   "greenhouse:cloudflare:7053411": {
    "at": "2026-09-29T15:41:26+00:00",
    "company": "Cloudflare",
@@ -31834,6 +31944,16 @@
    "title": "Senior Manager, Engineering",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8225899?gh_jid=8225899"
   },
+  "greenhouse:cloudflare:8226000": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Commercial Account Executive, MENA",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8226000?gh_jid=8226000"
+  },
   "greenhouse:cloudflare:8226556": {
    "at": "2026-09-29T15:41:25+00:00",
    "company": "Cloudflare",
@@ -32124,6 +32244,16 @@
    "title": "Director, Growth Sales (AI & Digital Natives) ",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8243255?gh_jid=8243255"
   },
+  "greenhouse:cloudflare:8243552": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Product Manager - Threat Intel",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8243552?gh_jid=8243552"
+  },
   "greenhouse:cloudflare:8244876": {
    "at": "2026-10-02T00:50:58+00:00",
    "company": "Cloudflare",
@@ -32174,6 +32304,16 @@
    "title": "Vulnerability Defense Software Engineer, Cloudforce One",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8245503?gh_jid=8245503"
   },
+  "greenhouse:cloudflare:8246078": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Customer Engineer, Majors - San Francisco",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8246078?gh_jid=8246078"
+  },
   "greenhouse:cloudflare:8247433": {
    "at": "2026-10-02T00:50:58+00:00",
    "company": "Cloudflare",
@@ -32183,6 +32323,16 @@
    "status": "rejected",
    "title": "Senior customer Engineer, Named - New York City",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8247433?gh_jid=8247433"
+  },
+  "greenhouse:cloudflare:8247492": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Technical Product Marketing Manager",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8247492?gh_jid=8247492"
   },
   "greenhouse:cloudflare:8248543": {
    "at": "2026-10-05T14:50:11+00:00",
@@ -32263,6 +32413,16 @@
    "status": "rejected",
    "title": "Senior Technical Program Manager",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8255561?gh_jid=8255561"
+  },
+  "greenhouse:cloudflare:8257533": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Principal Data Strategy & Governance Manager",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8257533?gh_jid=8257533"
   },
   "greenhouse:coinbase:6784618": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -38336,6 +38496,17 @@
    "title": "Engineering Manager - Databricks SQL Control Plane",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8472398002"
   },
+  "greenhouse:databricks:8475477002": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8475477002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Business Development Lead, VC/PE",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8475477002"
+  },
   "greenhouse:databricks:8476064002": {
    "at": "2026-09-29T15:41:23+00:00",
    "company": "Databricks",
@@ -44067,6 +44238,17 @@
    "title": "Named Core Account Executive - Thailand",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8783602002"
   },
+  "greenhouse:databricks:8784103002": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8784103002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Sr. Specialist Solutions Architect -AI&ML Engineer",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8784103002"
+  },
   "greenhouse:databricks:8785045002": {
    "at": "2026-09-29T15:41:23+00:00",
    "company": "Databricks",
@@ -45089,6 +45271,17 @@
    "status": "blocked-legitimacy",
    "title": "Data+AI Workforce Transformation Practitioner \u2014 Customer Delivery",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8859666002"
+  },
+  "greenhouse:databricks:8860663002": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8860663002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Delivery Solutions Architect",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8860663002"
   },
   "greenhouse:databricks:8862144002": {
    "at": "2026-10-02T22:18:47+00:00",
@@ -46365,6 +46558,17 @@
    "status": "blocked-legitimacy",
    "title": "Manager II, Premier Support Engineering - EMEA",
    "url": "https://careers.datadoghq.com/detail/7496237/?gh_jid=7496237"
+  },
+  "greenhouse:datadog:7514534": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/7514534/?gh_jid=7514534",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Director, User Research - Product Design",
+   "url": "https://careers.datadoghq.com/detail/7514534/?gh_jid=7514534"
   },
   "greenhouse:datadog:7515110": {
    "at": "2026-09-29T15:41:26+00:00",
@@ -50040,6 +50244,17 @@
    "title": "Senior Sales Engineer - New England",
    "url": "https://careers.datadoghq.com/detail/8230456/?gh_jid=8230456"
   },
+  "greenhouse:datadog:8230620": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8230620/?gh_jid=8230620",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Manager, Accounts Payable",
+   "url": "https://careers.datadoghq.com/detail/8230620/?gh_jid=8230620"
+  },
   "greenhouse:datadog:8230663": {
    "at": "2026-09-29T15:41:26+00:00",
    "company": "Datadog",
@@ -50402,6 +50617,28 @@
    "status": "blocked-legitimacy",
    "title": "Senior Technology Partner Manager",
    "url": "https://careers.datadoghq.com/detail/8257217/?gh_jid=8257217"
+  },
+  "greenhouse:datadog:8257306": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8257306/?gh_jid=8257306",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Strategic Finance Analyst",
+   "url": "https://careers.datadoghq.com/detail/8257306/?gh_jid=8257306"
+  },
+  "greenhouse:datadog:8257324": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8257324/?gh_jid=8257324",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Accounts Payable Analyst",
+   "url": "https://careers.datadoghq.com/detail/8257324/?gh_jid=8257324"
   },
   "greenhouse:discord:8214127002": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -51096,6 +51333,17 @@
    "status": "blocked-legitimacy",
    "title": "Senior Java Developer - Distributed Systems, Serverless - Elasticsearch",
    "url": "https://jobs.elastic.co/jobs?gh_jid=7734579&gh_jid=7734579"
+  },
+  "greenhouse:elastic:7768040": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=7768040&gh_jid=7768040",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Account Executive Public Sector",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=7768040&gh_jid=7768040"
   },
   "greenhouse:elastic:7769649": {
    "at": "2026-09-29T15:41:28+00:00",
@@ -55321,6 +55569,17 @@
    "title": "Director, Marketing Analytics",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8236254&gh_jid=8236254"
   },
+  "greenhouse:elastic:8237461": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8237461&gh_jid=8237461",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Sr. BSA, CPQ",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8237461&gh_jid=8237461"
+  },
   "greenhouse:elastic:8237463": {
    "at": "2026-09-29T15:41:28+00:00",
    "company": "Elastic",
@@ -55497,6 +55756,17 @@
    "title": "Principal Software Engineer I - Platform Billing Core",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8245817&gh_jid=8245817"
   },
+  "greenhouse:elastic:8246948": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8246948&gh_jid=8246948",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Distributor Business Development Manager, APJ",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8246948&gh_jid=8246948"
+  },
   "greenhouse:elastic:8247206": {
    "at": "2026-10-06T06:28:17+00:00",
    "company": "Elastic",
@@ -55573,6 +55843,17 @@
    "status": "blocked-legitimacy",
    "title": "Senior Software Engineer - Streams - Observability",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8255438&gh_jid=8255438"
+  },
+  "greenhouse:elastic:8255598": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8255598&gh_jid=8255598",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Public Sector Account Executive (Education)",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8255598&gh_jid=8255598"
   },
   "greenhouse:elastic:8256011": {
    "at": "2026-10-05T14:50:11+00:00",
@@ -59674,6 +59955,36 @@
    "title": "Manager, Assigned Support Engineering (EMEA)",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8861795002"
   },
+  "greenhouse:gitlab:8864903002": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Pipeline Programs Manager",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8864903002"
+  },
+  "greenhouse:gitlab:8867725002": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Senior Backend Engineer (Ruby), Production Engineering:Tenant Controls",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8867725002"
+  },
+  "greenhouse:gitlab:8868220002": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Strategic Account Executive, France",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8868220002"
+  },
   "greenhouse:gleanwork:4006731005": {
    "at": "2026-09-30T06:59:08+00:00",
    "company": "Glean",
@@ -61053,6 +61364,26 @@
    "status": "rejected",
    "title": "Sales Development Representative",
    "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4740475005"
+  },
+  "greenhouse:gleanwork:4740921005": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Glean",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Software Engineer, Tech Lead, Admin Console",
+   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4740921005"
+  },
+  "greenhouse:gleanwork:4740930005": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Glean",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Software Engineer, Tech Lead, Admin Console",
+   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4740930005"
   },
   "greenhouse:groww:4528370101": {
    "at": "2026-09-29T15:41:20+00:00",
@@ -65942,6 +66273,17 @@
    "title": "Enterprise Account Executive",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8195324"
   },
+  "greenhouse:mongodb:8200434": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8200434",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Technical Account Manager",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8200434"
+  },
   "greenhouse:mongodb:8200773": {
    "at": "2026-09-29T15:41:27+00:00",
    "company": "MongoDB",
@@ -66371,6 +66713,17 @@
    "title": "Solutions Architect",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8226040"
   },
+  "greenhouse:mongodb:8227250": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8227250",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Manager, AI and People Transformation",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8227250"
+  },
   "greenhouse:mongodb:8229636": {
    "at": "2026-10-05T22:03:40+00:00",
    "company": "MongoDB",
@@ -66492,6 +66845,17 @@
    "title": "Field Marketing Manager",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8236841"
   },
+  "greenhouse:mongodb:8237572": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8237572",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Financial Analyst",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8237572"
+  },
   "greenhouse:mongodb:8238617": {
    "at": "2026-09-30T12:42:54+00:00",
    "company": "MongoDB",
@@ -66579,6 +66943,28 @@
    "status": "blocked-legitimacy",
    "title": "Senior Software Engineer, Product Security",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8241351"
+  },
+  "greenhouse:mongodb:8243220": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8243220",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Partner Specialist",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8243220"
+  },
+  "greenhouse:mongodb:8243327": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8243327",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Staff Engineer",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8243327"
   },
   "greenhouse:mongodb:8247670": {
    "at": "2026-10-05T22:03:40+00:00",
@@ -66777,6 +67163,17 @@
    "status": "blocked-legitimacy",
    "title": "Business Development Representative, Bellevue",
    "url": "https://www.okta.com/company/careers/opportunity/5168141?gh_jid=5168141"
+  },
+  "greenhouse:okta:5621079": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/5621079?gh_jid=5621079",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Business Applications Administrator",
+   "url": "https://www.okta.com/company/careers/opportunity/5621079?gh_jid=5621079"
   },
   "greenhouse:okta:5772061": {
    "at": "2026-09-29T15:41:29+00:00",
@@ -67625,6 +68022,17 @@
    "title": "Strategic Account Executive, New England",
    "url": "https://www.okta.com/company/careers/opportunity/7883456?gh_jid=7883456"
   },
+  "greenhouse:okta:7892783": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/7892783?gh_jid=7892783",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Staff Software Engineer",
+   "url": "https://www.okta.com/company/careers/opportunity/7892783?gh_jid=7892783"
+  },
   "greenhouse:okta:7893046": {
    "at": "2026-09-29T15:41:29+00:00",
    "company": "Okta",
@@ -68207,6 +68615,17 @@
    "status": "blocked-legitimacy",
    "title": "Staff Software Engineer ",
    "url": "https://www.okta.com/company/careers/opportunity/8041857?gh_jid=8041857"
+  },
+  "greenhouse:okta:8045905": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8045905?gh_jid=8045905",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Principal Software Engineer in Test",
+   "url": "https://www.okta.com/company/careers/opportunity/8045905?gh_jid=8045905"
   },
   "greenhouse:okta:8050798": {
    "at": "2026-09-29T15:41:29+00:00",
@@ -70045,6 +70464,17 @@
    "title": "Sales Development Representative - UK&I",
    "url": "https://www.okta.com/company/careers/opportunity/8207710?gh_jid=8207710"
   },
+  "greenhouse:okta:8208088": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8208088?gh_jid=8208088",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Lead AI Engineer",
+   "url": "https://www.okta.com/company/careers/opportunity/8208088?gh_jid=8208088"
+  },
   "greenhouse:okta:8208322": {
    "at": "2026-09-29T15:41:29+00:00",
    "company": "Okta",
@@ -70595,6 +71025,17 @@
    "title": "Staff Software Engineer",
    "url": "https://www.okta.com/company/careers/opportunity/8236504?gh_jid=8236504"
   },
+  "greenhouse:okta:8236528": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8236528?gh_jid=8236528",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Manager, Engineering - Lifecycle Management",
+   "url": "https://www.okta.com/company/careers/opportunity/8236528?gh_jid=8236528"
+  },
   "greenhouse:okta:8236530": {
    "at": "2026-09-29T18:07:54+00:00",
    "company": "Okta",
@@ -70892,6 +71333,28 @@
    "title": "Staff Software Engineer-FullStack",
    "url": "https://www.okta.com/company/careers/opportunity/8242227?gh_jid=8242227"
   },
+  "greenhouse:okta:8242301": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8242301?gh_jid=8242301",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Staff Software Engineer - Full Stack",
+   "url": "https://www.okta.com/company/careers/opportunity/8242301?gh_jid=8242301"
+  },
+  "greenhouse:okta:8242317": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8242317?gh_jid=8242317",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Staff Software Engineer - Backend",
+   "url": "https://www.okta.com/company/careers/opportunity/8242317?gh_jid=8242317"
+  },
   "greenhouse:okta:8242557": {
    "at": "2026-10-05T05:49:00+00:00",
    "company": "Okta",
@@ -70924,6 +71387,17 @@
    "status": "blocked-legitimacy",
    "title": "Senior Site Reliability Engineer",
    "url": "https://www.okta.com/company/careers/opportunity/8242984?gh_jid=8242984"
+  },
+  "greenhouse:okta:8243101": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8243101?gh_jid=8243101",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Site Reliability Engineer",
+   "url": "https://www.okta.com/company/careers/opportunity/8243101?gh_jid=8243101"
   },
   "greenhouse:okta:8243124": {
    "at": "2026-09-30T20:06:07+00:00",
@@ -71123,6 +71597,28 @@
    "title": "Strategic Account Executive, Auth0 Florida ",
    "url": "https://www.okta.com/company/careers/opportunity/8248960?gh_jid=8248960"
   },
+  "greenhouse:okta:8255902": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8255902?gh_jid=8255902",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Staff Site Reliability Engineer",
+   "url": "https://www.okta.com/company/careers/opportunity/8255902?gh_jid=8255902"
+  },
+  "greenhouse:okta:8255904": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8255904?gh_jid=8255904",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Site Reliability Engineer (K8s, Terraform, Python)",
+   "url": "https://www.okta.com/company/careers/opportunity/8255904?gh_jid=8255904"
+  },
   "greenhouse:okta:8256688": {
    "at": "2026-10-05T22:03:40+00:00",
    "company": "Okta",
@@ -71133,6 +71629,50 @@
    "status": "blocked-legitimacy",
    "title": "Senior Software Engineer, Security Engineering - Platform (Auth0)",
    "url": "https://www.okta.com/company/careers/opportunity/8256688?gh_jid=8256688"
+  },
+  "greenhouse:okta:8258400": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8258400?gh_jid=8258400",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Staff Technical Program Manager",
+   "url": "https://www.okta.com/company/careers/opportunity/8258400?gh_jid=8258400"
+  },
+  "greenhouse:okta:8258402": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8258402?gh_jid=8258402",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Product Acceleration Specialist",
+   "url": "https://www.okta.com/company/careers/opportunity/8258402?gh_jid=8258402"
+  },
+  "greenhouse:okta:8258406": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8258406?gh_jid=8258406",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Software Engineer, Data Platform",
+   "url": "https://www.okta.com/company/careers/opportunity/8258406?gh_jid=8258406"
+  },
+  "greenhouse:okta:8258817": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8258817?gh_jid=8258817",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior  Software Engineer",
+   "url": "https://www.okta.com/company/careers/opportunity/8258817?gh_jid=8258817"
   },
   "greenhouse:pinterest:5412514": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -72597,6 +73137,17 @@
    "title": "Director of Product Management, Advertiser Growth",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8132504"
   },
+  "greenhouse:pinterest:8135500": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Pinterest",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.pinterestcareers.com/jobs/?gh_jid=8135500",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Client Account Manager, Enterprise Sales - Italian Market",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8135500"
+  },
   "greenhouse:pinterest:8138034": {
    "at": "2026-10-01T18:28:05+00:00",
    "company": "Pinterest",
@@ -73279,6 +73830,17 @@
    "title": "Client Account Manager II",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8239063"
   },
+  "greenhouse:pinterest:8239425": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Pinterest",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.pinterestcareers.com/jobs/?gh_jid=8239425",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Sr. Manager, Ads Product Marketing",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8239425"
+  },
   "greenhouse:pinterest:8239954": {
    "at": "2026-10-05T22:03:40+00:00",
    "company": "Pinterest",
@@ -73405,6 +73967,16 @@
    "status": "blocked-legitimacy",
    "title": "Manager, Affordability",
    "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4715361005"
+  },
+  "greenhouse:razorpaysoftwareprivatelimited:4715389005": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Razorpay",
+   "reasons": [
+    "scam-style wording: 'WhatsApp'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Product Manager II",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4715389005"
   },
   "greenhouse:razorpaysoftwareprivatelimited:4719411005": {
    "at": "2026-09-29T15:41:20+00:00",
@@ -73566,6 +74138,16 @@
    "title": "Technical Account Manager ",
    "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4736154005"
   },
+  "greenhouse:razorpaysoftwareprivatelimited:4736585005": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Razorpay",
+   "reasons": [
+    "scam-style wording: 'WhatsApp'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Product Manager",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4736585005"
+  },
   "greenhouse:razorpaysoftwareprivatelimited:4736965005": {
    "at": "2026-09-29T15:41:20+00:00",
    "company": "Razorpay",
@@ -73575,6 +74157,16 @@
    "status": "blocked-legitimacy",
    "title": "Product Manager II",
    "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4736965005"
+  },
+  "greenhouse:razorpaysoftwareprivatelimited:4736979005": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Razorpay",
+   "reasons": [
+    "scam-style wording: 'WhatsApp'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Software Development Engineer",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4736979005"
   },
   "greenhouse:razorpaysoftwareprivatelimited:4737535005": {
    "at": "2026-09-29T15:41:20+00:00",
@@ -73625,6 +74217,16 @@
    "status": "blocked-legitimacy",
    "title": "Engineering Manager",
    "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4739578005"
+  },
+  "greenhouse:razorpaysoftwareprivatelimited:4740498005": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Razorpay",
+   "reasons": [
+    "scam-style wording: 'WhatsApp'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Analyst, Financial Operations",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4740498005"
   },
   "greenhouse:scaleai:4282118005": {
    "at": "2026-09-30T06:59:09+00:00",
@@ -73875,6 +74477,16 @@
    "status": "rejected",
    "title": "Senior Infrastructure Software Engineer, Enterprise AI",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4599700005"
+  },
+  "greenhouse:scaleai:4602177005": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Scale AI",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Frontier Agent Engineering Manager, Enterprise",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4602177005"
   },
   "greenhouse:scaleai:4607930005": {
    "at": "2026-09-30T06:59:09+00:00",
@@ -76746,6 +77358,16 @@
    "title": "Senior Product Manager, Enterprise",
    "url": "https://stripe.com/jobs/search?gh_jid=7812856"
   },
+  "greenhouse:stripe:7813411": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Strategy and Analytics Business Partner",
+   "url": "https://stripe.com/jobs/search?gh_jid=7813411"
+  },
   "greenhouse:stripe:7819059": {
    "at": "2026-09-29T15:41:24+00:00",
    "company": "Stripe",
@@ -77415,6 +78037,16 @@
    "status": "rejected",
    "title": "Staff Product Manager, Billing ",
    "url": "https://stripe.com/jobs/search?gh_jid=7983725"
+  },
+  "greenhouse:stripe:7983854": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Product Manager, Radar",
+   "url": "https://stripe.com/jobs/search?gh_jid=7983854"
   },
   "greenhouse:stripe:7983856": {
    "at": "2026-09-29T15:41:24+00:00",
@@ -78145,6 +78777,16 @@
    "status": "rejected",
    "title": "Integration Engineer, SEA/GCN",
    "url": "https://stripe.com/jobs/search?gh_jid=8053417"
+  },
+  "greenhouse:stripe:8053517": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Privacy Operations Program Manager",
+   "url": "https://stripe.com/jobs/search?gh_jid=8053517"
   },
   "greenhouse:stripe:8053933": {
    "at": "2026-09-29T15:41:24+00:00",
@@ -79875,6 +80517,16 @@
    "status": "rejected",
    "title": "Recruiting Project Manager",
    "url": "https://stripe.com/jobs/search?gh_jid=8142077"
+  },
+  "greenhouse:stripe:8142302": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Security Analyst ",
+   "url": "https://stripe.com/jobs/search?gh_jid=8142302"
   },
   "greenhouse:stripe:8142304": {
    "at": "2026-09-29T15:41:24+00:00",
@@ -83136,6 +83788,16 @@
    "title": "Account Executive, AI Startups - Grower",
    "url": "https://stripe.com/jobs/search?gh_jid=8238731"
   },
+  "greenhouse:stripe:8238733": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Staff Engineer, Compute Foundation",
+   "url": "https://stripe.com/jobs/search?gh_jid=8238733"
+  },
   "greenhouse:stripe:8238741": {
    "at": "2026-09-30T20:06:07+00:00",
    "company": "Stripe",
@@ -83215,6 +83877,26 @@
    "status": "rejected",
    "title": "High School Fellowship, Software Engineering",
    "url": "https://stripe.com/jobs/search?gh_jid=8241260"
+  },
+  "greenhouse:stripe:8241288": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Security GRC Program Manager, Third Party Risk",
+   "url": "https://stripe.com/jobs/search?gh_jid=8241288"
+  },
+  "greenhouse:stripe:8241292": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Account Executive - Platforms Hunter (French Fluency)",
+   "url": "https://stripe.com/jobs/search?gh_jid=8241292"
   },
   "greenhouse:stripe:8241304": {
    "at": "2026-10-01T18:28:05+00:00",
@@ -83316,6 +83998,16 @@
    "title": "SaaS Platform and AI Partner Marketing Lead",
    "url": "https://stripe.com/jobs/search?gh_jid=8248507"
   },
+  "greenhouse:stripe:8249652": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": " Account Executive, Platforms (Hunter)",
+   "url": "https://stripe.com/jobs/search?gh_jid=8249652"
+  },
   "greenhouse:stripe:8249865": {
    "at": "2026-10-02T22:18:47+00:00",
    "company": "Stripe",
@@ -83336,6 +84028,16 @@
    "title": "Software Engineer",
    "url": "https://stripe.com/jobs/search?gh_jid=8249901"
   },
+  "greenhouse:stripe:8257185": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Community Operations Specialist",
+   "url": "https://stripe.com/jobs/search?gh_jid=8257185"
+  },
   "greenhouse:stripe:8257354": {
    "at": "2026-10-05T22:03:40+00:00",
    "company": "Stripe",
@@ -83355,6 +84057,16 @@
    "status": "rejected",
    "title": "Account Executive, Commercial Hunter, AUNZ",
    "url": "https://stripe.com/jobs/search?gh_jid=8258078"
+  },
+  "greenhouse:stripe:8258815": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Staff Product Manager, Radar - Fraud and Abuse Prevention",
+   "url": "https://stripe.com/jobs/search?gh_jid=8258815"
   },
   "greenhouse:twilio:6372770": {
    "at": "2026-09-29T15:41:28+00:00",
@@ -83435,6 +84147,16 @@
    "status": "blocked-legitimacy",
    "title": "Staff Software Engineer (L4)",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/7716279"
+  },
+  "greenhouse:twilio:7781659": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Twilio",
+   "reasons": [
+    "scam-style wording: 'gift cards'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Applications Engineer 2",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/7781659"
   },
   "greenhouse:twilio:7782805": {
    "at": "2026-09-29T15:41:29+00:00",
@@ -84945,6 +85667,16 @@
    "status": "blocked-legitimacy",
    "title": "Senior Financial Manager, Partnerships",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8256114"
+  },
+  "greenhouse:twilio:8256423": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Twilio",
+   "reasons": [
+    "scam-style wording: 'gift cards'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "People Generalist",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/8256423"
   },
   "lever:cred:09022710-e79a-4cf0-8060-df0e1cd64263": {
    "at": "2026-09-29T15:41:20+00:00",
@@ -89784,6 +90516,16 @@
    "title": "RecSys 2026 \u2014 Full Time",
    "url": "https://jobs.lever.co/spotify/715ac952-36a0-4ed5-8fca-0c12eab94d6a"
   },
+  "lever:spotify:71eb64a0-ce99-4166-8462-bad3901a967c": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Spotify",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Backend Engineer - Platform Security",
+   "url": "https://jobs.lever.co/spotify/71eb64a0-ce99-4166-8462-bad3901a967c"
+  },
   "lever:spotify:77526d53-3811-4336-9c0d-72f6ac0242c7": {
    "at": "2026-09-29T15:41:30+00:00",
    "company": "Spotify",
@@ -89793,6 +90535,16 @@
    "status": "rejected",
    "title": "Artist Label Partnerships Manager, Taiwan",
    "url": "https://jobs.lever.co/spotify/77526d53-3811-4336-9c0d-72f6ac0242c7"
+  },
+  "lever:spotify:785d6398-f58b-430c-b300-7928d1d2f9f6": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Spotify",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Growth Manager",
+   "url": "https://jobs.lever.co/spotify/785d6398-f58b-430c-b300-7928d1d2f9f6"
   },
   "lever:spotify:7aeec299-4653-4c5d-aafb-d537e1232208": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -89903,6 +90655,16 @@
    "status": "rejected",
    "title": "Legal Counsel, Litigation and Copyright",
    "url": "https://jobs.lever.co/spotify/8d54dd6d-d7e0-4298-b051-423bcec4089e"
+  },
+  "lever:spotify:926149ab-6999-4058-b35d-41e302b70e05": {
+   "at": "2026-10-06T16:00:06+00:00",
+   "company": "Spotify",
+   "reasons": [
+    "location: Stockholm"
+   ],
+   "status": "rejected",
+   "title": "Backend Engineer - Data Platform",
+   "url": "https://jobs.lever.co/spotify/926149ab-6999-4058-b35d-41e302b70e05"
   },
   "lever:spotify:973b0b71-e8d2-4d7d-9c4b-1c716bd45c8b": {
    "at": "2026-09-29T15:41:30+00:00",
