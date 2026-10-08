@@ -52,6 +52,38 @@ def test_match_accepts_entry_level_python_role():
     assert m.ok and m.score >= 40 and "Python" in m.hits
 
 
+def test_django_python_backend_role_accepted():
+    j = job(title="Django Backend Developer", location="Hyderabad, India",
+            description="Looking for a Python Backend Developer with hands-on Django, REST APIs, and PostgreSQL. 0-1 years of experience.")
+    m = match.evaluate(j, PROF, NOW)
+    assert m.ok and m.score >= 50
+    assert "Django" in m.hits and "Python" in m.hits
+
+
+def test_full_stack_with_django_python_accepted():
+    j = job(title="Full Stack Engineer", location="Bangalore, India",
+            description="Full Stack Developer needed. Tech stack: Python, Django, REST APIs, PostgreSQL, React. 1 year of experience.")
+    m = match.evaluate(j, PROF, NOW)
+    assert m.ok
+    assert "Django" in m.hits and "Python" in m.hits
+
+
+def test_full_stack_without_python_django_rejected():
+    j = job(title="Full Stack Developer", location="Bangalore, India",
+            description="Full stack engineer needed for Java, Spring Boot, React, and MySQL. 1 year experience.")
+    m = match.evaluate(j, PROF, NOW)
+    assert not m.ok
+    assert "full-stack role does not require Python/Django/Flask" in m.reasons[0]
+
+
+def test_two_plus_years_experience_rejected():
+    j = job(title="Python Developer", location="Hyderabad, India",
+            description="Python and Django developer. 2+ years of experience required.")
+    m = match.evaluate(j, PROF, NOW)
+    assert not m.ok
+    assert "asks for 2+ years" in m.reasons[0]
+
+
 @pytest.mark.parametrize("kw,why", [
     (dict(title="Senior Backend Engineer"), "excluded"),
     (dict(title="Account Executive"), "title"),

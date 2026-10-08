@@ -4,7 +4,9 @@
 titles:
   include:
     - '\b(ai|ml|machine learning|llm|nlp|data|rag|genai|generative ai|research)\b.*\b(engineer|developer|scientist)\b'
-    - '\b(python|backend|back-end|full[- ]?stack|software|sde|platform|applied|cloud)\b.*\b(engineer|developer)\b'
+    - '\b(python|django|flask|backend|back-end|full[- ]?stack|software|sde|platform|applied|cloud|web)\b.*\b(engineer|developer)\b'
+    - '\b(django|flask|python)\b.*\b(engineer|developer|backend|full[- ]?stack)\b'
+    - '\b(backend|back-end|full[- ]?stack)\b.*\b(engineer|developer)\b'
     - '\bsoftware (development )?engineer\b'
     - '\b(graduate|associate|junior|entry|student|trainee|apprentice)\b'
     - '\bintern(ship)?\b'
@@ -17,18 +19,19 @@ locations:
   include: [india, hyderabad, bengaluru, bangalore, pune, chennai, mumbai, gurugram, gurgaon, noida, delhi, ncr]
   remote_ok: true          # remote roles are kept unless limited to another region (US-only, EU-only...)
 
-max_years_required: 2      # skip postings that ask for more than this many years
+max_years_required: 1      # all jobs must only require 0-1 years of experience
 max_age_days: 21           # skip postings older than this (when the board says)
 min_score: 40              # 0-100, see README
 max_notify_per_run: 12     # first run may find hundreds; the rest arrive on later runs
 
 # Used for the match score.
-skills: [Python, Django, Flask, FastAPI, REST, API, SQL, LLM, RAG, NLP, PyTorch, Transformers,
-         Docker, AWS, Kubernetes, PostgreSQL, Qdrant, vLLM, embeddings, machine learning, Kotlin, WebRTC, Generative AI, Linux, CI/CD]
+skills: [Python, Django, Flask, FastAPI, REST, API, SQL, PostgreSQL, MySQL, Docker, AWS, Linux, CI/CD,
+         LLM, RAG, machine learning, Qdrant, vLLM, PyTorch, Transformers, embeddings, Generative AI, WebRTC, MongoDB]
 skills_for_full_score: 5
-entry_level_words: ['\bgraduate\b', '\bentry[- ]level\b', '\bjunior\b', '\bintern', '\b0-2 years\b',
-                    '\bnew grad', '\bfresher', '\bearly[- ]career\b', '\b(0|1|2)\+? years?\b']
-preferred_title_words: ['\b(ai|ml|llm|machine learning)\b', '\bpython\b', '\bbackend\b']
+entry_level_words: ['\bgraduate\b', '\bentry[- ]level\b', '\bjunior\b', '\bintern', '\b0-1 years?\b',
+                    '\bnew grad', '\bfresher', '\bearly[- ]career\b', '\b(0|1)\+? years?\b',
+                    '\b0 to 1 years?\b', '\bno experience\b']
+preferred_title_words: ['\b(python|django|flask|backend|full[- ]?stack|software|sde|ai|ml|llm|machine learning)\b']
 
 # How to treat each job that passes every filter.
 apply:

@@ -7,8 +7,12 @@ from .classify import classify_job
 from .models import Job
 
 _YEARS = re.compile(
-    r"(\d{1,2})\s*\+?\s*(?:(?:-|–|to)\s*\d{1,2}\s*)?(?:years?|yrs?)[^.\n]{0,50}?experience"
-    r"|experience[^.\n]{0,30}?(\d{1,2})\s*\+?\s*(?:years?|yrs?)", re.I)
+    r"(\d{1,2})\s*\+?\s*(?:(?:-|–|to)\s*\d{1,2}\s*)?(?:years?|yrs?)[^.\n]{0,50}?(?:experience|exp\b)"
+    r"|experience[^.\n]{0,30}?(\d{1,2})\s*\+?\s*(?:years?|yrs?)"
+    r"|(\d{1,2})\s*\+?\s*(?:years?|yrs?)\s+of\s+(?:software|backend|python|web|development|engineering|professional|industry|hands-on|work)"
+    r"|(?:minimum|at least)\s+(\d{1,2})\s*\+?\s*(?:years?|yrs?)",
+    re.I
+)
 _NON_INDIA_REMOTE = re.compile(
     r"\b(us|usa|u\.s\.|united states|canada|uk|united kingdom|europe|emea|eu|latam|"
     r"brazil|mexico|australia)\b", re.I)
@@ -30,7 +34,11 @@ def _has(patterns: list[str], text: str) -> bool:
 
 
 def required_years(text: str) -> int | None:
-    found = [int(a or b) for a, b in _YEARS.findall(text)]
+    found = []
+    for m in _YEARS.finditer(text):
+        for g in m.groups():
+            if g:
+                found.append(int(g))
     return min(found) if found else None
 
 
@@ -58,6 +66,13 @@ def evaluate(job: Job, prof: dict, now: datetime | None = None) -> Match:
     if not location_ok(job, prof):
         return Match(False, reasons=[f"location: {job.location or 'unspecified'}"], categories=cats, eligibility=elig)
 
+    text = f"{job.title}\n{job.description}"
+
+    # If title is full-stack, enforce Python, Django, or Flask technical requirement
+    if re.search(r"\bfull[- ]?stack\b", title, re.I):
+        if not re.search(r"\b(python|django|flask)\b", text, re.I):
+            return Match(False, reasons=["full-stack role does not require Python/Django/Flask"], categories=cats, eligibility=elig)
+
     if job.posted_at and prof.get("max_age_days"):
         try:
             posted = datetime.fromisoformat(job.posted_at.replace("Z", "+00:00"))
@@ -68,9 +83,8 @@ def evaluate(job: Job, prof: dict, now: datetime | None = None) -> Match:
         except ValueError:
             pass
 
-    text = f"{job.title}\n{job.description}"
     yrs = required_years(text)
-    if yrs is not None and yrs > prof.get("max_years_required", 2):
+    if yrs is not None and yrs > prof.get("max_years_required", 1):
         return Match(False, reasons=[f"asks for {yrs}+ years"], categories=cats, eligibility=elig)
 
     hits = [s for s in prof["skills"] if re.search(rf"(?<![\w+#]){re.escape(s)}(?![\w+#])", text, re.I)]
