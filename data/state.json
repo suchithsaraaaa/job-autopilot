@@ -69096,6 +69096,17 @@
    "title": "Enterprise Account Executive",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8260947"
   },
+  "greenhouse:mongodb:8264146": {
+   "at": "2026-10-08T11:08:46+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8264146",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Employer Brand Analyst",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8264146"
+  },
   "greenhouse:observeai:5107653008": {
    "at": "2026-09-30T06:59:07+00:00",
    "company": "Observe.ai",
@@ -76591,6 +76602,16 @@
    "status": "blocked-legitimacy",
    "title": "Associate Manager, Partnerships ",
    "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4737935005"
+  },
+  "greenhouse:razorpaysoftwareprivatelimited:4738311005": {
+   "at": "2026-10-08T11:08:46+00:00",
+   "company": "Razorpay",
+   "reasons": [
+    "scam-style wording: 'WhatsApp'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Junior Analyst, Risk Management ",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4738311005"
   },
   "greenhouse:razorpaysoftwareprivatelimited:4738319005": {
    "at": "2026-09-29T15:41:20+00:00",
