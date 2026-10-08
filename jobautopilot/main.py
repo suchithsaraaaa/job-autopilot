@@ -34,7 +34,9 @@ def run(args) -> int:
 
     state = store.load()
     fresh = [j for j in jobs if not store.seen(state, j)]
-    log.info("%d postings fetched (%s, %s), %d new", len(jobs), trig_src, req_cats, len(fresh))
+    seen_count = len(jobs) - len(fresh)
+    log.info("%d postings fetched (%s, %s), %d previously seen, %d new",
+             len(jobs), trig_src, req_cats, seen_count, len(fresh))
 
     passed, rejected = [], Counter()
     for j in fresh:
@@ -61,7 +63,8 @@ def run(args) -> int:
         passed.append((m.score, j, m))
     passed.sort(key=lambda x: -x[0])
     batch, later = passed[: prof.get("max_notify_per_run", 12)], passed[prof.get("max_notify_per_run", 12):]
-    log.info("%d match, sending %d now, %d held for next run", len(passed), len(batch), len(later))
+    log.info("%d matched, %d rejected (%s), sending %d now, %d held for next run",
+             len(passed), sum(rejected.values()), dict(rejected), len(batch), len(later))
 
     applied = needs = 0
     for score, j, m in batch:
@@ -94,19 +97,27 @@ def run(args) -> int:
     if not dry or args.save_state:
         store.save(state)
     if not dry:
-        bits = [f"Scanned {len(jobs)} postings from {len(sources_searched)} boards ({trig_src}, category: {req_cats}).",
-                f"{len(fresh)} new, {len(passed)} matched, {len(batch)} sent"]
-        if later:
-            bits.append(f"{len(later)} more held for the next run")
+        summary_lines = [
+            "🔎 <b>Job search complete</b>\n",
+            f"Scanned: {len(jobs)} postings ({seen_count} previously seen)",
+            f"New postings: {len(fresh)}",
+            f"Matched: {len(passed)}",
+            f"Sent: {len(batch)}",
+        ]
+        if len(passed) == 0:
+            summary_lines.append("\nNo new matching jobs were found.")
+        elif later:
+            summary_lines.append(f"\n{len(later)} more held for the next run")
+
         if applied or needs:
-            bits.append(f"auto-applied {applied}, needs you {needs}")
+            summary_lines.append(f"Auto-applied: {applied}, Needs you: {needs}")
         if problems:
-            bits.append(f"⚠️ {len(problems)} boards failed (check slugs)")
-        if batch or problems:
-            try:
-                tg.message("\n".join(bits))
-            except Exception as e:
-                log.error("Failed to send Telegram summary message: %s", e)
+            summary_lines.append(f"\n⚠️ {len(problems)} boards failed to resolve (check slugs)")
+
+        try:
+            tg.message("\n".join(summary_lines))
+        except Exception as e:
+            log.error("Failed to send Telegram summary message: %s", e)
     for p in problems:
         log.warning("board problem: %s", p)
     return 0

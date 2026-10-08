@@ -15,6 +15,28 @@
 const DEFAULT_REPO = "suchithsaraaaa/job-autopilot";
 const DEFAULT_WORKFLOW = "job-search.yml";
 
+function escapeHtml(str) {
+  return String(str || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+function sanitize(text, ...secrets) {
+  if (!text) return "";
+  let clean = String(text);
+  for (const s of secrets) {
+    if (s && String(s).length > 3) {
+      clean = clean.split(String(s)).join("[REDACTED]");
+    }
+  }
+  clean = clean.replace(/bot\d+:[A-Za-z0-9_-]+/g, "bot[REDACTED]");
+  clean = clean.replace(/ghp_[A-Za-z0-9_]{20,}/g, "ghp_[REDACTED]");
+  clean = clean.replace(/github_pat_[A-Za-z0-9_]{20,}/g, "github_pat_[REDACTED]");
+  clean = clean.replace(/Bearer\s+[A-Za-z0-9_\-\.]{15,}/g, "Bearer [REDACTED]");
+  return clean;
+}
+
 export default {
   async fetch(request, env) {
     if (request.method !== "POST") {
@@ -25,6 +47,7 @@ export default {
     if (env.TELEGRAM_WEBHOOK_SECRET) {
       const secret = request.headers.get("X-Telegram-Bot-Api-Secret-Token");
       if (secret !== env.TELEGRAM_WEBHOOK_SECRET) {
+        console.warn("[telegram-bridge] Unauthorized webhook secret token");
         return new Response(JSON.stringify({ error: "Unauthorized webhook" }), { status: 403 });
       }
     }
@@ -45,7 +68,8 @@ export default {
     const allowedChatId = String(env.TELEGRAM_ALLOWED_CHAT_ID || env.TELEGRAM_CHAT_ID || "");
 
     // 2. Reject unauthorized Telegram users
-    if (chatId !== allowedChatId) {
+    if (!allowedChatId || chatId !== allowedChatId) {
+      console.warn(`[telegram-bridge] Unauthorized chat attempt from ID: ${chatId}`);
       return new Response(JSON.stringify({ status: "unauthorized" }), { status: 200 });
     }
 
@@ -53,20 +77,27 @@ export default {
     const cmd = text.split(/\s+/)[0].toLowerCase();
     const repo = env.GITHUB_REPOSITORY || DEFAULT_REPO;
     const workflow = DEFAULT_WORKFLOW;
+    const ref = env.GITHUB_BRANCH || env.GITHUB_REF || "main";
+
+    console.log(`[telegram-bridge] Received command '${cmd}' from authorized chat ${chatId}`);
 
     // Helper to send message to Telegram
     const replyTelegram = async (msg) => {
       const tgUrl = `https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`;
-      await fetch(tgUrl, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          chat_id: chatId,
-          text: msg,
-          parse_mode: "HTML",
-          disable_web_page_preview: true,
-        }),
-      });
+      try {
+        await fetch(tgUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            chat_id: chatId,
+            text: msg,
+            parse_mode: "HTML",
+            disable_web_page_preview: true,
+          }),
+        });
+      } catch (err) {
+        console.error(`[telegram-bridge] Failed to send Telegram message: ${sanitize(String(err), env.TELEGRAM_BOT_TOKEN)}`);
+      }
     };
 
     // Helper to check active GitHub Actions runs (concurrency check)
@@ -78,10 +109,19 @@ export default {
       };
       for (const status of ["in_progress", "queued"]) {
         const url = `https://api.github.com/repos/${repo}/actions/workflows/${workflow}/runs?status=${status}`;
-        const res = await fetch(url, { headers });
-        if (res.ok) {
-          const data = await res.json();
-          if (data.total_count > 0) return true;
+        try {
+          const res = await fetch(url, { headers });
+          if (res.ok) {
+            const data = await res.json();
+            if (data.total_count > 0) {
+              console.log(`[telegram-bridge] Active run found with status '${status}' (count=${data.total_count})`);
+              return true;
+            }
+          } else {
+            console.warn(`[telegram-bridge] Failed checking run status ${status}: HTTP ${res.status}`);
+          }
+        } catch (err) {
+          console.warn(`[telegram-bridge] Error checking run status ${status}: ${sanitize(String(err), env.GITHUB_TOKEN)}`);
         }
       }
       return false;
@@ -90,80 +130,127 @@ export default {
     // Helper to dispatch GitHub Actions workflow
     const dispatch = async (inputs) => {
       const url = `https://api.github.com/repos/${repo}/actions/workflows/${workflow}/dispatches`;
-      const res = await fetch(url, {
-        method: "POST",
-        headers: {
-          "Accept": "application/vnd.github+json",
-          "Authorization": `Bearer ${env.GITHUB_TOKEN}`,
-          "Content-Type": "application/json",
-          "User-Agent": "job-autopilot-worker",
-        },
-        body: JSON.stringify({ ref: "main", inputs }),
-      });
-      return res.ok;
+      console.log(`[telegram-bridge] Dispatching workflow '${workflow}' (ref: ${ref}, repo: ${repo})`);
+      try {
+        const res = await fetch(url, {
+          method: "POST",
+          headers: {
+            "Accept": "application/vnd.github+json",
+            "Authorization": `Bearer ${env.GITHUB_TOKEN}`,
+            "Content-Type": "application/json",
+            "User-Agent": "job-autopilot-worker",
+          },
+          body: JSON.stringify({ ref, inputs }),
+        });
+        console.log(`[telegram-bridge] GitHub dispatch response HTTP status: ${res.status}`);
+        if (res.status === 204 || res.status === 200) {
+          return { ok: true, status: res.status };
+        }
+        let detail = "";
+        try {
+          const body = await res.json();
+          detail = body.message || JSON.stringify(body);
+        } catch {
+          detail = await res.text();
+        }
+        const cleanDetail = sanitize(detail, env.GITHUB_TOKEN, env.TELEGRAM_BOT_TOKEN);
+        console.error(`[telegram-bridge] GitHub dispatch failed: HTTP ${res.status} - ${cleanDetail}`);
+        return { ok: false, status: res.status, error: `GitHub API error (HTTP ${res.status}): ${cleanDetail}` };
+      } catch (err) {
+        const cleanErr = sanitize(String(err), env.GITHUB_TOKEN, env.TELEGRAM_BOT_TOKEN);
+        console.error(`[telegram-bridge] GitHub dispatch exception: ${cleanErr}`);
+        return { ok: false, status: 500, error: `Dispatch request failed: ${cleanErr}` };
+      }
     };
 
     // 3. Command Routing
     if (cmd === "/start" || cmd === "/run") {
       if (await hasActiveRun()) {
-        await replyTelegram("⏳ A job search is already running.\n\nI'll let the current run finish before starting another one.");
-        return new Response(JSON.stringify({ status: "concurrency_blocked" }), { status: 200 });
+        await replyTelegram("⏳ A job search is already running. Results from that run will be sent when it finishes.");
+        return new Response(JSON.stringify({ status: "already_running" }), { status: 200 });
       }
 
       await replyTelegram(
-        "🚀 <b>Job Autopilot started.</b>\n\n" +
-        "Searching:\n" +
-        "• Full-time roles\n" +
-        "• Internships\n" +
-        "• Startup roles\n\n" +
-        "I'll send the matching jobs and tailored resumes here when the run completes."
+        "🚀 <b>Job search started.</b>\n" +
+        "Searching full-time, internship and startup roles.\n" +
+        "I'll send the results when the search finishes."
       );
-      await dispatch({ dry_run: false, trigger_source: "telegram", categories: "all" });
-      return new Response(JSON.stringify({ status: "dispatched", categories: "all" }), { status: 200 });
+      const res = await dispatch({ dry_run: false, trigger_source: "telegram", categories: "all" });
+      if (res.ok) {
+        await replyTelegram("✅ <b>Search queued successfully.</b>");
+        return new Response(JSON.stringify({ status: "dispatched", categories: "all" }), { status: 200 });
+      } else {
+        await replyTelegram(`⚠️ <b>Failed to start job search workflow.</b>\n${escapeHtml(res.error)}`);
+        return new Response(JSON.stringify({ status: "dispatch_failed", detail: res.error }), { status: 500 });
+      }
     }
 
     if (cmd === "/jobs") {
       if (await hasActiveRun()) {
-        await replyTelegram("⏳ A job search is already running.\n\nI'll let the current run finish before starting another one.");
-        return new Response(JSON.stringify({ status: "concurrency_blocked" }), { status: 200 });
+        await replyTelegram("⏳ A job search is already running. Results from that run will be sent when it finishes.");
+        return new Response(JSON.stringify({ status: "already_running" }), { status: 200 });
       }
 
       await replyTelegram("💼 <b>Searching full-time roles...</b>\n\nI'll send matching jobs and tailored resumes when complete.");
-      await dispatch({ dry_run: false, trigger_source: "telegram", categories: "full_time" });
-      return new Response(JSON.stringify({ status: "dispatched", categories: "full_time" }), { status: 200 });
+      const res = await dispatch({ dry_run: false, trigger_source: "telegram", categories: "full_time" });
+      if (res.ok) {
+        await replyTelegram("✅ <b>Search queued successfully.</b>");
+        return new Response(JSON.stringify({ status: "dispatched", categories: "full_time" }), { status: 200 });
+      } else {
+        await replyTelegram(`⚠️ <b>Failed to start job search workflow.</b>\n${escapeHtml(res.error)}`);
+        return new Response(JSON.stringify({ status: "dispatch_failed", detail: res.error }), { status: 500 });
+      }
     }
 
     if (cmd === "/internships") {
       if (await hasActiveRun()) {
-        await replyTelegram("⏳ A job search is already running.\n\nI'll let the current run finish before starting another one.");
-        return new Response(JSON.stringify({ status: "concurrency_blocked" }), { status: 200 });
+        await replyTelegram("⏳ A job search is already running. Results from that run will be sent when it finishes.");
+        return new Response(JSON.stringify({ status: "already_running" }), { status: 200 });
       }
 
       await replyTelegram("🎓 <b>Searching internships...</b>\n\nI'll send matching roles and tailored resumes when complete.");
-      await dispatch({ dry_run: false, trigger_source: "telegram", categories: "internship" });
-      return new Response(JSON.stringify({ status: "dispatched", categories: "internship" }), { status: 200 });
+      const res = await dispatch({ dry_run: false, trigger_source: "telegram", categories: "internship" });
+      if (res.ok) {
+        await replyTelegram("✅ <b>Search queued successfully.</b>");
+        return new Response(JSON.stringify({ status: "dispatched", categories: "internship" }), { status: 200 });
+      } else {
+        await replyTelegram(`⚠️ <b>Failed to start job search workflow.</b>\n${escapeHtml(res.error)}`);
+        return new Response(JSON.stringify({ status: "dispatch_failed", detail: res.error }), { status: 500 });
+      }
     }
 
     if (cmd === "/startups") {
       if (await hasActiveRun()) {
-        await replyTelegram("⏳ A job search is already running.\n\nI'll let the current run finish before starting another one.");
-        return new Response(JSON.stringify({ status: "concurrency_blocked" }), { status: 200 });
+        await replyTelegram("⏳ A job search is already running. Results from that run will be sent when it finishes.");
+        return new Response(JSON.stringify({ status: "already_running" }), { status: 200 });
       }
 
       await replyTelegram("🚀 <b>Searching startup opportunities...</b>\n\nI'll send matching roles and tailored resumes when complete.");
-      await dispatch({ dry_run: false, trigger_source: "telegram", categories: "startup" });
-      return new Response(JSON.stringify({ status: "dispatched", categories: "startup" }), { status: 200 });
+      const res = await dispatch({ dry_run: false, trigger_source: "telegram", categories: "startup" });
+      if (res.ok) {
+        await replyTelegram("✅ <b>Search queued successfully.</b>");
+        return new Response(JSON.stringify({ status: "dispatched", categories: "startup" }), { status: 200 });
+      } else {
+        await replyTelegram(`⚠️ <b>Failed to start job search workflow.</b>\n${escapeHtml(res.error)}`);
+        return new Response(JSON.stringify({ status: "dispatch_failed", detail: res.error }), { status: 500 });
+      }
     }
 
     if (cmd === "/dryrun") {
       if (await hasActiveRun()) {
-        await replyTelegram("⏳ A job search is already running.\n\nI'll let the current run finish before starting another one.");
-        return new Response(JSON.stringify({ status: "concurrency_blocked" }), { status: 200 });
+        await replyTelegram("⏳ A job search is already running. Results from that run will be sent when it finishes.");
+        return new Response(JSON.stringify({ status: "already_running" }), { status: 200 });
       }
 
       await replyTelegram("🔍 <b>Running dry-run search...</b>\n\nMatches and resumes will be produced in the Actions run artifacts without sending Telegram cards.");
-      await dispatch({ dry_run: true, trigger_source: "telegram", categories: "all" });
-      return new Response(JSON.stringify({ status: "dispatched", dry_run: true }), { status: 200 });
+      const res = await dispatch({ dry_run: true, trigger_source: "telegram", categories: "all" });
+      if (res.ok) {
+        await replyTelegram("✅ <b>Search queued successfully.</b>");
+        return new Response(JSON.stringify({ status: "dispatched", categories: "all", dry_run: true }), { status: 200 });
+      } else {
+        await replyTelegram(`⚠️ <b>Failed to start job search workflow.</b>\n${escapeHtml(res.error)}`);
+        return new Response(JSON.stringify({ status: "dispatch_failed", detail: res.error }), { status: 500 });
+      }
     }
 
     if (cmd === "/help") {

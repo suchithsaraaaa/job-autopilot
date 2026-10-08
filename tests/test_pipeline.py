@@ -295,7 +295,7 @@ def test_start_command_dispatches_workflow(monkeypatch):
 
     def fake_dispatch(inputs, **kw):
         dispatched.append(inputs)
-        return True, "ok"
+        return True, "Search queued successfully"
 
     def fake_active(*a, **kw):
         return False
@@ -316,7 +316,41 @@ def test_start_command_dispatches_workflow(monkeypatch):
     assert len(dispatched) == 1
     assert dispatched[0]["trigger_source"] == "telegram"
     assert dispatched[0]["categories"] == "all"
-    assert any("Job Autopilot started" in m for m in messages)
+    assert any("Job search started" in m for m in messages)
+    assert any("Search queued successfully" in m for m in messages)
+
+
+def test_github_dispatch_http_failure_reported(monkeypatch):
+    import io
+    import urllib.error
+    import urllib.request
+    from jobautopilot import webhook
+    monkeypatch.setenv("TELEGRAM_ALLOWED_CHAT_ID", "12345")
+    secret_pat = "ghp_VerySecretGitHubPATToken123456"
+    monkeypatch.setenv("GITHUB_TOKEN", secret_pat)
+
+    messages = []
+    monkeypatch.setattr(webhook, "check_active_github_runs", lambda *a, **kw: False)
+    monkeypatch.setattr(notify.Telegram, "message", lambda self, text, **kw: messages.append(text))
+
+    def fake_urlopen(*a, **k):
+        raise urllib.error.HTTPError(
+            "https://api.github.com", 422, "Unprocessable Entity", {},
+            io.BytesIO(b'{"message": "Workflow does not have workflow_dispatch trigger"}')
+        )
+
+    monkeypatch.setattr(urllib.request, "urlopen", fake_urlopen)
+
+    update = {"message": {"chat": {"id": 12345}, "text": "/start"}}
+    status, res = webhook.handle_update(update)
+
+    assert status == 500
+    assert res.get("status") == "dispatch_failed"
+    assert "Workflow does not have workflow_dispatch trigger" in res.get("detail", "")
+    assert any("Failed to start job search workflow" in m for m in messages)
+    assert not any("Search queued successfully" in m for m in messages)
+    for m in messages:
+        assert secret_pat not in m
 
 
 def test_unauthorized_chat_rejected(monkeypatch):
@@ -335,7 +369,7 @@ def test_unauthorized_chat_rejected(monkeypatch):
     assert len(dispatched) == 0
 
 
-def test_duplicate_trigger_blocked(monkeypatch):
+def test_active_scheduled_run_does_not_make_start_appear_successful(monkeypatch):
     from jobautopilot import webhook
     monkeypatch.setenv("TELEGRAM_ALLOWED_CHAT_ID", "12345")
     monkeypatch.setenv("GITHUB_TOKEN", "fake_gh_pat")
@@ -350,9 +384,137 @@ def test_duplicate_trigger_blocked(monkeypatch):
     status, res = webhook.handle_update(update)
 
     assert status == 200
-    assert res.get("status") == "concurrency_blocked"
+    assert res.get("status") in ("already_running", "concurrency_blocked")
     assert len(dispatched) == 0
-    assert any("already running" in m for m in messages)
+    assert any("already running" in m and "Results from that run will be sent" in m for m in messages)
+    assert not any("Search queued successfully" in m for m in messages)
+
+
+def test_zero_match_workflow_still_sends_completion_summary(monkeypatch, tmp_path):
+    from jobautopilot import main, store
+    messages = []
+
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "fake_bot_token")
+    monkeypatch.setenv("TELEGRAM_CHAT_ID", "12345")
+    monkeypatch.setattr(sources, "fetch_everything", lambda c, s: ([], []))
+    monkeypatch.setattr(store, "PATH", tmp_path / "state.json")
+    monkeypatch.setattr(notify.Telegram, "message", lambda self, text, **k: messages.append(text))
+
+    class Args:
+        dry_run = False
+        no_llm = True
+        save_state = False
+        categories = "all"
+        trigger_source = "telegram"
+
+    res = main.run(Args())
+    assert res == 0
+    assert len(messages) == 1
+    summary = messages[0]
+    assert "Job search complete" in summary
+    assert "Scanned: 0 postings" in summary
+    assert "New postings: 0" in summary
+    assert "Matched: 0" in summary
+    assert "Sent: 0" in summary
+    assert "No new matching jobs were found." in summary
+
+
+def test_state_seen_jobs_produces_distinguished_summary(monkeypatch, tmp_path):
+    from jobautopilot import main, store
+    messages = []
+
+    j1 = job(id="acme:1", title="Python Backend Engineer")
+    j2 = job(id="acme:2", title="Django Developer")
+
+    state_file = tmp_path / "state.json"
+    dummy_state = {"jobs": {"acme:1": {"title": "Python Backend Engineer", "status": "notified"}}}
+    state_file.write_text(json.dumps(dummy_state))
+
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "fake_bot_token")
+    monkeypatch.setenv("TELEGRAM_CHAT_ID", "12345")
+    monkeypatch.setattr(sources, "fetch_everything", lambda c, s: ([j1, j2], []))
+    monkeypatch.setattr(store, "PATH", state_file)
+    monkeypatch.setattr(notify.Telegram, "message", lambda self, text, **k: messages.append(text))
+    monkeypatch.setattr(tailor, "tailor", lambda r, j, **k: {"method": "keywords", "keywords_matched": ["Python"], "jd_keywords": ["Python"], "gaps": []})
+    dummy_pdf = tmp_path / "resume.pdf"
+    dummy_pdf.write_bytes(b"%PDF-1.4 dummy")
+    monkeypatch.setattr(render, "build_pdf", lambda r, t, out: dummy_pdf)
+    monkeypatch.setattr(notify.Telegram, "document", lambda self, path, caption, btn=None: True)
+
+    class Args:
+        dry_run = False
+        no_llm = True
+        save_state = True
+        categories = "all"
+        trigger_source = "telegram"
+
+    res = main.run(Args())
+    assert res == 0
+    assert len(messages) == 1
+    summary = messages[0]
+    assert "Scanned: 2 postings (1 previously seen)" in summary
+    assert "New postings: 1" in summary
+    assert "Matched: 1" in summary
+    assert "Sent: 1" in summary
+
+
+def test_state_all_previously_seen_produces_zero_new_summary(monkeypatch, tmp_path):
+    from jobautopilot import main, store
+    messages = []
+
+    j1 = job(id="acme:1", title="Python Backend Engineer")
+    j2 = job(id="acme:2", title="Django Developer")
+
+    state_file = tmp_path / "state.json"
+    dummy_state = {
+        "jobs": {
+            "acme:1": {"title": "Python Backend Engineer", "status": "notified"},
+            "acme:2": {"title": "Django Developer", "status": "notified"},
+        }
+    }
+    state_file.write_text(json.dumps(dummy_state))
+
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "fake_bot_token")
+    monkeypatch.setenv("TELEGRAM_CHAT_ID", "12345")
+    monkeypatch.setattr(sources, "fetch_everything", lambda c, s: ([j1, j2], []))
+    monkeypatch.setattr(store, "PATH", state_file)
+    monkeypatch.setattr(notify.Telegram, "message", lambda self, text, **k: messages.append(text))
+
+    class Args:
+        dry_run = False
+        no_llm = True
+        save_state = True
+        categories = "all"
+        trigger_source = "telegram"
+
+    res = main.run(Args())
+    assert res == 0
+    assert len(messages) == 1
+    summary = messages[0]
+    assert "Scanned: 2 postings (2 previously seen)" in summary
+    assert "New postings: 0" in summary
+    assert "Matched: 0" in summary
+    assert "Sent: 0" in summary
+    assert "No new matching jobs were found." in summary
+
+
+def test_sanitize_secrets_redacts_all_token_formats(monkeypatch):
+    from jobautopilot.webhook import sanitize_secrets
+    monkeypatch.setenv("GITHUB_TOKEN", "ghp_RealSecretGitHubPAT999999")
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "123456789:ABCdefGHIjklMNOpqrsTUVwxyz")
+    monkeypatch.setenv("TELEGRAM_WEBHOOK_SECRET", "super_secret_webhook_tok")
+
+    raw = (
+        "Error calling https://api.github.com with token ghp_RealSecretGitHubPAT999999 "
+        "and telegram bot123456789:ABCdefGHIjklMNOpqrsTUVwxyz and secret super_secret_webhook_tok "
+        "and header Bearer github_pat_11AAAAAAA01234567890_abcdefghij"
+    )
+    cleaned = sanitize_secrets(raw)
+    assert "ghp_RealSecretGitHubPAT999999" not in cleaned
+    assert "123456789:ABCdefGHIjklMNOpqrsTUVwxyz" not in cleaned
+    assert "super_secret_webhook_tok" not in cleaned
+    assert "github_pat_11AAAAAAA01234567890_abcdefghij" not in cleaned
+    assert "[REDACTED]" in cleaned
 
 
 def test_telegram_secret_not_logged(monkeypatch, caplog):

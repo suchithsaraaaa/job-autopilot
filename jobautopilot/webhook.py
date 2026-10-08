@@ -42,10 +42,38 @@ def verify_webhook_secret(headers: dict[str, str]) -> bool:
     return header_val == expected_secret
 
 
+def sanitize_secrets(text: str, *extra_secrets: str | None) -> str:
+    """Redact tokens, credentials, and secrets from text or error messages."""
+    if not text:
+        return ""
+    secrets_to_redact = set()
+    for key in (
+        "GITHUB_TOKEN", "GH_TOKEN", "TELEGRAM_BOT_TOKEN",
+        "TELEGRAM_WEBHOOK_SECRET", "ANTHROPIC_API_KEY",
+    ):
+        val = os.environ.get(key)
+        if val and len(val.strip()) > 3:
+            secrets_to_redact.add(val.strip())
+    for s in extra_secrets:
+        if s and len(s.strip()) > 3:
+            secrets_to_redact.add(s.strip())
+
+    cleaned = str(text)
+    for s in secrets_to_redact:
+        cleaned = cleaned.replace(s, "[REDACTED]")
+
+    cleaned = re.sub(r"bot\d+:[A-Za-z0-9_-]+", "bot[REDACTED]", cleaned)
+    cleaned = re.sub(r"ghp_[A-Za-z0-9_]{20,}", "ghp_[REDACTED]", cleaned)
+    cleaned = re.sub(r"github_pat_[A-Za-z0-9_]{20,}", "github_pat_[REDACTED]", cleaned)
+    cleaned = re.sub(r"Bearer\s+[A-Za-z0-9_\-\.]{15,}", "Bearer [REDACTED]", cleaned)
+    return cleaned
+
+
 def check_active_github_runs(repo: str = DEFAULT_REPO, workflow: str = DEFAULT_WORKFLOW, token: str | None = None) -> bool:
     """Check if an existing run is currently queued or in_progress."""
     token = token or os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
     if not token:
+        log.warning("No GitHub token available to check active runs")
         return False
 
     headers = {
@@ -59,10 +87,13 @@ def check_active_github_runs(repo: str = DEFAULT_REPO, workflow: str = DEFAULT_W
             req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=10) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
-                if data.get("total_count", 0) > 0:
+                count = data.get("total_count", 0)
+                if count > 0:
+                    log.info("Found %d active run(s) with status '%s' for workflow %s", count, status, workflow)
                     return True
         except Exception as e:
-            log.warning("Could not check workflow runs status (%s): %s", status, e)
+            sanitized = sanitize_secrets(str(e), token)
+            log.warning("Could not check workflow runs status (%s): %s", status, sanitized)
     return False
 
 
@@ -76,6 +107,7 @@ def dispatch_github_workflow(
     """Trigger GitHub Actions workflow_dispatch."""
     token = token or os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
     if not token:
+        log.error("Dispatch failed: GITHUB_TOKEN / GH_TOKEN environment variable not set")
         return False, "GITHUB_TOKEN / GH_TOKEN environment variable not set"
 
     url = f"{GITHUB_API}/repos/{repo}/actions/workflows/{workflow}/dispatches"
@@ -87,16 +119,29 @@ def dispatch_github_workflow(
         "User-Agent": "job-autopilot-webhook/1.0",
     }
     req = urllib.request.Request(url, data=payload, headers=headers, method="POST")
+    log.info("Dispatching GitHub Actions workflow '%s' (ref: %s, repo: %s)", workflow, ref, repo)
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
+            log.info("GitHub workflow dispatch HTTP status: %d", resp.status)
             if resp.status in (200, 204):
-                return True, "Dispatched successfully"
+                return True, "Search queued successfully"
             return False, f"Unexpected HTTP status {resp.status}"
     except urllib.error.HTTPError as e:
-        msg = e.read().decode("utf-8", errors="replace")
-        return False, f"HTTPError {e.code}: {msg}"
+        raw_msg = e.read().decode("utf-8", errors="replace")
+        detail = raw_msg
+        try:
+            err_json = json.loads(raw_msg)
+            if "message" in err_json:
+                detail = err_json["message"]
+        except Exception:
+            pass
+        sanitized = sanitize_secrets(detail, token)
+        log.error("GitHub dispatch HTTP %d error: %s", e.code, sanitized)
+        return False, f"GitHub API error (HTTP {e.code}): {sanitized}"
     except Exception as e:
-        return False, f"Dispatch failed: {e}"
+        sanitized = sanitize_secrets(str(e), token)
+        log.error("GitHub dispatch exception: %s", sanitized)
+        return False, f"Dispatch request failed: {sanitized}"
 
 
 def handle_update(update: dict, headers: dict[str, str] | None = None) -> tuple[int, dict]:
@@ -125,90 +170,99 @@ def handle_update(update: dict, headers: dict[str, str] | None = None) -> tuple[
     tg = notify.Telegram(chat_id=str(chat_id))
     repo = os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPO)
     workflow = os.environ.get("GITHUB_WORKFLOW", DEFAULT_WORKFLOW)
+    ref = os.environ.get("GITHUB_BRANCH") or os.environ.get("GITHUB_REF") or "main"
 
     cmd = text.split()[0].lower() if text else ""
+    log.info("Handling Telegram command '%s' from chat_id %s", cmd, chat_id)
 
     if cmd in ("/start", "/run"):
-        # Check concurrency
         if check_active_github_runs(repo, workflow):
-            tg.message("⏳ A job search is already running.\n\nI'll let the current run finish before starting another one.")
-            return 200, {"status": "concurrency_blocked"}
+            log.info("Active workflow run detected; notifying user that search is already running")
+            tg.message("⏳ A job search is already running. Results from that run will be sent when it finishes.")
+            return 200, {"status": "already_running"}
 
         tg.message(
-            "🚀 <b>Job Autopilot started.</b>\n\n"
-            "Searching:\n"
-            "• Full-time roles\n"
-            "• Internships\n"
-            "• Startup roles\n\n"
-            "I'll send the matching jobs and tailored resumes here when the run completes."
+            "🚀 <b>Job search started.</b>\n"
+            "Searching full-time, internship and startup roles.\n"
+            "I'll send the results when the search finishes."
         )
         ok, reason = dispatch_github_workflow(
             {"dry_run": False, "trigger_source": "telegram", "categories": "all"},
-            repo=repo, workflow=workflow,
+            repo=repo, workflow=workflow, ref=ref,
         )
         if not ok:
-            tg.message(f"⚠️ Failed to trigger GitHub Actions workflow: {reason}")
+            tg.message(f"⚠️ <b>Failed to start job search workflow.</b>\n{notify.esc(reason)}")
             return 500, {"status": "dispatch_failed", "detail": reason}
+
+        tg.message("✅ <b>Search queued successfully.</b>")
         return 200, {"status": "dispatched", "categories": "all"}
 
     elif cmd == "/jobs":
         if check_active_github_runs(repo, workflow):
-            tg.message("⏳ A job search is already running.\n\nI'll let the current run finish before starting another one.")
-            return 200, {"status": "concurrency_blocked"}
+            tg.message("⏳ A job search is already running. Results from that run will be sent when it finishes.")
+            return 200, {"status": "already_running"}
 
         tg.message("💼 <b>Searching full-time roles...</b>\n\nI'll send matching jobs and tailored resumes when complete.")
         ok, reason = dispatch_github_workflow(
             {"dry_run": False, "trigger_source": "telegram", "categories": "full_time"},
-            repo=repo, workflow=workflow,
+            repo=repo, workflow=workflow, ref=ref,
         )
         if not ok:
-            tg.message(f"⚠️ Failed to trigger workflow: {reason}")
+            tg.message(f"⚠️ <b>Failed to start job search workflow.</b>\n{notify.esc(reason)}")
             return 500, {"status": "dispatch_failed", "detail": reason}
+
+        tg.message("✅ <b>Search queued successfully.</b>")
         return 200, {"status": "dispatched", "categories": "full_time"}
 
     elif cmd == "/internships":
         if check_active_github_runs(repo, workflow):
-            tg.message("⏳ A job search is already running.\n\nI'll let the current run finish before starting another one.")
-            return 200, {"status": "concurrency_blocked"}
+            tg.message("⏳ A job search is already running. Results from that run will be sent when it finishes.")
+            return 200, {"status": "already_running"}
 
         tg.message("🎓 <b>Searching internships...</b>\n\nI'll send matching roles and tailored resumes when complete.")
         ok, reason = dispatch_github_workflow(
             {"dry_run": False, "trigger_source": "telegram", "categories": "internship"},
-            repo=repo, workflow=workflow,
+            repo=repo, workflow=workflow, ref=ref,
         )
         if not ok:
-            tg.message(f"⚠️ Failed to trigger workflow: {reason}")
+            tg.message(f"⚠️ <b>Failed to start job search workflow.</b>\n{notify.esc(reason)}")
             return 500, {"status": "dispatch_failed", "detail": reason}
+
+        tg.message("✅ <b>Search queued successfully.</b>")
         return 200, {"status": "dispatched", "categories": "internship"}
 
     elif cmd == "/startups":
         if check_active_github_runs(repo, workflow):
-            tg.message("⏳ A job search is already running.\n\nI'll let the current run finish before starting another one.")
-            return 200, {"status": "concurrency_blocked"}
+            tg.message("⏳ A job search is already running. Results from that run will be sent when it finishes.")
+            return 200, {"status": "already_running"}
 
         tg.message("🚀 <b>Searching startup opportunities...</b>\n\nI'll send matching roles and tailored resumes when complete.")
         ok, reason = dispatch_github_workflow(
             {"dry_run": False, "trigger_source": "telegram", "categories": "startup"},
-            repo=repo, workflow=workflow,
+            repo=repo, workflow=workflow, ref=ref,
         )
         if not ok:
-            tg.message(f"⚠️ Failed to trigger workflow: {reason}")
+            tg.message(f"⚠️ <b>Failed to start job search workflow.</b>\n{notify.esc(reason)}")
             return 500, {"status": "dispatch_failed", "detail": reason}
+
+        tg.message("✅ <b>Search queued successfully.</b>")
         return 200, {"status": "dispatched", "categories": "startup"}
 
     elif cmd == "/dryrun":
         if check_active_github_runs(repo, workflow):
-            tg.message("⏳ A job search is already running.\n\nI'll let the current run finish before starting another one.")
-            return 200, {"status": "concurrency_blocked"}
+            tg.message("⏳ A job search is already running. Results from that run will be sent when it finishes.")
+            return 200, {"status": "already_running"}
 
         tg.message("🔍 <b>Running dry-run search...</b>\n\nMatches and resumes will be produced in the Actions run artifacts without sending Telegram cards.")
         ok, reason = dispatch_github_workflow(
             {"dry_run": True, "trigger_source": "telegram", "categories": "all"},
-            repo=repo, workflow=workflow,
+            repo=repo, workflow=workflow, ref=ref,
         )
         if not ok:
-            tg.message(f"⚠️ Failed to trigger workflow: {reason}")
+            tg.message(f"⚠️ <b>Failed to start job search workflow.</b>\n{notify.esc(reason)}")
             return 500, {"status": "dispatch_failed", "detail": reason}
+
+        tg.message("✅ <b>Search queued successfully.</b>")
         return 200, {"status": "dispatched", "categories": "all", "dry_run": True}
 
     elif cmd == "/help":
