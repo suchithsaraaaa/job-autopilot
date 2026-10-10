@@ -65705,6 +65705,16 @@
    "title": "Lead Executive Assistant",
    "url": "https://job-boards.greenhouse.io/inmobi/jobs/8255602"
   },
+  "greenhouse:inmobi:8258194": {
+   "at": "2026-10-10T09:56:36+00:00",
+   "company": "InMobi",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Lead \u2013 Administration & Workspace",
+   "url": "https://job-boards.greenhouse.io/inmobi/jobs/8258194"
+  },
   "greenhouse:inmobi:8263650": {
    "at": "2026-10-09T10:40:33+00:00",
    "company": "InMobi",
@@ -73756,6 +73766,17 @@
    "title": "Software Engineering Manager",
    "url": "https://www.okta.com/company/careers/opportunity/8158879?gh_jid=8158879"
   },
+  "greenhouse:okta:8159014": {
+   "at": "2026-10-10T09:56:36+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8159014?gh_jid=8159014",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Java Engineer (Design & DSA)",
+   "url": "https://www.okta.com/company/careers/opportunity/8159014?gh_jid=8159014"
+  },
   "greenhouse:okta:8159611": {
    "at": "2026-09-29T15:41:29+00:00",
    "company": "Okta",
@@ -79873,6 +79894,16 @@
    "status": "rejected",
    "title": "Machine Learning Engineer, Platform",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4711544005"
+  },
+  "greenhouse:scaleai:4711898005": {
+   "at": "2026-10-10T09:56:36+00:00",
+   "company": "Scale AI",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Senior Software Engineer, Identity",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4711898005"
   },
   "greenhouse:scaleai:4712145005": {
    "at": "2026-09-30T06:59:09+00:00",
