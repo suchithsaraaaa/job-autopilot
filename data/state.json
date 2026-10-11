@@ -47607,6 +47607,17 @@
    "title": "Solutions Architect - Digital Native Business, Named Accounts",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8877968002"
   },
+  "greenhouse:databricks:8878095002": {
+   "at": "2026-10-11T05:55:02+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8878095002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Digital Native Account Executive, Thailand",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8878095002"
+  },
   "greenhouse:databricks:8878720002": {
    "at": "2026-10-08T18:53:40+00:00",
    "company": "Databricks",
@@ -89254,6 +89265,16 @@
    "status": "rejected",
    "title": "Sales Development Representative (Polish Fluency)",
    "url": "https://stripe.com/jobs/search?gh_jid=8265128"
+  },
+  "greenhouse:stripe:8265686": {
+   "at": "2026-10-11T05:55:02+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Writer, Content Marketing",
+   "url": "https://stripe.com/jobs/search?gh_jid=8265686"
   },
   "greenhouse:stripe:8265763": {
    "at": "2026-10-09T18:24:06+00:00",
