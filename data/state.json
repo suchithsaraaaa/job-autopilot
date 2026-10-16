@@ -3486,6 +3486,16 @@
    "title": "Public Sector Partnerships - Europe Lead",
    "url": "https://jobs.ashbyhq.com/elevenlabs/2c9dfcd0-0aa3-466a-8a5a-2b2351afbf81"
   },
+  "ashby:elevenlabs:2cc33afb-4c90-4590-8f5b-8f9fd7769800": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "ElevenLabs",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Account Executive - Enterprise - Sports Specialist",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/2cc33afb-4c90-4590-8f5b-8f9fd7769800"
+  },
   "ashby:elevenlabs:2d0016e0-3cc2-4ec7-b164-bc2b83990fb6": {
    "at": "2026-10-04T23:58:50+00:00",
    "company": "ElevenLabs",
@@ -5661,6 +5671,16 @@
    "status": "rejected",
    "title": "Commercial Counsel - Partnerships",
    "url": "https://jobs.ashbyhq.com/elevenlabs/ff152bcd-af7d-408d-88a1-883e03502c4c"
+  },
+  "ashby:elevenlabs:ff45aabd-0a5d-401f-9e89-2e13ac72034c": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "ElevenLabs",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Executive Assistant - APAC",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/ff45aabd-0a5d-401f-9e89-2e13ac72034c"
   },
   "ashby:langchain:01b42b2d-538f-4d5f-b9f1-2de1197bc0cb": {
    "at": "2026-09-30T06:59:08+00:00",
@@ -14462,6 +14482,16 @@
    "title": "Researcher, Training",
    "url": "https://jobs.ashbyhq.com/openai/97d3670c-e75a-4bb2-a235-171765f5f10e"
   },
+  "ashby:openai:98064a4f-5c20-4a68-8197-555f7e21d088": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "US Congressional Lead, Global Affairs",
+   "url": "https://jobs.ashbyhq.com/openai/98064a4f-5c20-4a68-8197-555f7e21d088"
+  },
   "ashby:openai:987c4eb8-819e-4258-a91c-f34ecfbcd5f1": {
    "at": "2026-09-29T15:41:33+00:00",
    "company": "OpenAI",
@@ -20898,6 +20928,16 @@
    "title": "Security Engineer, Privacy",
    "url": "https://jobs.ashbyhq.com/ramp/95f450a1-0d38-4d58-9aac-9d7e655adc36"
   },
+  "ashby:ramp:96250bac-465c-4524-bc7c-ba0f0b05310f": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "Ramp",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": " Senior Manager, Account Manager, Enterprise",
+   "url": "https://jobs.ashbyhq.com/ramp/96250bac-465c-4524-bc7c-ba0f0b05310f"
+  },
   "ashby:ramp:97898101-f97b-47c8-a991-267afc517ae5": {
    "at": "2026-09-29T15:41:34+00:00",
    "company": "Ramp",
@@ -22323,6 +22363,16 @@
    "status": "rejected",
    "title": "Staff Backend Engineer - Platform",
    "url": "https://jobs.ashbyhq.com/signoz/5ba2b181-0b62-49d9-b092-8e539ee1a7c7"
+  },
+  "ashby:signoz:6d8e4b0d-f1d1-439c-882f-7a26cc547abf": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "SigNoz",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Developer Relation Engineer (US, SF Bay Area)",
+   "url": "https://jobs.ashbyhq.com/signoz/6d8e4b0d-f1d1-439c-882f-7a26cc547abf"
   },
   "ashby:signoz:787b09cc-c86c-4173-869c-57ca1d5cb7f1": {
    "at": "2026-09-30T06:59:07+00:00",
@@ -29382,6 +29432,16 @@
    "title": "Capacity Deployment Lead - Data Center Operations",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432020008"
   },
+  "greenhouse:anthropic:5432425008": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Risk & Insurance Specialist",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432425008"
+  },
   "greenhouse:anthropic:5432528008": {
    "at": "2026-09-29T15:41:21+00:00",
    "company": "Anthropic",
@@ -30659,6 +30719,56 @@
    "status": "rejected",
    "title": "Technical Program Manager, Inference",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5453262008"
+  },
+  "greenhouse:anthropic:5453548008": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Technical Program Manager, Corporate Engineering",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5453548008"
+  },
+  "greenhouse:anthropic:5453550008": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Technical Program Manager, SOX Compliance",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5453550008"
+  },
+  "greenhouse:anthropic:5454650008": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "location: San Francisco, CA | New York City, NY"
+   ],
+   "status": "rejected",
+   "title": "Applied AI Engineer, Startups (Life Sciences)",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454650008"
+  },
+  "greenhouse:anthropic:5454673008": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "location: San Francisco, CA"
+   ],
+   "status": "rejected",
+   "title": "Applied AI Engineer, Startups (Physical AI)",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454673008"
+  },
+  "greenhouse:anthropic:5454882008": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Staff+ Software Engineer, Enterprise (Full Stack)",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454882008"
   },
   "greenhouse:cloudflare:5390243": {
    "at": "2026-09-29T15:41:25+00:00",
@@ -38431,6 +38541,17 @@
    "title": "Principal Recruiter",
    "url": "https://www.coinbase.com/careers/positions/8260302?gh_jid=8260302"
   },
+  "greenhouse:coinbase:8260306": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "Coinbase",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.coinbase.com/careers/positions/8260306?gh_jid=8260306",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Recruiter",
+   "url": "https://www.coinbase.com/careers/positions/8260306?gh_jid=8260306"
+  },
   "greenhouse:coinbase:8262841": {
    "at": "2026-10-08T01:03:21+00:00",
    "company": "Coinbase",
@@ -38584,6 +38705,17 @@
    "status": "blocked-legitimacy",
    "title": "Analyst, Privacy (Privacy Assessments)",
    "url": "https://www.coinbase.com/careers/positions/8280209?gh_jid=8280209"
+  },
+  "greenhouse:coinbase:8287668": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "Coinbase",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.coinbase.com/careers/positions/8287668?gh_jid=8287668",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Data Scientist, Product",
+   "url": "https://www.coinbase.com/careers/positions/8287668?gh_jid=8287668"
   },
   "greenhouse:databricks:4513122002": {
    "at": "2026-09-29T15:41:23+00:00",
@@ -48770,6 +48902,28 @@
    "status": "blocked-legitimacy",
    "title": "Product Finance Director- AI Products & GPU Investment Strategy",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8823189002"
+  },
+  "greenhouse:databricks:8823191002": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8823191002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Product Finance Senior Manager, Cloud Platform Costs & Operations",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8823191002"
+  },
+  "greenhouse:databricks:8823193002": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8823193002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Product Finance Director, R&D Capital Allocation & Engineering Operations",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8823193002"
   },
   "greenhouse:databricks:8823880002": {
    "at": "2026-09-29T15:41:23+00:00",
@@ -66361,6 +66515,16 @@
    "title": "Regional Sales Director, Enterprise - Southeast",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8879798002"
   },
+  "greenhouse:gitlab:8880999002": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Customer Success Architect, Japan",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8880999002"
+  },
   "greenhouse:gitlab:8882059002": {
    "at": "2026-10-10T00:56:53+00:00",
    "company": "GitLab",
@@ -76582,6 +76746,17 @@
    "title": "Staff Software Engineer ",
    "url": "https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016"
   },
+  "greenhouse:okta:8081048": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8081048?gh_jid=8081048",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Regional Sales Manager - Public Sector",
+   "url": "https://www.okta.com/company/careers/opportunity/8081048?gh_jid=8081048"
+  },
   "greenhouse:okta:8081732": {
    "at": "2026-09-29T15:41:29+00:00",
    "company": "Okta",
@@ -80002,6 +80177,17 @@
    "status": "blocked-legitimacy",
    "title": "Senior Emerging Account Executive ",
    "url": "https://www.okta.com/company/careers/opportunity/8285012?gh_jid=8285012"
+  },
+  "greenhouse:okta:8287689": {
+   "at": "2026-10-16T04:38:40+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8287689?gh_jid=8287689",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Director, Quality Engineering \u2013 Performance, Scalability & Reliability",
+   "url": "https://www.okta.com/company/careers/opportunity/8287689?gh_jid=8287689"
   },
   "greenhouse:pinterest:5412514": {
    "at": "2026-09-29T15:41:30+00:00",
