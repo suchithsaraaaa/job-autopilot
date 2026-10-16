@@ -9198,6 +9198,16 @@
    "title": "Data Scientist, FinEng",
    "url": "https://jobs.ashbyhq.com/openai/082f4d82-499f-4150-892f-0b0d1105fffe"
   },
+  "ashby:openai:0867dab4-ed8e-46d5-92ce-a769ebda7c03": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Media Relations, Safety Communications ",
+   "url": "https://jobs.ashbyhq.com/openai/0867dab4-ed8e-46d5-92ce-a769ebda7c03"
+  },
   "ashby:openai:0875c19f-3f37-403e-81e9-7bf2429f1e4e": {
    "at": "2026-09-29T15:41:32+00:00",
    "company": "OpenAI",
@@ -12184,6 +12194,16 @@
    "title": "Integrated Marketing Manager, Youth Culture",
    "url": "https://jobs.ashbyhq.com/openai/58f32cbe-8c68-415c-bb7f-b6fca4b29ffc"
   },
+  "ashby:openai:593258c8-d382-406f-ba9f-f75415232d44": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Head of First Party Chip Finance",
+   "url": "https://jobs.ashbyhq.com/openai/593258c8-d382-406f-ba9f-f75415232d44"
+  },
   "ashby:openai:5953fed7-1466-4e90-94c9-43716a55e032": {
    "at": "2026-09-29T15:41:32+00:00",
    "company": "OpenAI",
@@ -12273,6 +12293,16 @@
    "status": "rejected",
    "title": "Machine Learning Engineer, API Multicloud",
    "url": "https://jobs.ashbyhq.com/openai/5acf4854-1d42-40ca-bff8-4f6f04cdce68"
+  },
+  "ashby:openai:5ad8c21c-dbfe-4e04-9826-7f52aaf0ddc3": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "location: London, UK"
+   ],
+   "status": "rejected",
+   "title": "Full-Stack Software Engineer, Child Safety Tools & Systems (London)",
+   "url": "https://jobs.ashbyhq.com/openai/5ad8c21c-dbfe-4e04-9826-7f52aaf0ddc3"
   },
   "ashby:openai:5b334d54-fc7f-4de7-a37f-5c759c79beb6": {
    "at": "2026-10-02T22:18:47+00:00",
@@ -13083,6 +13113,16 @@
    "status": "rejected",
    "title": "Power Trading Lead",
    "url": "https://jobs.ashbyhq.com/openai/6e20368e-d51e-4562-8b94-0166317d52c7"
+  },
+  "ashby:openai:6e9ac42a-c42a-46e0-98fe-ba00c9cb5455": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "B2B Ecosystem Lead, Partner Growth",
+   "url": "https://jobs.ashbyhq.com/openai/6e9ac42a-c42a-46e0-98fe-ba00c9cb5455"
   },
   "ashby:openai:6eb386ac-9056-4795-aa79-a27e105faf5c": {
    "at": "2026-09-29T15:41:31+00:00",
@@ -19247,6 +19287,16 @@
    "status": "rejected",
    "title": "Member of Technical Staff (AI Infrastructure Engineer)",
    "url": "https://jobs.ashbyhq.com/perplexity/60deb376-51b5-46c6-9e17-55377a5ef34e"
+  },
+  "ashby:perplexity:63785f62-07ac-4dc5-8f68-57779dddb1f3": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "Perplexity",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Member of Technical Staff (Software Engineer, Enterprise Trust & Governance)",
+   "url": "https://jobs.ashbyhq.com/perplexity/63785f62-07ac-4dc5-8f68-57779dddb1f3"
   },
   "ashby:perplexity:656b4b2e-5670-411c-9091-f355983a92a0": {
    "at": "2026-09-29T15:41:34+00:00",
@@ -31120,6 +31170,16 @@
    "title": "Staff+ Software Engineer, Enterprise (Full Stack)",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454882008"
   },
+  "greenhouse:anthropic:5455454008": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Technical Program Manager, Science Strategy & Communications",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5455454008"
+  },
   "greenhouse:cloudflare:5390243": {
    "at": "2026-09-29T15:41:25+00:00",
    "company": "Cloudflare",
@@ -36334,6 +36394,17 @@
    "title": "Group Product Manager, Compliance Automation",
    "url": "https://www.coinbase.com/careers/positions/7701642?gh_jid=7701642"
   },
+  "greenhouse:coinbase:7701645": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "Coinbase",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.coinbase.com/careers/positions/7701645?gh_jid=7701645",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Software Engineer, Compute Platform",
+   "url": "https://www.coinbase.com/careers/positions/7701645?gh_jid=7701645"
+  },
   "greenhouse:coinbase:7711287": {
    "at": "2026-09-29T15:41:29+00:00",
    "company": "Coinbase",
@@ -39138,6 +39209,17 @@
    "status": "blocked-legitimacy",
    "title": "Senior Data Scientist, Product",
    "url": "https://www.coinbase.com/careers/positions/8287668?gh_jid=8287668"
+  },
+  "greenhouse:coinbase:8292793": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "Coinbase",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.coinbase.com/careers/positions/8292793?gh_jid=8292793",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Machine Learning Engineer, CX ",
+   "url": "https://www.coinbase.com/careers/positions/8292793?gh_jid=8292793"
   },
   "greenhouse:databricks:4513122002": {
    "at": "2026-09-29T15:41:23+00:00",
@@ -50491,6 +50573,28 @@
    "title": "Lead Solutions Architect - Generative AI (EMEA Emerging DNB)",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8892971002"
   },
+  "greenhouse:databricks:8895982002": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8895982002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Candidate Experience Admin (6-month contract) ",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8895982002"
+  },
+  "greenhouse:databricks:8896139002": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8896139002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Manager, Delivery Solutions Architects - Healthcare & Life Sciences (HLS)",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8896139002"
+  },
   "greenhouse:datadog:1497543": {
    "at": "2026-09-29T15:41:26+00:00",
    "company": "Datadog",
@@ -56166,6 +56270,17 @@
    "status": "blocked-legitimacy",
    "title": "Incident and Escalations Manager 3 - US-West",
    "url": "https://careers.datadoghq.com/detail/8263146/?gh_jid=8263146"
+  },
+  "greenhouse:datadog:8263229": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8263229/?gh_jid=8263229",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Director, Recruiting Operations",
+   "url": "https://careers.datadoghq.com/detail/8263229/?gh_jid=8263229"
   },
   "greenhouse:datadog:8263526": {
    "at": "2026-10-14T04:59:57+00:00",
@@ -67013,6 +67128,16 @@
    "title": "Customer Success Manager",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8877426002"
   },
+  "greenhouse:gitlab:8877434002": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Strategic Account Executive - Brazil",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8877434002"
+  },
   "greenhouse:gitlab:8877510002": {
    "at": "2026-10-08T18:53:40+00:00",
    "company": "GitLab",
@@ -67092,6 +67217,16 @@
    "status": "rejected",
    "title": "Business Development Representative, Spanish Speaking",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8882367002"
+  },
+  "greenhouse:gitlab:8882519002": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior People Business Partner, Engineering",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8882519002"
   },
   "greenhouse:gitlab:8883003002": {
    "at": "2026-10-13T16:59:25+00:00",
@@ -68702,6 +68837,26 @@
    "status": "rejected",
    "title": " Customer Advocacy Manager ",
    "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4743028005"
+  },
+  "greenhouse:gleanwork:4743056005": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "Glean",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Solutions Engineering Manager ",
+   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4743056005"
+  },
+  "greenhouse:gleanwork:4744818005": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "Glean",
+   "reasons": [
+    "location: Mountain View, CA"
+   ],
+   "status": "rejected",
+   "title": "Machine Learning Engineer, Enterprise Brain",
+   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4744818005"
   },
   "greenhouse:groww:4528370101": {
    "at": "2026-09-29T15:41:20+00:00",
@@ -80896,6 +81051,17 @@
    "title": "Senior Platform Engineer, Layer0 (Auth0)",
    "url": "https://www.okta.com/company/careers/opportunity/8286405?gh_jid=8286405"
   },
+  "greenhouse:okta:8287639": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8287639?gh_jid=8287639",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Director, R&D Planning & Operations",
+   "url": "https://www.okta.com/company/careers/opportunity/8287639?gh_jid=8287639"
+  },
   "greenhouse:okta:8287689": {
    "at": "2026-10-16T04:38:40+00:00",
    "company": "Okta",
@@ -80962,6 +81128,17 @@
    "title": " Okta Account Executive- New Business ",
    "url": "https://www.okta.com/company/careers/opportunity/8289109?gh_jid=8289109"
   },
+  "greenhouse:okta:8289127": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8289127?gh_jid=8289127",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Okta Account Executive- New Business ",
+   "url": "https://www.okta.com/company/careers/opportunity/8289127?gh_jid=8289127"
+  },
   "greenhouse:okta:8289576": {
    "at": "2026-10-16T21:17:09+00:00",
    "company": "Okta",
@@ -81016,6 +81193,17 @@
    "status": "blocked-legitimacy",
    "title": "Strategic Account Executive",
    "url": "https://www.okta.com/company/careers/opportunity/8289604?gh_jid=8289604"
+  },
+  "greenhouse:okta:8289745": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8289745?gh_jid=8289745",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Corporate New Business Account Executive",
+   "url": "https://www.okta.com/company/careers/opportunity/8289745?gh_jid=8289745"
   },
   "greenhouse:okta:8289804": {
    "at": "2026-10-16T21:17:09+00:00",
@@ -81104,6 +81292,17 @@
    "status": "blocked-legitimacy",
    "title": "Auth0 Account Executive- New Business ",
    "url": "https://www.okta.com/company/careers/opportunity/8292623?gh_jid=8292623"
+  },
+  "greenhouse:okta:8293675": {
+   "at": "2026-10-16T23:42:39+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8293675?gh_jid=8293675",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Director, R&D Planning & Operations",
+   "url": "https://www.okta.com/company/careers/opportunity/8293675?gh_jid=8293675"
   },
   "greenhouse:pinterest:5412514": {
    "at": "2026-09-29T15:41:30+00:00",
