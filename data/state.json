@@ -11236,6 +11236,16 @@
    "title": "M&A Finance Integration Lead",
    "url": "https://jobs.ashbyhq.com/openai/3b2d32bd-2549-43d0-8dc2-8469bece5336"
   },
+  "ashby:openai:3b34eb10-25b0-4a97-bd6d-05fc90ad4981": {
+   "at": "2026-10-17T04:35:57+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "score 27 below minimum"
+   ],
+   "status": "rejected",
+   "title": "Software Engineer, Mobile Web \u2014 Dots",
+   "url": "https://jobs.ashbyhq.com/openai/3b34eb10-25b0-4a97-bd6d-05fc90ad4981"
+  },
   "ashby:openai:3c07323e-04da-4fff-b925-a60294941040": {
    "at": "2026-09-29T15:41:32+00:00",
    "company": "OpenAI",
@@ -17477,6 +17487,16 @@
    "status": "rejected",
    "title": "Recruiting Coordinator - Contract",
    "url": "https://jobs.ashbyhq.com/openai/dbd5ae8a-7c01-4f17-be39-b8caa8fd95d5"
+  },
+  "ashby:openai:dbe79b89-e593-44b3-8aec-c667f7134445": {
+   "at": "2026-10-17T04:35:57+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "full-stack role does not require Python/Django/Flask"
+   ],
+   "status": "rejected",
+   "title": "Software Engineer, Full Stack \u2014 Dots",
+   "url": "https://jobs.ashbyhq.com/openai/dbe79b89-e593-44b3-8aec-c667f7134445"
   },
   "ashby:openai:dc0b907b-f833-4559-8fd8-d3d4c80b58d8": {
    "at": "2026-09-29T15:41:31+00:00",
@@ -31120,6 +31140,16 @@
    "title": "Technical Program Manager, SOX Compliance",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5453550008"
   },
+  "greenhouse:anthropic:5453573008": {
+   "at": "2026-10-17T04:35:57+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Policy Design Manager, Integrity and Authenticity",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5453573008"
+  },
   "greenhouse:anthropic:5453809008": {
    "at": "2026-10-16T16:44:23+00:00",
    "company": "Anthropic",
@@ -31160,6 +31190,16 @@
    "title": "Applied AI Engineer, Startups (Physical AI)",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454673008"
   },
+  "greenhouse:anthropic:5454800008": {
+   "at": "2026-10-17T04:35:57+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Customer Success Manager, Enterprise Tech",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454800008"
+  },
   "greenhouse:anthropic:5454882008": {
    "at": "2026-10-16T04:38:40+00:00",
    "company": "Anthropic",
@@ -31179,6 +31219,16 @@
    "status": "rejected",
    "title": "Technical Program Manager, Science Strategy & Communications",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5455454008"
+  },
+  "greenhouse:anthropic:5456016008": {
+   "at": "2026-10-17T04:35:57+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Tabletop Exercise Lead, The Anthropic Institute",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456016008"
   },
   "greenhouse:cloudflare:5390243": {
    "at": "2026-09-29T15:41:25+00:00",
@@ -49935,6 +49985,17 @@
    "title": "Principal Brand Content & AI Search Visibility",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8860653002"
   },
+  "greenhouse:databricks:8860657002": {
+   "at": "2026-10-17T04:35:57+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8860657002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Sr. Public Relations Manager",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8860657002"
+  },
   "greenhouse:databricks:8860663002": {
    "at": "2026-10-06T16:00:06+00:00",
    "company": "Databricks",
@@ -67118,6 +67179,16 @@
    "title": "Staff Product Manager, AI Software Factory PLG",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8875518002"
   },
+  "greenhouse:gitlab:8876823002": {
+   "at": "2026-10-17T04:35:57+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Public Sector Strategic Account Executive - Brazil",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8876823002"
+  },
   "greenhouse:gitlab:8877426002": {
    "at": "2026-10-16T21:17:09+00:00",
    "company": "GitLab",
@@ -67127,6 +67198,16 @@
    "status": "rejected",
    "title": "Customer Success Manager",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8877426002"
+  },
+  "greenhouse:gitlab:8877428002": {
+   "at": "2026-10-17T04:35:57+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Strategic Account Executive, Financial Services - Brazil",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8877428002"
   },
   "greenhouse:gitlab:8877434002": {
    "at": "2026-10-16T23:42:39+00:00",
@@ -67268,6 +67349,16 @@
    "title": "Staff Solutions Architect, AI Subject Matter Expert",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8886426002"
   },
+  "greenhouse:gitlab:8886648002": {
+   "at": "2026-10-17T04:35:57+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Sr. Manager, Solutions Architect SME",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8886648002"
+  },
   "greenhouse:gitlab:8887241002": {
    "at": "2026-10-16T11:31:51+00:00",
    "company": "GitLab",
@@ -67317,6 +67408,16 @@
    "status": "rejected",
    "title": "Intermediate Backend Engineer - Code Security",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8894531002"
+  },
+  "greenhouse:gitlab:8896290002": {
+   "at": "2026-10-17T04:35:57+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Manager, Customer Success ",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8896290002"
   },
   "greenhouse:gleanwork:4006731005": {
    "at": "2026-09-30T06:59:08+00:00",
@@ -81293,6 +81394,17 @@
    "title": "Auth0 Account Executive- New Business ",
    "url": "https://www.okta.com/company/careers/opportunity/8292623?gh_jid=8292623"
   },
+  "greenhouse:okta:8293642": {
+   "at": "2026-10-17T04:35:57+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8293642?gh_jid=8293642",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Category Manager (Technology Sourcing) ",
+   "url": "https://www.okta.com/company/careers/opportunity/8293642?gh_jid=8293642"
+  },
   "greenhouse:okta:8293675": {
    "at": "2026-10-16T23:42:39+00:00",
    "company": "Okta",
@@ -82700,6 +82812,17 @@
    "status": "blocked-legitimacy",
    "title": "Manager II, Config Deployments",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8104117"
+  },
+  "greenhouse:pinterest:8109770": {
+   "at": "2026-10-17T04:35:57+00:00",
+   "company": "Pinterest",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.pinterestcareers.com/jobs/?gh_jid=8109770",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Staff Product Manager, Ads Measurement",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8109770"
   },
   "greenhouse:pinterest:8112049": {
    "at": "2026-09-29T15:41:30+00:00",
