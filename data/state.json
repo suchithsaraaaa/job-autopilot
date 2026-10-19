@@ -8450,6 +8450,16 @@
    "title": "Business Development Representative, San Francisco",
    "url": "https://jobs.ashbyhq.com/notion/b21fef72-4864-4a3e-a627-91557a0f8a36"
   },
+  "ashby:notion:b393c25a-2ce7-458d-800a-bf9e75ed070b": {
+   "at": "2026-10-19T04:49:29+00:00",
+   "company": "Notion",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Sales Strategy & Operations Manager, APAC",
+   "url": "https://jobs.ashbyhq.com/notion/b393c25a-2ce7-458d-800a-bf9e75ed070b"
+  },
   "ashby:notion:b49d4c15-d716-4a52-8858-1a89319f3191": {
    "at": "2026-10-02T17:54:11+00:00",
    "company": "Notion",
@@ -11875,6 +11885,16 @@
    "status": "rejected",
    "title": "Performance Modeling Engineer ~2",
    "url": "https://jobs.ashbyhq.com/openai/4f6be73e-9a1d-4ec6-8b0e-b2af0b4becfb"
+  },
+  "ashby:openai:502fcf97-75b2-4e54-9957-a29cee8eb1ca": {
+   "at": "2026-10-19T04:49:29+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "asks for 5+ years"
+   ],
+   "status": "rejected",
+   "title": "Applied AI Engineer, Startups (Mandarin-speaking)",
+   "url": "https://jobs.ashbyhq.com/openai/502fcf97-75b2-4e54-9957-a29cee8eb1ca"
   },
   "ashby:openai:50e8714b-c8a2-47f0-bc7c-2a76e988b380": {
    "at": "2026-09-29T15:41:33+00:00",
@@ -20097,6 +20117,16 @@
    "status": "rejected",
    "title": "Product Manager (Builder)",
    "url": "https://jobs.ashbyhq.com/perplexity/f25e190e-0508-4707-b575-fcaed358dc13"
+  },
+  "ashby:perplexity:f3814af2-55a3-49a5-b0cb-67199a2a45fb": {
+   "at": "2026-10-19T04:49:29+00:00",
+   "company": "Perplexity",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Member of Technical Staff (Software Engineer, Enterprise Agent Evals & Efficiency)",
+   "url": "https://jobs.ashbyhq.com/perplexity/f3814af2-55a3-49a5-b0cb-67199a2a45fb"
   },
   "ashby:perplexity:f3c7ce0d-026e-4b5d-b22d-8b6041746c3d": {
    "at": "2026-10-12T21:18:33+00:00",
@@ -31260,6 +31290,26 @@
    "title": "Principal Engineer Capacity/Compute",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456039008"
   },
+  "greenhouse:anthropic:5456405008": {
+   "at": "2026-10-19T04:49:29+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Principal Engineer Capacity/Compute",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456405008"
+  },
+  "greenhouse:anthropic:5456406008": {
+   "at": "2026-10-19T04:49:29+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Principal Engineer Capacity/Compute",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456406008"
+  },
   "greenhouse:cloudflare:5390243": {
    "at": "2026-09-29T15:41:25+00:00",
    "company": "Cloudflare",
@@ -32299,6 +32349,16 @@
    "status": "rejected",
    "title": "Director, Customer Engineering ",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8007189?gh_jid=8007189"
+  },
+  "greenhouse:cloudflare:8012884": {
+   "at": "2026-10-19T04:49:29+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Territory Account Executive - China ",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8012884?gh_jid=8012884"
   },
   "greenhouse:cloudflare:8014902": {
    "at": "2026-09-29T15:41:25+00:00",
@@ -36059,6 +36119,16 @@
    "status": "rejected",
    "title": "Senior Forward Deployed Engineer",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8265704?gh_jid=8265704"
+  },
+  "greenhouse:cloudflare:8266408": {
+   "at": "2026-10-19T04:49:29+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Partner Account Manager, Japan (Based in Tokyo)",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8266408?gh_jid=8266408"
   },
   "greenhouse:cloudflare:8267396": {
    "at": "2026-10-12T21:18:33+00:00",
@@ -50345,6 +50415,17 @@
    "title": "Solutions Architect - MFG - West",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8876599002"
   },
+  "greenhouse:databricks:8876613002": {
+   "at": "2026-10-19T04:49:29+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8876613002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Forward Deployed Engineer, FDE (L4)",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8876613002"
+  },
   "greenhouse:databricks:8876675002": {
    "at": "2026-10-07T20:39:42+00:00",
    "company": "Databricks",
@@ -50355,6 +50436,17 @@
    "status": "blocked-legitimacy",
    "title": "Sr. Product Manager, Lakebase",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8876675002"
+  },
+  "greenhouse:databricks:8876680002": {
+   "at": "2026-10-19T04:49:29+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8876680002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Forward Deployed Engineer, Sr FDE (L5)",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8876680002"
   },
   "greenhouse:databricks:8877962002": {
    "at": "2026-10-13T22:51:28+00:00",
@@ -56164,6 +56256,17 @@
    "title": "Senior Contracts Manager",
    "url": "https://careers.datadoghq.com/detail/8247435/?gh_jid=8247435"
   },
+  "greenhouse:datadog:8247518": {
+   "at": "2026-10-19T04:49:29+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8247518/?gh_jid=8247518",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Strategic Account Executive (Malaysia Market)",
+   "url": "https://careers.datadoghq.com/detail/8247518/?gh_jid=8247518"
+  },
   "greenhouse:datadog:8247540": {
    "at": "2026-10-13T06:51:28+00:00",
    "company": "Datadog",
@@ -56548,6 +56651,17 @@
    "status": "blocked-legitimacy",
    "title": "Senior Manager, Product Design - Security",
    "url": "https://careers.datadoghq.com/detail/8281102/?gh_jid=8281102"
+  },
+  "greenhouse:datadog:8281450": {
+   "at": "2026-10-19T04:49:29+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8281450/?gh_jid=8281450",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Payroll Specialist",
+   "url": "https://careers.datadoghq.com/detail/8281450/?gh_jid=8281450"
   },
   "greenhouse:datadog:8281751": {
    "at": "2026-10-14T17:17:34+00:00",
@@ -66773,6 +66887,16 @@
    "status": "rejected",
    "title": "Regional Sales Director, National Security Group",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8858174002"
+  },
+  "greenhouse:gitlab:8858197002": {
+   "at": "2026-10-19T04:49:29+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Strategic Account Executive, Northeast",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8858197002"
   },
   "greenhouse:gitlab:8859063002": {
    "at": "2026-10-05T22:03:40+00:00",
@@ -81302,6 +81426,28 @@
    "status": "blocked-legitimacy",
    "title": "Commercial Account Executive",
    "url": "https://www.okta.com/company/careers/opportunity/8288348?gh_jid=8288348"
+  },
+  "greenhouse:okta:8288480": {
+   "at": "2026-10-19T04:49:29+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8288480?gh_jid=8288480",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Enterprise Account Executive, Auth0",
+   "url": "https://www.okta.com/company/careers/opportunity/8288480?gh_jid=8288480"
+  },
+  "greenhouse:okta:8288482": {
+   "at": "2026-10-19T04:49:29+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8288482?gh_jid=8288482",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Enterprise Account Executive, Auth0",
+   "url": "https://www.okta.com/company/careers/opportunity/8288482?gh_jid=8288482"
   },
   "greenhouse:okta:8289109": {
    "at": "2026-10-16T21:17:09+00:00",
