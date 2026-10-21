@@ -19118,6 +19118,16 @@
    "title": "Software Engineer, Codex -Enterprise Controls",
    "url": "https://jobs.ashbyhq.com/openai/fff02c39-1185-427c-bf89-70d7eaa5e3db"
   },
+  "ashby:perplexity:0113c03a-69d0-489d-bd11-451d11a9f64b": {
+   "at": "2026-10-21T04:57:00+00:00",
+   "company": "Perplexity",
+   "reasons": [
+    "location: San Francisco"
+   ],
+   "status": "rejected",
+   "title": "Software Engineer, Enterprise Knowledge Platform",
+   "url": "https://jobs.ashbyhq.com/perplexity/0113c03a-69d0-489d-bd11-451d11a9f64b"
+  },
   "ashby:perplexity:0190699f-010b-44f2-8399-278899fef018": {
    "at": "2026-09-29T15:41:34+00:00",
    "company": "Perplexity",
@@ -37217,6 +37227,16 @@
    "status": "rejected",
    "title": "Commercial Account Executive (Austin, TX or Raleigh, NC)",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8304060?gh_jid=8304060"
+  },
+  "greenhouse:cloudflare:8304855": {
+   "at": "2026-10-21T04:57:00+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Enterprise Account Executive, Thailand",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8304855?gh_jid=8304855"
   },
   "greenhouse:coinbase:6784618": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -57898,6 +57918,17 @@
    "title": "Senior Security Engineer, Security Incident Response Team",
    "url": "https://careers.datadoghq.com/detail/8286919/?gh_jid=8286919"
   },
+  "greenhouse:datadog:8287316": {
+   "at": "2026-10-21T04:57:00+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8287316/?gh_jid=8287316",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Sales Development Representative - Summer 2027 Graduates (Boston)",
+   "url": "https://careers.datadoghq.com/detail/8287316/?gh_jid=8287316"
+  },
   "greenhouse:datadog:8289036": {
    "at": "2026-10-19T13:28:12+00:00",
    "company": "Datadog",
@@ -71732,6 +71763,16 @@
    "title": "Lead Client Growth Manager - North Asia ",
    "url": "https://job-boards.greenhouse.io/inmobi/jobs/8281290"
   },
+  "greenhouse:inmobi:8300225": {
+   "at": "2026-10-21T04:57:00+00:00",
+   "company": "InMobi",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Analyst - Finance Business Insights",
+   "url": "https://job-boards.greenhouse.io/inmobi/jobs/8300225"
+  },
   "greenhouse:mongodb:5607962": {
    "at": "2026-09-29T15:41:26+00:00",
    "company": "MongoDB",
@@ -84689,6 +84730,17 @@
    "status": "blocked-legitimacy",
    "title": "Staff Software Engineer, Web Product Enablement ",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8075888"
+  },
+  "greenhouse:pinterest:8081002": {
+   "at": "2026-10-21T04:57:00+00:00",
+   "company": "Pinterest",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.pinterestcareers.com/jobs/?gh_jid=8081002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Lead Client Account Manager  (eCommerce) - Greater China Region",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8081002"
   },
   "greenhouse:pinterest:8081452": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -98096,6 +98148,16 @@
    "title": "Account Executive, Bridge - Hunter ",
    "url": "https://stripe.com/jobs/search?gh_jid=8299647"
   },
+  "greenhouse:stripe:8300616": {
+   "at": "2026-10-21T04:57:00+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Head of Key Accounts, Customer Success",
+   "url": "https://stripe.com/jobs/search?gh_jid=8300616"
+  },
   "greenhouse:stripe:8301253": {
    "at": "2026-10-19T20:37:28+00:00",
    "company": "Stripe",
@@ -98106,6 +98168,16 @@
    "title": "Backend / API Engineer, Radar",
    "url": "https://stripe.com/jobs/search?gh_jid=8301253"
   },
+  "greenhouse:stripe:8301264": {
+   "at": "2026-10-21T04:57:00+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Recruiting Coordinator (Fixed Term Contract)",
+   "url": "https://stripe.com/jobs/search?gh_jid=8301264"
+  },
   "greenhouse:stripe:8301379": {
    "at": "2026-10-20T23:56:47+00:00",
    "company": "Stripe",
@@ -98115,6 +98187,26 @@
    "status": "rejected",
    "title": "\tBackend / API Engineer, Radar",
    "url": "https://stripe.com/jobs/search?gh_jid=8301379"
+  },
+  "greenhouse:stripe:8304836": {
+   "at": "2026-10-21T04:57:00+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Account Executive, Velocity Platforms (Hunter)",
+   "url": "https://stripe.com/jobs/search?gh_jid=8304836"
+  },
+  "greenhouse:stripe:8304841": {
+   "at": "2026-10-21T04:57:00+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Account Executive, Velocity Platforms (Hunter)",
+   "url": "https://stripe.com/jobs/search?gh_jid=8304841"
   },
   "greenhouse:twilio:6372770": {
    "at": "2026-09-29T15:41:28+00:00",
