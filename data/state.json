@@ -5350,6 +5350,16 @@
    "title": "Executive Assistant - India & Middle East",
    "url": "https://jobs.ashbyhq.com/elevenlabs/c4e0d704-c7eb-4d6d-b71b-23bfd86fe463"
   },
+  "ashby:elevenlabs:c4f86796-2d73-4f0a-b44a-92372c80e25f": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "ElevenLabs",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "IT Support Engineer",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/c4f86796-2d73-4f0a-b44a-92372c80e25f"
+  },
   "ashby:elevenlabs:c5f6c9f4-593f-4ab9-9b08-466eee6c3fb8": {
    "at": "2026-09-30T06:59:10+00:00",
    "company": "ElevenLabs",
@@ -23458,6 +23468,16 @@
    "title": "Staff Software Engineer - Frontend",
    "url": "https://jobs.ashbyhq.com/sarvam/b60ac66f-a2d7-4354-b67a-aa0de5ad7e3e"
   },
+  "ashby:sarvam:bba82f34-1544-421e-a393-3edd8a5f4cb2": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "Sarvam AI",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Marketing internship (brand & communication)",
+   "url": "https://jobs.ashbyhq.com/sarvam/bba82f34-1544-421e-a393-3edd8a5f4cb2"
+  },
   "ashby:sarvam:bd5d2769-7dc3-47c5-9afb-c011b6d22c19": {
    "at": "2026-09-29T15:41:21+00:00",
    "company": "Sarvam AI",
@@ -23527,6 +23547,16 @@
    "status": "rejected",
    "title": "Staff Engineer - Systems Engineering",
    "url": "https://jobs.ashbyhq.com/sarvam/d71ec2a3-3de6-4380-95f6-41cfc2bbdbf2"
+  },
+  "ashby:sarvam:db89b576-2456-4cc4-ab0b-c45f8c6c27f0": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "Sarvam AI",
+   "reasons": [
+    "asks for 3+ years"
+   ],
+   "status": "rejected",
+   "title": "Software Development Engineer - Tejas",
+   "url": "https://jobs.ashbyhq.com/sarvam/db89b576-2456-4cc4-ab0b-c45f8c6c27f0"
   },
   "ashby:sarvam:dc047f4f-97be-4bb3-a9f1-cebbfc4de3e6": {
    "at": "2026-09-29T15:41:20+00:00",
@@ -32810,6 +32840,16 @@
    "title": "Regional Research Economist, Economic Research",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5460521008"
   },
+  "greenhouse:anthropic:5460837008": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "International Finance Program Management",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5460837008"
+  },
   "greenhouse:anthropic:5461534008": {
    "at": "2026-10-22T21:42:11+00:00",
    "company": "Anthropic",
@@ -33939,6 +33979,16 @@
    "status": "rejected",
    "title": "Senior Talent Acquisition Partner, GTM",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8016569?gh_jid=8016569"
+  },
+  "greenhouse:cloudflare:8018536": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Customer Reliability Engineer",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8018536?gh_jid=8018536"
   },
   "greenhouse:cloudflare:8019052": {
    "at": "2026-09-29T15:41:25+00:00",
@@ -37569,6 +37619,16 @@
    "status": "rejected",
    "title": "Senior Sales Compensation Analyst",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8258539?gh_jid=8258539"
+  },
+  "greenhouse:cloudflare:8258771": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Named Account Executive, Saudi Arabia",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8258771?gh_jid=8258771"
   },
   "greenhouse:cloudflare:8258919": {
    "at": "2026-10-09T18:24:06+00:00",
@@ -59386,6 +59446,17 @@
    "title": "Group Product Manager - Code Security",
    "url": "https://careers.datadoghq.com/detail/8314006/?gh_jid=8314006"
   },
+  "greenhouse:datadog:8317738": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8317738/?gh_jid=8317738",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Software Engineer - Analytics Data Platform",
+   "url": "https://careers.datadoghq.com/detail/8317738/?gh_jid=8317738"
+  },
   "greenhouse:discord:8214127002": {
    "at": "2026-09-29T15:41:30+00:00",
    "company": "Discord",
@@ -65407,6 +65478,17 @@
    "title": "Senior Full Stack Software Developer - Observability",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8276136&gh_jid=8276136"
   },
+  "greenhouse:elastic:8281059": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8281059&gh_jid=8281059",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Enterprise Account Executive ",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8281059&gh_jid=8281059"
+  },
   "greenhouse:elastic:8281119": {
    "at": "2026-10-21T11:58:07+00:00",
    "company": "Elastic",
@@ -65934,6 +66016,28 @@
    "status": "blocked-legitimacy",
    "title": "Senior Java Engineer - Distributed Systems, Serverless - Elasticsearch",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8315564&gh_jid=8315564"
+  },
+  "greenhouse:elastic:8317778": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8317778&gh_jid=8317778",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Software Engineering Manager - IAM Team - Control Plane - Platform",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8317778&gh_jid=8317778"
+  },
+  "greenhouse:elastic:8317779": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8317779&gh_jid=8317779",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Software Engineering Manager - IAM Team - Control Plane - Platform",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8317779&gh_jid=8317779"
   },
   "greenhouse:figma:5415515004": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -71211,6 +71315,16 @@
    "title": "Software Engineer, Product Backend",
    "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4428090005"
   },
+  "greenhouse:gleanwork:4434258005": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "Glean",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Solutions Architect (PST/EST Customer hours)",
+   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4434258005"
+  },
   "greenhouse:gleanwork:4464005005": {
    "at": "2026-09-30T06:59:08+00:00",
    "company": "Glean",
@@ -73681,6 +73795,16 @@
    "title": "Sales Manager - Microsoft Ads - Jakarta, Indonesia",
    "url": "https://job-boards.greenhouse.io/inmobi/jobs/8204049"
   },
+  "greenhouse:inmobi:8207411": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "InMobi",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Intern - Creative & Communications, People Team ",
+   "url": "https://job-boards.greenhouse.io/inmobi/jobs/8207411"
+  },
   "greenhouse:inmobi:8207429": {
    "at": "2026-09-30T06:59:07+00:00",
    "company": "InMobi",
@@ -73800,6 +73924,16 @@
    "status": "rejected",
    "title": "Lead \u2013 Administration & Workspace",
    "url": "https://job-boards.greenhouse.io/inmobi/jobs/8258194"
+  },
+  "greenhouse:inmobi:8258371": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "InMobi",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Sr Manager - Account Management - TikTok",
+   "url": "https://job-boards.greenhouse.io/inmobi/jobs/8258371"
   },
   "greenhouse:inmobi:8258672": {
    "at": "2026-10-12T10:59:40+00:00",
@@ -79544,6 +79678,17 @@
    "title": "Senior Software Engineer, Query Execution",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8281679"
   },
+  "greenhouse:mongodb:8286403": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8286403",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Software Engineer 3",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8286403"
+  },
   "greenhouse:mongodb:8287148": {
    "at": "2026-10-21T11:58:07+00:00",
    "company": "MongoDB",
@@ -80709,6 +80854,17 @@
    "status": "blocked-legitimacy",
    "title": "Brand Art Director",
    "url": "https://www.okta.com/company/careers/opportunity/7821640?gh_jid=7821640"
+  },
+  "greenhouse:okta:7831189": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/7831189?gh_jid=7831189",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Staff Software Engineer, Identity Administration (Full Stack)",
+   "url": "https://www.okta.com/company/careers/opportunity/7831189?gh_jid=7831189"
   },
   "greenhouse:okta:7833584": {
    "at": "2026-09-29T15:41:29+00:00",
@@ -89482,6 +89638,26 @@
    "status": "blocked-legitimacy",
    "title": "Senior Product Designer (AI Builder)",
    "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4745511005"
+  },
+  "greenhouse:razorpaysoftwareprivatelimited:4746498005": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "Razorpay",
+   "reasons": [
+    "scam-style wording: 'WhatsApp'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Executive, Finance",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746498005"
+  },
+  "greenhouse:razorpaysoftwareprivatelimited:4746961005": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "Razorpay",
+   "reasons": [
+    "scam-style wording: 'WhatsApp'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Lead Software Development Engineer",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746961005"
   },
   "greenhouse:scaleai:4282118005": {
    "at": "2026-09-30T06:59:09+00:00",
@@ -100943,6 +101119,16 @@
    "title": "Account Executive, Bridge - Hunter ",
    "url": "https://stripe.com/jobs/search?gh_jid=8299647"
   },
+  "greenhouse:stripe:8299649": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Head of AI Startups, EMEA",
+   "url": "https://stripe.com/jobs/search?gh_jid=8299649"
+  },
   "greenhouse:stripe:8299651": {
    "at": "2026-10-22T17:16:03+00:00",
    "company": "Stripe",
@@ -108881,6 +109067,16 @@
    "title": "Engineering Manager - Experimentation",
    "url": "https://jobs.lever.co/spotify/9d0ac2f3-1bef-4e8d-a3cb-a3c855d2b2bd"
   },
+  "lever:spotify:9d1764a1-45fc-4e16-a823-7b7453b61d2e": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "Spotify",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Principal Product Manager - Content Platform",
+   "url": "https://jobs.lever.co/spotify/9d1764a1-45fc-4e16-a823-7b7453b61d2e"
+  },
   "lever:spotify:9d1c90b5-a8a4-4218-b2f3-7bbaefae7fd1": {
    "at": "2026-09-29T15:41:30+00:00",
    "company": "Spotify",
@@ -108930,6 +109126,16 @@
    "status": "rejected",
    "title": "Engineering Manager - Music",
    "url": "https://jobs.lever.co/spotify/9f477315-94fa-47b8-9b92-f6d8fc48785a"
+  },
+  "lever:spotify:9f66e598-8587-4a57-8552-2cdb8672014a": {
+   "at": "2026-10-23T11:46:28+00:00",
+   "company": "Spotify",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Senior Backend Engineer - Content Platform",
+   "url": "https://jobs.lever.co/spotify/9f66e598-8587-4a57-8552-2cdb8672014a"
   },
   "lever:spotify:9fd98cde-6a1b-419c-a27a-daae7a7483f0": {
    "at": "2026-10-07T13:32:33+00:00",
