@@ -616,6 +616,16 @@
    "title": "Office Coordinator",
    "url": "https://jobs.ashbyhq.com/baseten/5368c7ea-17d0-4927-9fa7-320feec2e836"
   },
+  "ashby:baseten:544aff7b-d88e-4e30-9a72-9d9c611c784e": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Baseten",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Global Equity Programs Lead",
+   "url": "https://jobs.ashbyhq.com/baseten/544aff7b-d88e-4e30-9a72-9d9c611c784e"
+  },
   "ashby:baseten:55de4d92-fd47-4a92-a3f5-fab2624f6015": {
    "at": "2026-09-30T06:59:09+00:00",
    "company": "Baseten",
@@ -4592,6 +4602,16 @@
    "title": "Deal Operations Strategist",
    "url": "https://jobs.ashbyhq.com/elevenlabs/7d01b1ec-511d-40bf-a6ed-88b212932edb"
   },
+  "ashby:elevenlabs:7d29f7f7-158a-42e0-a6be-0ceba630863c": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "ElevenLabs",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Account Manager - UK/I",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/7d29f7f7-158a-42e0-a6be-0ceba630863c"
+  },
   "ashby:elevenlabs:7f829e53-a3f1-42be-9e3e-5d4c417f3efd": {
    "at": "2026-09-30T06:59:10+00:00",
    "company": "ElevenLabs",
@@ -8475,6 +8495,16 @@
    "status": "rejected",
    "title": "Security Engineer, Corporate Security",
    "url": "https://jobs.ashbyhq.com/notion/866dc41d-3a50-4957-9a14-df27eae847e8"
+  },
+  "ashby:notion:886bb3d2-45ac-45c6-ae21-62ba0b905b3c": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Notion",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Outcomes Architect Manager",
+   "url": "https://jobs.ashbyhq.com/notion/886bb3d2-45ac-45c6-ae21-62ba0b905b3c"
   },
   "ashby:notion:8a11a2bc-70cc-48a2-888b-44f522effd9b": {
    "at": "2026-09-29T15:41:33+00:00",
@@ -16662,6 +16692,16 @@
    "title": "Quality Engineer, Rack Infrastructure & Site Operations",
    "url": "https://jobs.ashbyhq.com/openai/b71906c2-51a9-4ad7-a744-2390ccdc1ad8"
   },
+  "ashby:openai:b73e46a6-881a-4413-835a-94b9d5f35d2f": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "IT Systems Engineer",
+   "url": "https://jobs.ashbyhq.com/openai/b73e46a6-881a-4413-835a-94b9d5f35d2f"
+  },
   "ashby:openai:b7a2e30f-c5f6-4710-b53e-64d64bcce189": {
    "at": "2026-09-29T15:41:31+00:00",
    "company": "OpenAI",
@@ -17751,6 +17791,16 @@
    "status": "rejected",
    "title": "Account Director, Large Enterprise - Tokyo",
    "url": "https://jobs.ashbyhq.com/openai/d00f2e0a-af1f-4d21-b9e8-129b079b2c42"
+  },
+  "ashby:openai:d02ce96c-2a8b-4871-860d-d59a19a2369f": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "SDR Manager",
+   "url": "https://jobs.ashbyhq.com/openai/d02ce96c-2a8b-4871-860d-d59a19a2369f"
   },
   "ashby:openai:d039c0ef-ab36-4d40-bc5e-5c70295b2eb7": {
    "at": "2026-10-13T22:51:29+00:00",
@@ -19921,6 +19971,16 @@
    "status": "rejected",
    "title": "Strategic Finance Lead - Compute",
    "url": "https://jobs.ashbyhq.com/perplexity/39250c5d-1670-4a63-8a66-bfd495c85e6f"
+  },
+  "ashby:perplexity:3938a587-e8ba-4cdf-a811-1f58072b51e3": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Perplexity",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Member of Technical Staff (Software Engineer, Fraud Prevention)",
+   "url": "https://jobs.ashbyhq.com/perplexity/3938a587-e8ba-4cdf-a811-1f58072b51e3"
   },
   "ashby:perplexity:39d520eb-6b81-4b61-8b23-5efcdac4cad9": {
    "at": "2026-09-29T15:41:34+00:00",
@@ -30144,6 +30204,16 @@
    "title": "External Affairs, South Korea",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5417967008"
   },
+  "greenhouse:anthropic:5418014008": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Strategic Deals Lead, Compute & Infrastructure",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5418014008"
+  },
   "greenhouse:anthropic:5418323008": {
    "at": "2026-09-29T15:41:21+00:00",
    "company": "Anthropic",
@@ -32850,6 +32920,16 @@
    "title": "International Finance Program Management",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5460837008"
   },
+  "greenhouse:anthropic:5460956008": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Business Recruiter",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5460956008"
+  },
   "greenhouse:anthropic:5461534008": {
    "at": "2026-10-22T21:42:11+00:00",
    "company": "Anthropic",
@@ -32869,6 +32949,16 @@
    "status": "rejected",
    "title": "Enterprise Account Executive, Federal Civilian Sales - Federal Financials",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5461663008"
+  },
+  "greenhouse:anthropic:5461873008": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Applied AI Security Architect - Healthcare & Life Sciences",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5461873008"
   },
   "greenhouse:cloudflare:5390243": {
    "at": "2026-09-29T15:41:25+00:00",
@@ -38230,6 +38320,16 @@
    "title": "Product Cost Analyst",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8305918?gh_jid=8305918"
   },
+  "greenhouse:cloudflare:8306580": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Principal, GTM Automation, RevOps.",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8306580?gh_jid=8306580"
+  },
   "greenhouse:cloudflare:8311164": {
    "at": "2026-10-23T04:59:18+00:00",
    "company": "Cloudflare",
@@ -38239,6 +38339,26 @@
    "status": "rejected",
    "title": "Customer Security Compliance Specialist",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8311164?gh_jid=8311164"
+  },
+  "greenhouse:cloudflare:8311366": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Data Center Network Operations Engineer",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8311366?gh_jid=8311366"
+  },
+  "greenhouse:cloudflare:8311378": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Data Center Network Operations Engineer",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8311378?gh_jid=8311378"
   },
   "greenhouse:cloudflare:8312254": {
    "at": "2026-10-23T04:59:18+00:00",
@@ -38259,6 +38379,26 @@
    "status": "rejected",
    "title": "Software Engineer, Agentic Commerce",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8312256?gh_jid=8312256"
+  },
+  "greenhouse:cloudflare:8312664": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Customer Engineer, Central & Eastern Europe - Russian Speaking",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8312664?gh_jid=8312664"
+  },
+  "greenhouse:cloudflare:8312693": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Manager, Customer Engineering - Central Eastern Europe",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8312693?gh_jid=8312693"
   },
   "greenhouse:coinbase:6784618": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -41350,6 +41490,28 @@
    "status": "blocked-legitimacy",
    "title": "Sr Manager, Infrastructure Sales",
    "url": "https://www.coinbase.com/careers/positions/8311335?gh_jid=8311335"
+  },
+  "greenhouse:coinbase:8314298": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Coinbase",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.coinbase.com/careers/positions/8314298?gh_jid=8314298",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Staff, Compliance Technology",
+   "url": "https://www.coinbase.com/careers/positions/8314298?gh_jid=8314298"
+  },
+  "greenhouse:coinbase:8318599": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Coinbase",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.coinbase.com/careers/positions/8318599?gh_jid=8318599",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Offensive Security Engineer, AI ",
+   "url": "https://www.coinbase.com/careers/positions/8318599?gh_jid=8318599"
   },
   "greenhouse:databricks:4513122002": {
    "at": "2026-09-29T15:41:23+00:00",
@@ -53242,6 +53404,17 @@
    "title": "Senior Staff Software Engineer, AI Runtime",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8909305002"
   },
+  "greenhouse:databricks:8910846002": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Associate Forward Deployed Engineer",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002"
+  },
   "greenhouse:datadog:1497543": {
    "at": "2026-09-29T15:41:26+00:00",
    "company": "Datadog",
@@ -59335,6 +59508,17 @@
    "status": "blocked-legitimacy",
    "title": "Associate Customer Success Manager - Boston",
    "url": "https://careers.datadoghq.com/detail/8301102/?gh_jid=8301102"
+  },
+  "greenhouse:datadog:8301113": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8301113/?gh_jid=8301113",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Associate Customer Success Manager - Denver",
+   "url": "https://careers.datadoghq.com/detail/8301113/?gh_jid=8301113"
   },
   "greenhouse:datadog:8303221": {
    "at": "2026-10-20T19:20:22+00:00",
@@ -66039,6 +66223,17 @@
    "title": "Software Engineering Manager - IAM Team - Control Plane - Platform",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8317779&gh_jid=8317779"
   },
+  "greenhouse:elastic:8318605": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8318605&gh_jid=8318605",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Sales Development Representative - New York",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8318605&gh_jid=8318605"
+  },
   "greenhouse:figma:5415515004": {
    "at": "2026-09-29T15:41:30+00:00",
    "company": "Figma",
@@ -71135,6 +71330,16 @@
    "title": "Lead Customer Advocacy Manager, APJ",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8891827002"
   },
+  "greenhouse:gitlab:8891836002": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Intermediate Fullstack Engineer (Ruby/Vue.js), Growth",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8891836002"
+  },
   "greenhouse:gitlab:8894457002": {
    "at": "2026-10-20T08:38:49+00:00",
    "company": "GitLab",
@@ -71175,6 +71380,16 @@
    "title": "Strategic Account Executive - Chicago    ",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8895511002"
   },
+  "greenhouse:gitlab:8895523002": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Strategic Account Executive - AI, San Francisco   ",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8895523002"
+  },
   "greenhouse:gitlab:8896290002": {
    "at": "2026-10-17T04:35:57+00:00",
    "company": "GitLab",
@@ -71184,6 +71399,36 @@
    "status": "rejected",
    "title": "Manager, Customer Success ",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8896290002"
+  },
+  "greenhouse:gitlab:8897527002": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Major Account Executive, Financial Services - US East ",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8897527002"
+  },
+  "greenhouse:gitlab:8897529002": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Strategic Account Executive, Financial Services - US East ",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8897529002"
+  },
+  "greenhouse:gitlab:8899972002": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Engineering Manager, Tenant Scale: Gitaly",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8899972002"
   },
   "greenhouse:gitlab:8904961002": {
    "at": "2026-10-22T17:16:03+00:00",
@@ -71234,6 +71479,36 @@
    "status": "rejected",
    "title": "Senior Ecosystem Operations Manager",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8907680002"
+  },
+  "greenhouse:gitlab:8909618002": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Staff Product Manager, Agentic Planning",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8909618002"
+  },
+  "greenhouse:gitlab:8911335002": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Engagement Manager - EMEA",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8911335002"
+  },
+  "greenhouse:gitlab:8911684002": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Intermediate Fullstack Engineer (Ruby/Vue.js), Growth",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8911684002"
   },
   "greenhouse:gleanwork:4006731005": {
    "at": "2026-09-30T06:59:08+00:00",
@@ -78523,6 +78798,17 @@
    "title": "Senior Compensation Manager, Sales",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8208271"
   },
+  "greenhouse:mongodb:8209134": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8209134",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "2027 - Software Engineering Intern, AMER",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8209134"
+  },
   "greenhouse:mongodb:8209989": {
    "at": "2026-09-29T15:41:27+00:00",
    "company": "MongoDB",
@@ -79425,6 +79711,17 @@
    "title": "Senior Program Manager",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8267063"
   },
+  "greenhouse:mongodb:8267099": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8267099",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "2027 - Summer Software Engineer Intern, Dublin",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8267099"
+  },
   "greenhouse:mongodb:8267650": {
    "at": "2026-10-12T21:18:33+00:00",
    "company": "MongoDB",
@@ -79744,6 +80041,17 @@
    "title": "Regulatory Compliance Program Manager",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8300961"
   },
+  "greenhouse:mongodb:8301805": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8301805",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": " Director of Customer Marketing & Advocacy",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8301805"
+  },
   "greenhouse:mongodb:8304146": {
    "at": "2026-10-22T21:42:11+00:00",
    "company": "MongoDB",
@@ -79798,6 +80106,17 @@
    "status": "blocked-legitimacy",
    "title": "Senior Solutions Architect (Pre-Sales)",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8311246"
+  },
+  "greenhouse:mongodb:8312165": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8312165",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Manager, FP&A Systems (Pigment)",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8312165"
   },
   "greenhouse:mongodb:8313598": {
    "at": "2026-10-22T17:16:03+00:00",
@@ -89017,6 +89336,17 @@
    "status": "blocked-legitimacy",
    "title": "Senior Client Account Manager (eCommerce) - Greater China Region",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8300202"
+  },
+  "greenhouse:pinterest:8300884": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Pinterest",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.pinterestcareers.com/jobs/?gh_jid=8300884",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Sr. Lead Counsel, Privacy",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8300884"
   },
   "greenhouse:pinterest:8304896": {
    "at": "2026-10-22T12:00:32+00:00",
@@ -100049,6 +100379,16 @@
    "title": "Account Executive - Platforms Hunter (French Fluency)",
    "url": "https://stripe.com/jobs/search?gh_jid=8241292"
   },
+  "greenhouse:stripe:8241294": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Account Executive, SaaS Platforms Grower",
+   "url": "https://stripe.com/jobs/search?gh_jid=8241294"
+  },
   "greenhouse:stripe:8241304": {
    "at": "2026-10-01T18:28:05+00:00",
    "company": "Stripe",
@@ -100978,6 +101318,16 @@
    "status": "rejected",
    "title": "Technical Program Manager, Extensibility Platform",
    "url": "https://stripe.com/jobs/search?gh_jid=8282859"
+  },
+  "greenhouse:stripe:8284962": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Account Executive - Enterprise (Grower) - French Speaking ",
+   "url": "https://stripe.com/jobs/search?gh_jid=8284962"
   },
   "greenhouse:stripe:8284968": {
    "at": "2026-10-22T21:42:11+00:00",
@@ -102339,6 +102689,16 @@
    "title": "Partner Marketing Specialist",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8170555"
   },
+  "greenhouse:twilio:8170597": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Twilio",
+   "reasons": [
+    "scam-style wording: 'gift cards'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Software Development Engineer",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/8170597"
+  },
   "greenhouse:twilio:8170599": {
    "at": "2026-09-29T15:41:28+00:00",
    "company": "Twilio",
@@ -103079,6 +103439,16 @@
    "title": "Machine Learning Engineer (L3)",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8258587"
   },
+  "greenhouse:twilio:8258589": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Twilio",
+   "reasons": [
+    "scam-style wording: 'gift cards'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Staff Machine Learning Engineer",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/8258589"
+  },
   "greenhouse:twilio:8258593": {
    "at": "2026-10-08T18:53:40+00:00",
    "company": "Twilio",
@@ -103328,6 +103698,16 @@
    "status": "blocked-legitimacy",
    "title": "Principal Pricing and Monetization Manager",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8284815"
+  },
+  "greenhouse:twilio:8287927": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Twilio",
+   "reasons": [
+    "scam-style wording: 'gift cards'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Partner Program Manager",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/8287927"
   },
   "greenhouse:twilio:8292798": {
    "at": "2026-10-20T00:25:15+00:00",
@@ -106017,6 +106397,16 @@
    "title": "Senior Software Engineer, Substrate",
    "url": "https://jobs.lever.co/palantir/68d690cf-fc8a-4755-9b69-abe13f93d262"
   },
+  "lever:palantir:6940fc9a-b79c-4935-a90f-1c6a02e54fb1": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Palantir",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Deployment Strategist - Germany Forward Deployed",
+   "url": "https://jobs.lever.co/palantir/6940fc9a-b79c-4935-a90f-1c6a02e54fb1"
+  },
   "lever:palantir:69ab7e24-8f5d-426e-84f7-6d3b2d4a7efd": {
    "at": "2026-10-23T04:59:18+00:00",
    "company": "Palantir",
@@ -106276,6 +106666,16 @@
    "status": "rejected",
    "title": "Mobility Tax Analyst",
    "url": "https://jobs.lever.co/palantir/7dc7e7c3-39bf-4f4e-a8eb-e38a4a0af238"
+  },
+  "lever:palantir:7ea66860-ae93-4139-9388-b7284cb33f37": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Palantir",
+   "reasons": [
+    "location: Chicago, IL"
+   ],
+   "status": "rejected",
+   "title": "Forward Deployed Software Engineer",
+   "url": "https://jobs.lever.co/palantir/7ea66860-ae93-4139-9388-b7284cb33f37"
   },
   "lever:palantir:7eb0dedb-37ee-4175-b29f-10a9e4340076": {
    "at": "2026-09-29T15:41:31+00:00",
@@ -108567,6 +108967,16 @@
    "title": "Art Director - Mexico",
    "url": "https://jobs.lever.co/spotify/223f9722-3579-4ff2-b123-e4cc7b0c1a64"
   },
+  "lever:spotify:22a796f2-2bfd-4f44-aab3-a0a20a7783fc": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Spotify",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Principal Product Manager - TV & Desktop",
+   "url": "https://jobs.lever.co/spotify/22a796f2-2bfd-4f44-aab3-a0a20a7783fc"
+  },
   "lever:spotify:2344260b-477c-4086-b5a5-842dc4c587f0": {
    "at": "2026-10-09T18:24:06+00:00",
    "company": "Spotify",
@@ -108637,6 +109047,16 @@
    "title": "C++ Engineer - Experience",
    "url": "https://jobs.lever.co/spotify/29b0056f-f163-4728-a32a-214bcb3232e8"
   },
+  "lever:spotify:2a55d6c9-c564-443a-be3e-a3851db5a93b": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Spotify",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Account Executive - Commercial, Spotify Technology",
+   "url": "https://jobs.lever.co/spotify/2a55d6c9-c564-443a-be3e-a3851db5a93b"
+  },
   "lever:spotify:35e07377-d8a5-47b4-b3f1-c443de3c86dd": {
    "at": "2026-09-29T15:41:30+00:00",
    "company": "Spotify",
@@ -108686,6 +109106,16 @@
    "status": "rejected",
    "title": "Manager FP&A, Distribution Partnerships",
    "url": "https://jobs.lever.co/spotify/46c223d0-7b9c-4bff-9035-c0c6cc67bbdf"
+  },
+  "lever:spotify:47aeb6ee-f8c9-4f1e-9197-25c4c5676e5d": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Spotify",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Director of Sales - Emerging & Scaled (New Business)",
+   "url": "https://jobs.lever.co/spotify/47aeb6ee-f8c9-4f1e-9197-25c4c5676e5d"
   },
   "lever:spotify:47d4eabf-8d5a-4dab-ac72-de7b5b56841c": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -108796,6 +109226,16 @@
    "status": "rejected",
    "title": "Backend Engineer - Music",
    "url": "https://jobs.lever.co/spotify/65d6caca-6d7c-4049-8256-a128e0e7249e"
+  },
+  "lever:spotify:66184cac-4d6c-46f6-868c-bac0c184fd22": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Spotify",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Revenue Operations Manager - Spotify Technology",
+   "url": "https://jobs.lever.co/spotify/66184cac-4d6c-46f6-868c-bac0c184fd22"
   },
   "lever:spotify:6a2a32ab-2ed8-4ce3-94d5-0be9be9b01b7": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -108917,6 +109357,16 @@
    "title": "Product Manager - Customer Service Platform",
    "url": "https://jobs.lever.co/spotify/7f0a8faa-f4f5-4db9-9f51-4101d6a29b34"
   },
+  "lever:spotify:80774cf2-a4f5-47b0-a585-2c122500cfd0": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Spotify",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Sales Manager, Enterprise \u2014 Spotify Technology",
+   "url": "https://jobs.lever.co/spotify/80774cf2-a4f5-47b0-a585-2c122500cfd0"
+  },
   "lever:spotify:80c3a1cd-3f98-49e5-88d1-b45fca349d7f": {
    "at": "2026-09-29T15:41:30+00:00",
    "company": "Spotify",
@@ -108977,6 +109427,16 @@
    "title": "Data Scientist, Company Planning & Execution",
    "url": "https://jobs.lever.co/spotify/8a9cc53c-48c0-4d43-8287-d81ab09e74fa"
   },
+  "lever:spotify:8bd60a8c-d8bb-41ba-9ac0-69d0b643d63d": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Spotify",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Product Manager - Spotify Connect",
+   "url": "https://jobs.lever.co/spotify/8bd60a8c-d8bb-41ba-9ac0-69d0b643d63d"
+  },
   "lever:spotify:8c8c3cfc-4156-4dad-bb6d-48266766e94a": {
    "at": "2026-09-29T18:07:54+00:00",
    "company": "Spotify",
@@ -109016,6 +109476,16 @@
    "status": "rejected",
    "title": "Backend Engineer - Data Platform",
    "url": "https://jobs.lever.co/spotify/926149ab-6999-4058-b35d-41e302b70e05"
+  },
+  "lever:spotify:93b9a474-0e4e-4214-9c9a-974496478068": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Spotify",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Artist & Label Partnerships Manager - GSA (15-month fixed-term)",
+   "url": "https://jobs.lever.co/spotify/93b9a474-0e4e-4214-9c9a-974496478068"
   },
   "lever:spotify:973b0b71-e8d2-4d7d-9c4b-1c716bd45c8b": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -109207,6 +109677,16 @@
    "title": "CoLM 2026 \u2014 Full Time",
    "url": "https://jobs.lever.co/spotify/b27f51aa-9702-486b-ba24-157263d623e9"
   },
+  "lever:spotify:b4f6cd01-1d5d-41a9-b287-6d10416da03c": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Spotify",
+   "reasons": [
+    "location: London"
+   ],
+   "status": "rejected",
+   "title": "Data Scientist  - Business Analytics",
+   "url": "https://jobs.lever.co/spotify/b4f6cd01-1d5d-41a9-b287-6d10416da03c"
+  },
   "lever:spotify:ba2760c3-6461-45bf-b67b-0508d10c8659": {
    "at": "2026-09-29T15:41:42+00:00",
    "company": "Spotify",
@@ -109344,6 +109824,16 @@
    "status": "rejected",
    "title": "Senior Backend Engineer, Home Surfaces",
    "url": "https://jobs.lever.co/spotify/cefcda32-523e-418b-a327-383104741153"
+  },
+  "lever:spotify:cf13d272-92ac-407d-89bf-7f20d20f7961": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Spotify",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Account Executive - Enterprise, Spotify Technology",
+   "url": "https://jobs.lever.co/spotify/cf13d272-92ac-407d-89bf-7f20d20f7961"
   },
   "lever:spotify:cfbb2765-b4e9-445a-b558-d1fa7876863d": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -109562,6 +110052,16 @@
    "status": "rejected",
    "title": "Staff Product Designer - Platform Design",
    "url": "https://jobs.lever.co/spotify/f02fb195-ba10-40bd-a926-0318a34a7fae"
+  },
+  "lever:spotify:f263a2af-0a4e-4540-a0f6-adb3655e027b": {
+   "at": "2026-10-23T17:14:07+00:00",
+   "company": "Spotify",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Account Executive - Commercial, Spotify Technology",
+   "url": "https://jobs.lever.co/spotify/f263a2af-0a4e-4540-a0f6-adb3655e027b"
   },
   "lever:spotify:f7eb82ce-b57e-4dc0-b84a-7f7ec05bf66e": {
    "at": "2026-10-22T17:16:03+00:00",
