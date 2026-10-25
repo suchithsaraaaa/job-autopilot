@@ -46361,6 +46361,17 @@
    "title": "AI Engineer \u2013 Forward Deployed Engineering (AI FDE)",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8546367002"
   },
+  "greenhouse:databricks:8546786002": {
+   "at": "2026-10-25T23:19:42+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8546786002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "GTM Talent Sourcer (Contract)",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8546786002"
+  },
   "greenhouse:databricks:8548183002": {
    "at": "2026-09-29T15:41:22+00:00",
    "company": "Databricks",
@@ -68713,6 +68724,16 @@
    "status": "rejected",
    "title": "Account Executive, Federal - State & Local",
    "url": "https://boards.greenhouse.io/figma/jobs/6230952004?gh_jid=6230952004"
+  },
+  "greenhouse:figma:6233207004": {
+   "at": "2026-10-25T23:19:42+00:00",
+   "company": "Figma",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Technical Quality Specialist - Figma Weave (Singapore) ",
+   "url": "https://boards.greenhouse.io/figma/jobs/6233207004?gh_jid=6233207004"
   },
   "greenhouse:gitlab:8396674002": {
    "at": "2026-09-29T15:41:27+00:00",
