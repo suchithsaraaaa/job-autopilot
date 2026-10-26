@@ -8146,6 +8146,16 @@
    "title": "Software Engineer Intern (Summer 2027)",
    "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c"
   },
+  "ashby:notion:414aea17-4326-4e95-84e6-09f87cb79468": {
+   "at": "2026-10-26T04:55:16+00:00",
+   "company": "Notion",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Enablement & Effectiveness Program Manager, Japan and Korea",
+   "url": "https://jobs.ashbyhq.com/notion/414aea17-4326-4e95-84e6-09f87cb79468"
+  },
   "ashby:notion:42279d85-cf60-4c3c-bf82-92b9e215f3c7": {
    "at": "2026-09-29T15:41:33+00:00",
    "company": "Notion",
@@ -33218,6 +33228,16 @@
    "title": "Enterprise Account Executive, Federal Civilian Sales - Federal Financials",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5461663008"
   },
+  "greenhouse:anthropic:5461863008": {
+   "at": "2026-10-26T04:55:16+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "location: San Francisco, CA"
+   ],
+   "status": "rejected",
+   "title": "Research Scientist, Life Sciences (Computational Chemistry)",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5461863008"
+  },
   "greenhouse:anthropic:5461873008": {
    "at": "2026-10-23T17:14:07+00:00",
    "company": "Anthropic",
@@ -38737,6 +38757,16 @@
    "status": "rejected",
    "title": "Senior Manager, Customer Engineering - Central Eastern Europe",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8312693?gh_jid=8312693"
+  },
+  "greenhouse:cloudflare:8317751": {
+   "at": "2026-10-26T04:55:16+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Customer Reliability Engineer",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8317751?gh_jid=8317751"
   },
   "greenhouse:coinbase:6784618": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -51189,6 +51219,17 @@
    "status": "blocked-legitimacy",
    "title": "Recruiter, GTM Field Engineering",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8771700002"
+  },
+  "greenhouse:databricks:8771702002": {
+   "at": "2026-10-26T04:55:16+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8771702002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Recruiter (Contract)",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8771702002"
   },
   "greenhouse:databricks:8771706002": {
    "at": "2026-09-29T15:41:23+00:00",
@@ -102361,6 +102402,26 @@
    "title": "Software Engineer",
    "url": "https://stripe.com/jobs/search?gh_jid=8314283"
   },
+  "greenhouse:stripe:8318509": {
+   "at": "2026-10-26T04:55:16+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "location: Taiwan"
+   ],
+   "status": "rejected",
+   "title": "Software Engineer",
+   "url": "https://stripe.com/jobs/search?gh_jid=8318509"
+  },
+  "greenhouse:stripe:8323732": {
+   "at": "2026-10-26T04:55:16+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Account Executive, Money Management- Issuing and Treasury",
+   "url": "https://stripe.com/jobs/search?gh_jid=8323732"
+  },
   "greenhouse:twilio:6372770": {
    "at": "2026-09-29T15:41:28+00:00",
    "company": "Twilio",
@@ -103040,6 +103101,16 @@
    "status": "blocked-legitimacy",
    "title": "Incident Commander",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8089122"
+  },
+  "greenhouse:twilio:8093320": {
+   "at": "2026-10-26T04:55:16+00:00",
+   "company": "Twilio",
+   "reasons": [
+    "scam-style wording: 'gift cards'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Director, Developer Relations",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/8093320"
   },
   "greenhouse:twilio:8096642": {
    "at": "2026-09-29T15:41:29+00:00",
