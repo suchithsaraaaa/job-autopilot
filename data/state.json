@@ -4842,6 +4842,16 @@
    "title": "Adoption Strategist - APAC",
    "url": "https://jobs.ashbyhq.com/elevenlabs/8d25dd85-5b50-4dfa-b410-273b1ddd437c"
   },
+  "ashby:elevenlabs:8e1735ec-c5e2-4292-adbd-764a58e7ce17": {
+   "at": "2026-10-26T13:12:46+00:00",
+   "company": "ElevenLabs",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Model Partnerships - ElevenCreative",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/8e1735ec-c5e2-4292-adbd-764a58e7ce17"
+  },
   "ashby:elevenlabs:8f37f4e5-83f8-4e7d-b3b6-b5b406bf4eb9": {
    "at": "2026-10-06T22:41:09+00:00",
    "company": "ElevenLabs",
@@ -17592,6 +17602,16 @@
    "title": "Applied AI Engineer, Codex",
    "url": "https://jobs.ashbyhq.com/openai/c8d3feee-2b6a-4ef7-b8c0-90bbd1381c1f"
   },
+  "ashby:openai:c8eda1e9-10f9-4fc8-b88a-042ea6751d5b": {
+   "at": "2026-10-26T13:12:46+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Applied AI Architect, OpenAI for Government",
+   "url": "https://jobs.ashbyhq.com/openai/c8eda1e9-10f9-4fc8-b88a-042ea6751d5b"
+  },
   "ashby:openai:c955617d-f465-4f7a-b57c-98284fd14777": {
    "at": "2026-10-22T21:42:11+00:00",
    "company": "OpenAI",
@@ -21100,6 +21120,16 @@
    "title": "Field Marketing Manager",
    "url": "https://jobs.ashbyhq.com/perplexity/d7e05546-4d42-4f1a-8ccd-c95d2519f5f6"
   },
+  "ashby:perplexity:d865c821-9a27-416c-9c6a-14132a86f760": {
+   "at": "2026-10-26T13:12:46+00:00",
+   "company": "Perplexity",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Member of Technical Staff (AI Software Engineer, Agent Engine)",
+   "url": "https://jobs.ashbyhq.com/perplexity/d865c821-9a27-416c-9c6a-14132a86f760"
+  },
   "ashby:perplexity:d89a3cad-50d5-47fd-8f87-be55285ee2b1": {
    "at": "2026-10-23T04:59:18+00:00",
    "company": "Perplexity",
@@ -23376,6 +23406,16 @@
    "title": "Senior Manager, Growth Marketing",
    "url": "https://jobs.ashbyhq.com/sarvam/17d13aaa-2faf-40de-82e5-da894ead0856"
   },
+  "ashby:sarvam:1dd07b8b-0c0b-422a-8ff4-c99bdc5add68": {
+   "at": "2026-10-26T13:12:46+00:00",
+   "company": "Sarvam AI",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "SDE3, Infrastructure Security Engineer (DevSecOps)",
+   "url": "https://jobs.ashbyhq.com/sarvam/1dd07b8b-0c0b-422a-8ff4-c99bdc5add68"
+  },
   "ashby:sarvam:1eb3008a-2014-4a6c-8a35-cfa7caf8a60f": {
    "at": "2026-09-29T15:41:21+00:00",
    "company": "Sarvam AI",
@@ -23916,6 +23956,16 @@
    "title": "Marketing Intern",
    "url": "https://jobs.ashbyhq.com/sarvam/ef7f079b-6a1f-4b27-9cfb-a5f68fe825c7"
   },
+  "ashby:sarvam:f09b6a35-e2d1-4833-8bc5-2b495991d882": {
+   "at": "2026-10-26T13:12:46+00:00",
+   "company": "Sarvam AI",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Infrastructure Engineer",
+   "url": "https://jobs.ashbyhq.com/sarvam/f09b6a35-e2d1-4833-8bc5-2b495991d882"
+  },
   "ashby:sarvam:f3376204-1c2d-42a8-bf4a-1a0eec2fbc3c": {
    "at": "2026-09-29T15:41:20+00:00",
    "company": "Sarvam AI",
@@ -24155,6 +24205,16 @@
    "status": "rejected",
    "title": "Growth Marketing (India/EU)",
    "url": "https://jobs.ashbyhq.com/signoz/f8e29173-5f0e-48e6-9d75-91602ba1bb36"
+  },
+  "ashby:supabase:05226c15-0501-4559-833d-3815fdf01f56": {
+   "at": "2026-10-26T13:12:46+00:00",
+   "company": "Supabase",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Video Producer (San Francisco, CA)",
+   "url": "https://jobs.ashbyhq.com/supabase/05226c15-0501-4559-833d-3815fdf01f56"
   },
   "ashby:supabase:06752423-eebb-472c-95b5-c7ff2559fd60": {
    "at": "2026-09-29T15:41:34+00:00",
@@ -24425,6 +24485,16 @@
    "status": "rejected",
    "title": "Platform Engineer, Edge & Networking",
    "url": "https://jobs.ashbyhq.com/supabase/6c9de03c-e289-4612-9045-492985d0274b"
+  },
+  "ashby:supabase:6f7656fc-9983-48be-bbd3-8b40e0e3027a": {
+   "at": "2026-10-26T13:12:46+00:00",
+   "company": "Supabase",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Container Engineer",
+   "url": "https://jobs.ashbyhq.com/supabase/6f7656fc-9983-48be-bbd3-8b40e0e3027a"
   },
   "ashby:supabase:715ba1ea-bd0b-4960-9d5a-defca99f2e24": {
    "at": "2026-09-29T15:41:34+00:00",
@@ -53739,6 +53809,17 @@
    "title": "Solutions Architect - Communications, Media, Entertainment and Games",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8900134002"
   },
+  "greenhouse:databricks:8902290002": {
+   "at": "2026-10-26T13:12:46+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8902290002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Enterprise Sales Director, Retail",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8902290002"
+  },
   "greenhouse:databricks:8902939002": {
    "at": "2026-10-20T19:20:22+00:00",
    "company": "Databricks",
@@ -53815,6 +53896,17 @@
    "status": "blocked-legitimacy",
    "title": "Associate Forward Deployed Engineer",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8907988002"
+  },
+  "greenhouse:databricks:8908544002": {
+   "at": "2026-10-26T13:12:46+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8908544002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Emerging Enterprise Hunter Account Executive, France",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8908544002"
   },
   "greenhouse:databricks:8909305002": {
    "at": "2026-10-22T21:42:11+00:00",
@@ -74682,6 +74774,16 @@
    "title": "Sales Manager - Microsoft Ads - Jakarta, Indonesia",
    "url": "https://job-boards.greenhouse.io/inmobi/jobs/8204049"
   },
+  "greenhouse:inmobi:8207330": {
+   "at": "2026-10-26T13:12:46+00:00",
+   "company": "InMobi",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Practice Counsel",
+   "url": "https://job-boards.greenhouse.io/inmobi/jobs/8207330"
+  },
   "greenhouse:inmobi:8207411": {
    "at": "2026-10-23T11:46:28+00:00",
    "company": "InMobi",
@@ -90392,6 +90494,16 @@
    "title": "Associate Business Analyst ",
    "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4736955005"
   },
+  "greenhouse:razorpaysoftwareprivatelimited:4736957005": {
+   "at": "2026-10-26T13:12:46+00:00",
+   "company": "Razorpay",
+   "reasons": [
+    "scam-style wording: 'WhatsApp'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Associate Business Analyst ",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4736957005"
+  },
   "greenhouse:razorpaysoftwareprivatelimited:4736965005": {
    "at": "2026-09-29T15:41:20+00:00",
    "company": "Razorpay",
@@ -90712,6 +90824,16 @@
    "title": "Executive, Finance",
    "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746498005"
   },
+  "greenhouse:razorpaysoftwareprivatelimited:4746959005": {
+   "at": "2026-10-26T13:12:46+00:00",
+   "company": "Razorpay",
+   "reasons": [
+    "scam-style wording: 'WhatsApp'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Executive, Finance",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746959005"
+  },
   "greenhouse:razorpaysoftwareprivatelimited:4746961005": {
    "at": "2026-10-23T11:46:28+00:00",
    "company": "Razorpay",
@@ -90721,6 +90843,16 @@
    "status": "blocked-legitimacy",
    "title": "Lead Software Development Engineer",
    "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746961005"
+  },
+  "greenhouse:razorpaysoftwareprivatelimited:4746985005": {
+   "at": "2026-10-26T13:12:46+00:00",
+   "company": "Razorpay",
+   "reasons": [
+    "scam-style wording: 'WhatsApp'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Product Marketing Manager, II",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746985005"
   },
   "greenhouse:scaleai:4282118005": {
    "at": "2026-09-30T06:59:09+00:00",
@@ -101912,6 +102044,16 @@
    "title": "Account Executive, Product Sales - Payouts",
    "url": "https://stripe.com/jobs/search?gh_jid=8273743"
   },
+  "greenhouse:stripe:8273853": {
+   "at": "2026-10-26T13:12:46+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Head of Marketing, Japan",
+   "url": "https://stripe.com/jobs/search?gh_jid=8273853"
+  },
   "greenhouse:stripe:8273855": {
    "at": "2026-10-14T21:46:02+00:00",
    "company": "Stripe",
@@ -104622,6 +104764,16 @@
    "title": "area collections manager, pune (recoveries)",
    "url": "https://jobs.lever.co/cred/91a5f0f1-b11f-412a-a816-ffc8b08a5617"
   },
+  "lever:cred:9a746e68-0858-4190-9144-54b19a2cbf2c": {
+   "at": "2026-10-26T13:12:46+00:00",
+   "company": "CRED",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "cloud security engineer",
+   "url": "https://jobs.lever.co/cred/9a746e68-0858-4190-9144-54b19a2cbf2c"
+  },
   "lever:cred:a65bef0e-0f4c-40af-b662-9313f255189e": {
    "at": "2026-09-29T15:41:20+00:00",
    "company": "CRED",
@@ -104651,6 +104803,16 @@
    "status": "rejected",
    "title": "accounts payable manager",
    "url": "https://jobs.lever.co/cred/aa98a938-af3a-45f5-851d-966b2b5bad33"
+  },
+  "lever:cred:b3da0ae4-d0a8-45ce-a1e5-73be12b4bfe3": {
+   "at": "2026-10-26T13:12:46+00:00",
+   "company": "CRED",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "threat detection engineer",
+   "url": "https://jobs.lever.co/cred/b3da0ae4-d0a8-45ce-a1e5-73be12b4bfe3"
   },
   "lever:cred:b3fdba2a-802c-4e03-b445-5284c5e3c157": {
    "at": "2026-09-29T15:41:20+00:00",
