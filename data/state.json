@@ -18214,6 +18214,16 @@
    "title": "Product Marketing Manager",
    "url": "https://jobs.ashbyhq.com/openai/d1a1ab49-399f-42a4-b12c-bb7047b7cdd9"
   },
+  "ashby:openai:d1abed60-d3d1-4c8d-a58b-3a96139fbf4e": {
+   "at": "2026-10-27T09:06:38+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Site Civil, Structural & Architectural Lead (CSLA)",
+   "url": "https://jobs.ashbyhq.com/openai/d1abed60-d3d1-4c8d-a58b-3a96139fbf4e"
+  },
   "ashby:openai:d1bfd2f2-5e8d-45ea-9d3d-6e327071a94d": {
    "at": "2026-10-09T18:24:06+00:00",
    "company": "OpenAI",
@@ -20421,6 +20431,16 @@
    "status": "rejected",
    "title": "Technical Sourcer, AI",
    "url": "https://jobs.ashbyhq.com/perplexity/3d7ef710-b1f6-4a80-af57-946f9bccd35b"
+  },
+  "ashby:perplexity:3f0dc0ad-aa9a-4cd8-aa75-245112f3b2de": {
+   "at": "2026-10-27T09:06:38+00:00",
+   "company": "Perplexity",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Engineering Manager (Agent Engine)",
+   "url": "https://jobs.ashbyhq.com/perplexity/3f0dc0ad-aa9a-4cd8-aa75-245112f3b2de"
   },
   "ashby:perplexity:3f800e42-7c48-4f9a-9b12-43ee23e52516": {
    "at": "2026-09-29T15:41:34+00:00",
@@ -53784,6 +53804,17 @@
    "title": "Strategic Hunter Account Executive",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8880400002"
   },
+  "greenhouse:databricks:8880406002": {
+   "at": "2026-10-27T09:06:38+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8880406002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Strategic Core Account Executive",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8880406002"
+  },
   "greenhouse:databricks:8882032002": {
    "at": "2026-10-09T18:24:06+00:00",
    "company": "Databricks",
@@ -54311,6 +54342,17 @@
    "status": "blocked-legitimacy",
    "title": "Enterprise Sales Director, Retail",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8902290002"
+  },
+  "greenhouse:databricks:8902815002": {
+   "at": "2026-10-27T09:06:38+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8902815002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Delivery Solutions Architect",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8902815002"
   },
   "greenhouse:databricks:8902939002": {
    "at": "2026-10-20T19:20:22+00:00",
@@ -60703,6 +60745,28 @@
    "title": "Information Security Analyst II - Federal Programs",
    "url": "https://careers.datadoghq.com/detail/8319487/?gh_jid=8319487"
   },
+  "greenhouse:datadog:8323909": {
+   "at": "2026-10-27T09:06:38+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8323909/?gh_jid=8323909",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Sales Engineer",
+   "url": "https://careers.datadoghq.com/detail/8323909/?gh_jid=8323909"
+  },
+  "greenhouse:datadog:8326311": {
+   "at": "2026-10-27T09:06:38+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8326311/?gh_jid=8326311",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Commercial Sales Engineer",
+   "url": "https://careers.datadoghq.com/detail/8326311/?gh_jid=8326311"
+  },
   "greenhouse:discord:8214127002": {
    "at": "2026-09-29T15:41:30+00:00",
    "company": "Discord",
@@ -67019,6 +67083,17 @@
    "title": "Inside Account Executive (Hunter)",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8303268&gh_jid=8303268"
   },
+  "greenhouse:elastic:8303379": {
+   "at": "2026-10-27T09:06:38+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8303379&gh_jid=8303379",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Sales Specialist - Security",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8303379&gh_jid=8303379"
+  },
   "greenhouse:elastic:8303381": {
    "at": "2026-10-21T11:58:07+00:00",
    "company": "Elastic",
@@ -69436,6 +69511,16 @@
    "status": "rejected",
    "title": "Product Designer, Core Experience",
    "url": "https://boards.greenhouse.io/figma/jobs/6231027004?gh_jid=6231027004"
+  },
+  "greenhouse:figma:6231832004": {
+   "at": "2026-10-27T09:06:38+00:00",
+   "company": "Figma",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Onboarding Manager, Customer Experience",
+   "url": "https://boards.greenhouse.io/figma/jobs/6231832004?gh_jid=6231832004"
   },
   "greenhouse:figma:6232410004": {
    "at": "2026-10-26T20:34:00+00:00",
@@ -87829,6 +87914,17 @@
    "title": "Senior Technology Specialist, Executive Support",
    "url": "https://www.okta.com/company/careers/opportunity/8306620?gh_jid=8306620"
   },
+  "greenhouse:okta:8311018": {
+   "at": "2026-10-27T09:06:38+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8311018?gh_jid=8311018",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Product Designer - Identity Threat Protection/Essential Security",
+   "url": "https://www.okta.com/company/careers/opportunity/8311018?gh_jid=8311018"
+  },
   "greenhouse:okta:8311034": {
    "at": "2026-10-21T21:47:27+00:00",
    "company": "Okta",
@@ -87905,6 +88001,17 @@
    "status": "blocked-legitimacy",
    "title": "Staff Software Engineer, AI Platform & Infrastructure",
    "url": "https://www.okta.com/company/careers/opportunity/8319285?gh_jid=8319285"
+  },
+  "greenhouse:okta:8326116": {
+   "at": "2026-10-27T09:06:38+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8326116?gh_jid=8326116",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Staff Product Designer - UI Platform",
+   "url": "https://www.okta.com/company/careers/opportunity/8326116?gh_jid=8326116"
   },
   "greenhouse:pinterest:5412514": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -91486,6 +91593,16 @@
    "title": "Data Analyst, Business Finance",
    "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4744129005"
   },
+  "greenhouse:razorpaysoftwareprivatelimited:4744950005": {
+   "at": "2026-10-27T09:06:38+00:00",
+   "company": "Razorpay",
+   "reasons": [
+    "scam-style wording: 'WhatsApp'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "AI Builder",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4744950005"
+  },
   "greenhouse:razorpaysoftwareprivatelimited:4745511005": {
    "at": "2026-10-22T12:00:32+00:00",
    "company": "Razorpay",
@@ -91505,6 +91622,16 @@
    "status": "blocked-legitimacy",
    "title": "Executive, Finance",
    "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746498005"
+  },
+  "greenhouse:razorpaysoftwareprivatelimited:4746948005": {
+   "at": "2026-10-27T09:06:38+00:00",
+   "company": "Razorpay",
+   "reasons": [
+    "scam-style wording: 'WhatsApp'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Lead Security Engineer",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746948005"
   },
   "greenhouse:razorpaysoftwareprivatelimited:4746959005": {
    "at": "2026-10-26T13:12:46+00:00",
@@ -91535,6 +91662,16 @@
    "status": "blocked-legitimacy",
    "title": "Product Marketing Manager, II",
    "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746985005"
+  },
+  "greenhouse:razorpaysoftwareprivatelimited:4747560005": {
+   "at": "2026-10-27T09:06:38+00:00",
+   "company": "Razorpay",
+   "reasons": [
+    "scam-style wording: 'WhatsApp'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Analyst, Financial Operations",
+   "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4747560005"
   },
   "greenhouse:scaleai:4282118005": {
    "at": "2026-09-30T06:59:09+00:00",
@@ -105475,6 +105612,16 @@
    "status": "blocked-legitimacy",
    "title": "Staff, Product Manager - Identity",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8319160"
+  },
+  "greenhouse:twilio:8325734": {
+   "at": "2026-10-27T09:06:38+00:00",
+   "company": "Twilio",
+   "reasons": [
+    "scam-style wording: 'gift cards'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Sr. Director, Marketing Strategy, Analytics & Innovation",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/8325734"
   },
   "lever:cred:09022710-e79a-4cf0-8060-df0e1cd64263": {
    "at": "2026-09-29T15:41:20+00:00",
