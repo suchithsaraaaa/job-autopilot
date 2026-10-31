@@ -12204,6 +12204,16 @@
    "title": "Support Delivery Lead, Government",
    "url": "https://jobs.ashbyhq.com/openai/362a91cc-8e64-4922-a650-68161de60daa"
   },
+  "ashby:openai:36a746ab-66a6-4f3e-b164-3ca8fa9e0658": {
+   "at": "2026-10-31T05:52:29+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Counsel, AI Product",
+   "url": "https://jobs.ashbyhq.com/openai/36a746ab-66a6-4f3e-b164-3ca8fa9e0658"
+  },
   "ashby:openai:36c8356d-b7eb-4aef-b0f5-3a3f3f8dfc5a": {
    "at": "2026-09-29T15:41:32+00:00",
    "company": "OpenAI",
@@ -21080,6 +21090,16 @@
    "title": "Member of Technical Staff (Model Behavior)",
    "url": "https://jobs.ashbyhq.com/perplexity/2c6ae16b-d03e-4e33-9d32-362c5388e956"
   },
+  "ashby:perplexity:2d510148-8cce-4b67-be25-5784106bbff4": {
+   "at": "2026-10-31T05:52:29+00:00",
+   "company": "Perplexity",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "IT Engineer",
+   "url": "https://jobs.ashbyhq.com/perplexity/2d510148-8cce-4b67-be25-5784106bbff4"
+  },
   "ashby:perplexity:2df92d4a-48eb-422f-af9c-4a963fd6135c": {
    "at": "2026-09-29T15:41:34+00:00",
    "company": "Perplexity",
@@ -22039,6 +22059,16 @@
    "status": "rejected",
    "title": "Internship - Machine Learning Research Engineer",
    "url": "https://jobs.ashbyhq.com/perplexity/b9e1ff15-d52a-46d5-abf0-26460f2a116c"
+  },
+  "ashby:perplexity:ba95ea8c-9aad-4152-925c-df08d6a90c0f": {
+   "at": "2026-10-31T05:52:29+00:00",
+   "company": "Perplexity",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Procurement Lead",
+   "url": "https://jobs.ashbyhq.com/perplexity/ba95ea8c-9aad-4152-925c-df08d6a90c0f"
   },
   "ashby:perplexity:be94e89b-89d5-4f2a-a58b-7929c8d97f92": {
    "at": "2026-09-29T15:41:34+00:00",
@@ -27551,6 +27581,16 @@
    "status": "rejected",
    "title": "Staff+ Software Engineer, Full-stack",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174747008"
+  },
+  "greenhouse:anthropic:5174755008": {
+   "at": "2026-10-31T05:52:29+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Staff+ Software Engineer, Backend",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174755008"
   },
   "greenhouse:anthropic:5176036008": {
    "at": "2026-09-29T15:41:22+00:00",
@@ -34768,6 +34808,16 @@
    "title": "Solutions Marketing Manager, Emerging Industries",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5463888008"
   },
+  "greenhouse:anthropic:5464234008": {
+   "at": "2026-10-31T05:52:29+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "location: San Francisco, CA | New York City, NY; Seattle, WA"
+   ],
+   "status": "rejected",
+   "title": "Data Engineer",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5464234008"
+  },
   "greenhouse:anthropic:5464493008": {
    "at": "2026-10-27T22:20:43+00:00",
    "company": "Anthropic",
@@ -41534,6 +41584,17 @@
    "status": "blocked-legitimacy",
    "title": "Concierge Specialist IV",
    "url": "https://www.coinbase.com/careers/positions/8031308?gh_jid=8031308"
+  },
+  "greenhouse:coinbase:8047150": {
+   "at": "2026-10-31T05:52:29+00:00",
+   "company": "Coinbase",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.coinbase.com/careers/positions/8047150?gh_jid=8047150",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Staff Analytics Engineer",
+   "url": "https://www.coinbase.com/careers/positions/8047150?gh_jid=8047150"
   },
   "greenhouse:coinbase:8049976": {
    "at": "2026-09-29T15:41:29+00:00",
@@ -70302,6 +70363,28 @@
    "title": "Senior Solutions Architect - Federal Civilian",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8337797&gh_jid=8337797"
   },
+  "greenhouse:elastic:8338301": {
+   "at": "2026-10-31T05:52:29+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8338301&gh_jid=8338301",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Recruiter, G&A + Marketing",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8338301&gh_jid=8338301"
+  },
+  "greenhouse:elastic:8338305": {
+   "at": "2026-10-31T05:52:29+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8338305&gh_jid=8338305",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Recruiter, G&A + Marketing",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8338305&gh_jid=8338305"
+  },
   "greenhouse:figma:5415515004": {
    "at": "2026-09-29T15:41:30+00:00",
    "company": "Figma",
@@ -72959,6 +73042,16 @@
    "status": "rejected",
    "title": "Engineering Manager - Nonlinear Productivity (Friction Elimination & Solutions)",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8632388002"
+  },
+  "greenhouse:gitlab:8632446002": {
+   "at": "2026-10-31T05:52:29+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Staff Software Engineer, Security Foundations",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8632446002"
   },
   "greenhouse:gitlab:8633807002": {
    "at": "2026-09-29T15:41:27+00:00",
@@ -77787,6 +77880,16 @@
    "status": "rejected",
    "title": "Software Engineer, University Grad",
    "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4748567005"
+  },
+  "greenhouse:gleanwork:4749623005": {
+   "at": "2026-10-31T05:52:29+00:00",
+   "company": "Glean",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Tech Lead Manager, Product Growth",
+   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4749623005"
   },
   "greenhouse:groww:4528370101": {
    "at": "2026-09-29T15:41:20+00:00",
@@ -98007,6 +98110,16 @@
    "status": "rejected",
    "title": "Strategist, Bids & Business Development",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4748372005"
+  },
+  "greenhouse:scaleai:4748981005": {
+   "at": "2026-10-31T05:52:29+00:00",
+   "company": "Scale AI",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Head of Corporate Accounting",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4748981005"
   },
   "greenhouse:stripe:5416444": {
    "at": "2026-09-29T15:41:24+00:00",
