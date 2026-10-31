@@ -44266,6 +44266,50 @@
    "title": "Customer Support Specialist ll",
    "url": "https://www.coinbase.com/careers/positions/8334290?gh_jid=8334290"
   },
+  "greenhouse:coinbase:8334752": {
+   "at": "2026-10-31T19:20:45+00:00",
+   "company": "Coinbase",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.coinbase.com/careers/positions/8334752?gh_jid=8334752",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Customer Success Team Agent II",
+   "url": "https://www.coinbase.com/careers/positions/8334752?gh_jid=8334752"
+  },
+  "greenhouse:coinbase:8334761": {
+   "at": "2026-10-31T19:20:45+00:00",
+   "company": "Coinbase",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.coinbase.com/careers/positions/8334761?gh_jid=8334761",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Customer Success Team Agent II",
+   "url": "https://www.coinbase.com/careers/positions/8334761?gh_jid=8334761"
+  },
+  "greenhouse:coinbase:8334764": {
+   "at": "2026-10-31T19:20:45+00:00",
+   "company": "Coinbase",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.coinbase.com/careers/positions/8334764?gh_jid=8334764",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Customer Support Specialist II",
+   "url": "https://www.coinbase.com/careers/positions/8334764?gh_jid=8334764"
+  },
+  "greenhouse:coinbase:8334767": {
+   "at": "2026-10-31T19:20:45+00:00",
+   "company": "Coinbase",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.coinbase.com/careers/positions/8334767?gh_jid=8334767",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Customer Support Specialist II",
+   "url": "https://www.coinbase.com/careers/positions/8334767?gh_jid=8334767"
+  },
   "greenhouse:coinbase:8335547": {
    "at": "2026-10-30T01:06:37+00:00",
    "company": "Coinbase",
@@ -57003,6 +57047,17 @@
    "status": "blocked-legitimacy",
    "title": "Lakebase Sales Specialist (Greater China Region)",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8924844002"
+  },
+  "greenhouse:databricks:8926307002": {
+   "at": "2026-10-31T19:20:45+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8926307002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Sr. Solutions Architect (Energy)",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8926307002"
   },
   "greenhouse:datadog:1497543": {
    "at": "2026-09-29T15:41:26+00:00",
@@ -112977,6 +113032,16 @@
    "title": "Product Designer, New Grad",
    "url": "https://jobs.lever.co/palantir/4c0fb3a1-8256-4d14-9a27-23727235752e"
   },
+  "lever:palantir:4c13fdb2-308e-4185-bb6b-105d7bf38d92": {
+   "at": "2026-10-31T19:20:45+00:00",
+   "company": "Palantir",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Finance Operator",
+   "url": "https://jobs.lever.co/palantir/4c13fdb2-308e-4185-bb6b-105d7bf38d92"
+  },
   "lever:palantir:4c956604-f861-4140-a7d2-3e39fc834c1c": {
    "at": "2026-10-05T22:03:40+00:00",
    "company": "Palantir",
@@ -114506,6 +114571,16 @@
    "status": "rejected",
    "title": "Legal Operations Specialist",
    "url": "https://jobs.lever.co/palantir/bd500579-5e1c-441f-b42f-66822d07dbba"
+  },
+  "lever:palantir:bd7766c4-6aea-4b37-8d47-a8864bb9bd69": {
+   "at": "2026-10-31T19:20:45+00:00",
+   "company": "Palantir",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Finance Operator Intern",
+   "url": "https://jobs.lever.co/palantir/bd7766c4-6aea-4b37-8d47-a8864bb9bd69"
   },
   "lever:palantir:bdcfb29f-4f27-42de-933f-7f83a359b9f0": {
    "at": "2026-09-29T15:41:31+00:00",
