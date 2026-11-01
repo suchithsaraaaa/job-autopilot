@@ -56023,6 +56023,17 @@
    "title": "Solutions Architect - Telco",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8880391002"
   },
+  "greenhouse:databricks:8880398002": {
+   "at": "2026-11-01T19:44:32+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8880398002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Account Executive - Digital Native",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8880398002"
+  },
   "greenhouse:databricks:8880400002": {
    "at": "2026-10-12T10:59:40+00:00",
    "company": "Databricks",
@@ -56033,6 +56044,17 @@
    "status": "blocked-legitimacy",
    "title": "Strategic Hunter Account Executive",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8880400002"
+  },
+  "greenhouse:databricks:8880402002": {
+   "at": "2026-11-01T19:44:32+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8880402002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Account Executive - Strategic Core ",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8880402002"
   },
   "greenhouse:databricks:8880406002": {
    "at": "2026-10-27T09:06:38+00:00",
@@ -56859,6 +56881,17 @@
    "title": "Solutions Architect",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8910860002"
   },
+  "greenhouse:databricks:8910864002": {
+   "at": "2026-11-01T19:44:32+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8910864002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Enterprise Account Executive - Hunter (New Logo)",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8910864002"
+  },
   "greenhouse:databricks:8910988002": {
    "at": "2026-10-23T21:28:50+00:00",
    "company": "Databricks",
@@ -57056,6 +57089,17 @@
    "status": "blocked-legitimacy",
    "title": "Sr. Collections Analyst",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8922730002"
+  },
+  "greenhouse:databricks:8922941002": {
+   "at": "2026-11-01T19:44:32+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8922941002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Sr. Forward Deployment Strategist",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8922941002"
   },
   "greenhouse:databricks:8923269002": {
    "at": "2026-10-29T18:31:36+00:00",
@@ -108466,6 +108510,16 @@
    "status": "rejected",
    "title": "Enterprise Account Executive - Grower",
    "url": "https://stripe.com/jobs/search?gh_jid=8336023"
+  },
+  "greenhouse:stripe:8336062": {
+   "at": "2026-11-01T19:44:32+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Deal Strategist, APAC",
+   "url": "https://stripe.com/jobs/search?gh_jid=8336062"
   },
   "greenhouse:stripe:8336819": {
    "at": "2026-10-30T18:03:59+00:00",
