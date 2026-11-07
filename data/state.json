@@ -48589,6 +48589,17 @@
    "title": "Sr. Software Engineer - Backend",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7643201002"
   },
+  "greenhouse:databricks:7647294002": {
+   "at": "2026-11-07T13:11:53+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=7647294002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Software Engineer - Backend Infrastructure",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7647294002"
+  },
   "greenhouse:databricks:7647353002": {
    "at": "2026-09-29T15:41:23+00:00",
    "company": "Databricks",
@@ -58004,6 +58015,17 @@
    "status": "blocked-legitimacy",
    "title": "Enterprise Account Executive - Telecommunications",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8808527002"
+  },
+  "greenhouse:databricks:8811059002": {
+   "at": "2026-11-07T13:11:53+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8811059002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Tech Sourcer (Contract)",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8811059002"
   },
   "greenhouse:databricks:8811265002": {
    "at": "2026-10-07T20:39:42+00:00",
@@ -77597,6 +77619,16 @@
    "status": "rejected",
    "title": "Account Executive - Figma Weave (London, United Kingdom)",
    "url": "https://boards.greenhouse.io/figma/jobs/6243897004?gh_jid=6243897004"
+  },
+  "greenhouse:figma:6245293004": {
+   "at": "2026-11-07T13:11:53+00:00",
+   "company": "Figma",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Manager, Sales - Figma Weave (London, United Kingdom)",
+   "url": "https://boards.greenhouse.io/figma/jobs/6245293004?gh_jid=6245293004"
   },
   "greenhouse:gitlab:8396674002": {
    "at": "2026-09-29T15:41:27+00:00",
