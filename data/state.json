@@ -816,6 +816,16 @@
    "title": "IT Systems Engineer",
    "url": "https://jobs.ashbyhq.com/baseten/64bdba5c-8cf6-473f-814c-1e86c8c66681"
   },
+  "ashby:baseten:67a47938-5cb8-40c9-b027-3c2879f74c00": {
+   "at": "2026-11-07T06:06:55+00:00",
+   "company": "Baseten",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Engineering Manager, Site Reliability Engineering",
+   "url": "https://jobs.ashbyhq.com/baseten/67a47938-5cb8-40c9-b027-3c2879f74c00"
+  },
   "ashby:baseten:68328a94-f785-463b-a3d7-b0dfc11839b5": {
    "at": "2026-09-30T06:59:09+00:00",
    "company": "Baseten",
@@ -26044,6 +26054,16 @@
    "title": "Senior Recruiter | GTM Expansion",
    "url": "https://jobs.ashbyhq.com/ramp/f99558f9-639c-4f36-81af-2d0910703560"
   },
+  "ashby:ramp:f9d015d7-d5cb-450b-9936-afd8d1c4f4cc": {
+   "at": "2026-11-07T06:06:55+00:00",
+   "company": "Ramp",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Manager, Account Executive, Strategic",
+   "url": "https://jobs.ashbyhq.com/ramp/f9d015d7-d5cb-450b-9936-afd8d1c4f4cc"
+  },
   "ashby:ramp:fc753f8d-7f2f-4b12-9db2-a5694ce4e74c": {
    "at": "2026-10-16T21:17:09+00:00",
    "company": "Ramp",
@@ -36924,6 +36944,16 @@
    "title": "Data Center Strategic Sourcing Lead - Construction",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5468875008"
   },
+  "greenhouse:anthropic:5468901008": {
+   "at": "2026-11-07T06:06:55+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Staff+ Software Engineer, STEM",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5468901008"
+  },
   "greenhouse:anthropic:5468937008": {
    "at": "2026-11-05T23:41:26+00:00",
    "company": "Anthropic",
@@ -37202,6 +37232,16 @@
    "title": "Political Economist, Rule of Law",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5474544008"
   },
+  "greenhouse:anthropic:5474559008": {
+   "at": "2026-11-07T06:06:55+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Legal Specialist, Law Enforcement",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5474559008"
+  },
   "greenhouse:anthropic:5475240008": {
    "at": "2026-11-06T16:48:53+00:00",
    "company": "Anthropic",
@@ -37211,6 +37251,16 @@
    "status": "rejected",
    "title": "Recruiter, Applied AI",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5475240008"
+  },
+  "greenhouse:anthropic:5475321008": {
+   "at": "2026-11-07T06:06:55+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Brand Strategy Lead, Brand Architecture & Naming",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5475321008"
   },
   "greenhouse:anthropic:5475456008": {
    "at": "2026-11-06T23:14:09+00:00",
@@ -43022,6 +43072,16 @@
    "title": "Territory Account Executive, UAE - Startups",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8327153?gh_jid=8327153"
   },
+  "greenhouse:cloudflare:8327958": {
+   "at": "2026-11-07T06:06:55+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Majors Account Executive - Phoenix",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8327958?gh_jid=8327958"
+  },
   "greenhouse:cloudflare:8327965": {
    "at": "2026-10-28T20:20:35+00:00",
    "company": "Cloudflare",
@@ -43491,6 +43551,16 @@
    "status": "rejected",
    "title": "Principal, Customer Storytelling & Advocacy",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8358934?gh_jid=8358934"
+  },
+  "greenhouse:cloudflare:8360609": {
+   "at": "2026-11-07T06:06:55+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "location: Hybrid"
+   ],
+   "status": "rejected",
+   "title": "Software Engineer - Load Balancing",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8360609?gh_jid=8360609"
   },
   "greenhouse:coinbase:6784618": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -67725,6 +67795,17 @@
    "title": "Senior Demand Generation Marketing Manager \u2013 Integrated Campaigns",
    "url": "https://careers.datadoghq.com/detail/8349721/?gh_jid=8349721"
   },
+  "greenhouse:datadog:8350101": {
+   "at": "2026-11-07T06:06:55+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8350101/?gh_jid=8350101",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Video Editor",
+   "url": "https://careers.datadoghq.com/detail/8350101/?gh_jid=8350101"
+  },
   "greenhouse:datadog:8350419": {
    "at": "2026-11-03T23:28:18+00:00",
    "company": "Datadog",
@@ -67735,6 +67816,17 @@
    "status": "blocked-legitimacy",
    "title": "Manager I, Engineering - Zero Trust Networking",
    "url": "https://careers.datadoghq.com/detail/8350419/?gh_jid=8350419"
+  },
+  "greenhouse:datadog:8354556": {
+   "at": "2026-11-07T06:06:55+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8354556/?gh_jid=8354556",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Commercial Account Executive",
+   "url": "https://careers.datadoghq.com/detail/8354556/?gh_jid=8354556"
   },
   "greenhouse:datadog:8355189": {
    "at": "2026-11-05T17:27:51+00:00",
@@ -81288,6 +81380,16 @@
    "title": "New Business Account Executive - East",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8928280002"
   },
+  "greenhouse:gitlab:8928552002": {
+   "at": "2026-11-07T06:06:55+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Executive Assistant, Office of the CFO",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8928552002"
+  },
   "greenhouse:gitlab:8928675002": {
    "at": "2026-11-04T17:19:45+00:00",
    "company": "GitLab",
@@ -81358,6 +81460,16 @@
    "title": "Senior Renewals Manager, Public Sector",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8929514002"
   },
+  "greenhouse:gitlab:8931179002": {
+   "at": "2026-11-07T06:06:55+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Lead, Community Growth Marketing Manager ",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8931179002"
+  },
   "greenhouse:gitlab:8931298002": {
    "at": "2026-11-05T23:41:26+00:00",
    "company": "GitLab",
@@ -81397,6 +81509,16 @@
    "status": "rejected",
    "title": "Director, Data Science ",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8931768002"
+  },
+  "greenhouse:gitlab:8933640002": {
+   "at": "2026-11-07T06:06:55+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Principal Growth Marketing Strategist",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8933640002"
   },
   "greenhouse:gleanwork:4006731005": {
    "at": "2026-09-30T06:59:08+00:00",
@@ -100918,6 +101040,17 @@
    "status": "blocked-legitimacy",
    "title": "Sr. Client Partner - Auto and QSR ",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8248469"
+  },
+  "greenhouse:pinterest:8249279": {
+   "at": "2026-11-07T06:06:55+00:00",
+   "company": "Pinterest",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.pinterestcareers.com/jobs/?gh_jid=8249279",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Sr. Product Designer - Measurement, Data, & AI",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8249279"
   },
   "greenhouse:pinterest:8249643": {
    "at": "2026-10-09T10:40:33+00:00",
