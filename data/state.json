@@ -6862,6 +6862,16 @@
    "title": "Deployed Engineer (Boston)",
    "url": "https://jobs.ashbyhq.com/langchain/34083fce-1e80-4595-9ce9-76387b735c70"
   },
+  "ashby:langchain:342fdab9-275c-4016-8b1a-8847579372ba": {
+   "at": "2026-11-07T19:28:26+00:00",
+   "company": "LangChain",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Engagement Manager  (London)",
+   "url": "https://jobs.ashbyhq.com/langchain/342fdab9-275c-4016-8b1a-8847579372ba"
+  },
   "ashby:langchain:385313eb-bff4-4019-8106-42714dc9879a": {
    "at": "2026-09-30T06:59:08+00:00",
    "company": "LangChain",
@@ -7471,6 +7481,16 @@
    "status": "rejected",
    "title": "Manager - Sales Development Representatives (SDR) (London) - EMEA",
    "url": "https://jobs.ashbyhq.com/langchain/a86c555e-87ed-4942-b52e-c6081159f5d2"
+  },
+  "ashby:langchain:ac5efe22-6098-49dc-850a-b89d332df41d": {
+   "at": "2026-11-07T19:28:26+00:00",
+   "company": "LangChain",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Engagement Manager (NYC)  ",
+   "url": "https://jobs.ashbyhq.com/langchain/ac5efe22-6098-49dc-850a-b89d332df41d"
   },
   "ashby:langchain:afb91b9b-46d5-4c9d-aa84-a4f1a3f74263": {
    "at": "2026-09-30T06:59:08+00:00",
@@ -75053,6 +75073,17 @@
    "title": "Senior Full Stack Engineer - Observability APM UI",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8345720&gh_jid=8345720"
   },
+  "greenhouse:elastic:8346174": {
+   "at": "2026-11-07T19:28:26+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8346174&gh_jid=8346174",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Support Engineer",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8346174&gh_jid=8346174"
+  },
   "greenhouse:elastic:8346195": {
    "at": "2026-11-02T21:45:12+00:00",
    "company": "Elastic",
@@ -75349,6 +75380,17 @@
    "status": "blocked-legitimacy",
    "title": " Senior Services Sales Executive, Strategic Accounts \u2014 Americas West",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8360384&gh_jid=8360384"
+  },
+  "greenhouse:elastic:8362973": {
+   "at": "2026-11-07T19:28:26+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8362973&gh_jid=8362973",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Support Engineer",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8362973&gh_jid=8362973"
   },
   "greenhouse:figma:5364702004": {
    "at": "2026-11-02T21:45:12+00:00",
@@ -113623,6 +113665,16 @@
    "status": "rejected",
    "title": "Software Engineer",
    "url": "https://stripe.com/jobs/search?gh_jid=8249901"
+  },
+  "greenhouse:stripe:8250475": {
+   "at": "2026-11-07T19:28:26+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Account Executive, SMB Grower (French speaking)",
+   "url": "https://stripe.com/jobs/search?gh_jid=8250475"
   },
   "greenhouse:stripe:8250479": {
    "at": "2026-10-08T10:41:32+00:00",
