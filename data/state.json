@@ -36394,6 +36394,16 @@
    "title": "Research Engineer, Chip Design RL",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5459098008"
   },
+  "greenhouse:anthropic:5459191008": {
+   "at": "2026-11-08T22:12:48+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "location: San Francisco, CA | New York City, NY"
+   ],
+   "status": "rejected",
+   "title": "Research Engineer, Cybersecurity RL",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5459191008"
+  },
   "greenhouse:anthropic:5459272008": {
    "at": "2026-10-23T04:59:18+00:00",
    "company": "Anthropic",
@@ -75334,6 +75344,17 @@
    "status": "blocked-legitimacy",
    "title": "Principal Java Engineer - Distributed Systems, Serverless - Elasticsearch",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8352585&gh_jid=8352585"
+  },
+  "greenhouse:elastic:8352728": {
+   "at": "2026-11-08T22:12:48+00:00",
+   "company": "Elastic",
+   "reasons": [
+    "link not on a known ATS or company domain: https://jobs.elastic.co/jobs?gh_jid=8352728&gh_jid=8352728",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Consulting Architect - Search",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8352728&gh_jid=8352728"
   },
   "greenhouse:elastic:8355143": {
    "at": "2026-11-05T17:27:51+00:00",
