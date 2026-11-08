@@ -22336,6 +22336,16 @@
    "title": "Member of Technical Staff (Software Engineer, Cloud Infrastructure)",
    "url": "https://jobs.ashbyhq.com/perplexity/0d722589-0f8c-4500-ae79-d3bba5c8a0ea"
   },
+  "ashby:perplexity:1056951e-8a42-4330-b72c-90162b3cd1c9": {
+   "at": "2026-11-08T00:43:24+00:00",
+   "company": "Perplexity",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Member of Technical Staff (Software Engineer, AI Policy and Strategic Initiatives)",
+   "url": "https://jobs.ashbyhq.com/Perplexity/1056951e-8a42-4330-b72c-90162b3cd1c9"
+  },
   "ashby:perplexity:1523826c-80ca-4e32-95f2-ddd6604afd26": {
    "at": "2026-09-29T15:41:34+00:00",
    "company": "Perplexity",
@@ -67858,6 +67868,17 @@
    "status": "blocked-legitimacy",
    "title": "Manager I, Engineering - Zero Trust Networking",
    "url": "https://careers.datadoghq.com/detail/8350419/?gh_jid=8350419"
+  },
+  "greenhouse:datadog:8351509": {
+   "at": "2026-11-08T00:43:24+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8351509/?gh_jid=8351509",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Technical Escalations Engineer 2 (Web Platform)",
+   "url": "https://careers.datadoghq.com/detail/8351509/?gh_jid=8351509"
   },
   "greenhouse:datadog:8354556": {
    "at": "2026-11-07T06:06:55+00:00",
