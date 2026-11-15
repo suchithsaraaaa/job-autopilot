@@ -12694,6 +12694,16 @@
    "title": "Model Policy Manager, National Security",
    "url": "https://jobs.ashbyhq.com/openai/230d7d77-133e-4b87-a7a4-3e8d4e9fdab3"
   },
+  "ashby:openai:2320fe69-df26-4d1d-ada6-d1a46c0e68a1": {
+   "at": "2026-11-15T22:55:03+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "full-stack role does not require Python/Django/Flask"
+   ],
+   "status": "rejected",
+   "title": "Full Stack Software Engineer, Travel",
+   "url": "https://jobs.ashbyhq.com/openai/2320fe69-df26-4d1d-ada6-d1a46c0e68a1"
+  },
   "ashby:openai:23239cae-2a91-4985-94d1-a2acbb3ffa25": {
    "at": "2026-09-29T15:41:32+00:00",
    "company": "OpenAI",
@@ -95852,6 +95862,17 @@
    "title": "Lead, Candidate Experience",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8381870"
   },
+  "greenhouse:mongodb:8381910": {
+   "at": "2026-11-15T22:55:03+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8381910",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "TD Sourcer",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8381910"
+  },
   "greenhouse:mongodb:8381920": {
    "at": "2026-11-13T19:48:05+00:00",
    "company": "MongoDB",
@@ -95928,6 +95949,17 @@
    "status": "blocked-legitimacy",
    "title": "Manager, Client Platform Engineering",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8384766"
+  },
+  "greenhouse:mongodb:8385636": {
+   "at": "2026-11-15T22:55:03+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8385636",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Candidate Experience Coordinator",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8385636"
   },
   "greenhouse:mongodb:8386087": {
    "at": "2026-11-13T19:48:05+00:00",
