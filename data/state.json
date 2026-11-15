@@ -18824,6 +18824,16 @@
    "title": "Partner Director - AWS Alliance Partnership, Japan",
    "url": "https://jobs.ashbyhq.com/openai/9ea666f7-9b16-481f-a16d-f533d45ca795"
   },
+  "ashby:openai:9eabe3b6-7d42-4bd6-85f5-919117ad8056": {
+   "at": "2026-11-15T16:25:13+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Business Recruiter",
+   "url": "https://jobs.ashbyhq.com/openai/9eabe3b6-7d42-4bd6-85f5-919117ad8056"
+  },
   "ashby:openai:9eb3a6a6-adff-4e82-83b6-97df514ba9bd": {
    "at": "2026-10-01T00:35:56+00:00",
    "company": "OpenAI",
@@ -85779,6 +85789,46 @@
    "status": "rejected",
    "title": "Senior Backend Engineer (Go), Tenant Scales: Gitaly",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8937425002"
+  },
+  "greenhouse:gitlab:8937797002": {
+   "at": "2026-11-15T16:25:13+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Customer Success Architect, NEUR",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8937797002"
+  },
+  "greenhouse:gitlab:8937803002": {
+   "at": "2026-11-15T16:25:13+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Customer Success Architect, France",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8937803002"
+  },
+  "greenhouse:gitlab:8937825002": {
+   "at": "2026-11-15T16:25:13+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Customer Success Engineer, EMEA",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8937825002"
+  },
+  "greenhouse:gitlab:8937862002": {
+   "at": "2026-11-15T16:25:13+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Engagement Manager - Professional Services Sales,  EMEA",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8937862002"
   },
   "greenhouse:gleanwork:4006731005": {
    "at": "2026-09-30T06:59:08+00:00",
