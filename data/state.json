@@ -23652,6 +23652,16 @@
    "title": "Member of Technical Staff (Software Engineer, AI Policy and Strategic Initiatives)",
    "url": "https://jobs.ashbyhq.com/Perplexity/1056951e-8a42-4330-b72c-90162b3cd1c9"
   },
+  "ashby:perplexity:10a51134-6741-40ec-8cca-a8ac1534673b": {
+   "at": "2026-11-15T06:43:18+00:00",
+   "company": "Perplexity",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Member of Technical Staff (AI Software Engineer, Agent Engine)",
+   "url": "https://jobs.ashbyhq.com/Perplexity/10a51134-6741-40ec-8cca-a8ac1534673b"
+  },
   "ashby:perplexity:1354f2e8-56c8-4a66-81f8-eb5d5b944506": {
    "at": "2026-11-13T01:53:44+00:00",
    "company": "Perplexity",
@@ -64271,6 +64281,17 @@
    "status": "blocked-legitimacy",
    "title": "Sr. Engineering Manager - Developer Ecosystem",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8940907002"
+  },
+  "greenhouse:databricks:8944097002": {
+   "at": "2026-11-15T06:43:18+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8944097002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Staff Software Engineer (App-Framework)",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8944097002"
   },
   "greenhouse:datadog:1497543": {
    "at": "2026-09-29T15:41:26+00:00",
