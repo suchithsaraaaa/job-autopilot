@@ -866,6 +866,16 @@
    "title": "Post-Training Research Engineer",
    "url": "https://jobs.ashbyhq.com/baseten/68328a94-f785-463b-a3d7-b0dfc11839b5"
   },
+  "ashby:baseten:68401d04-ff32-492e-9258-2b32c5507c06": {
+   "at": "2026-11-16T06:40:52+00:00",
+   "company": "Baseten",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Sales Analytics Engineer",
+   "url": "https://jobs.ashbyhq.com/baseten/68401d04-ff32-492e-9258-2b32c5507c06"
+  },
   "ashby:baseten:6b105131-d5d6-4d41-96ce-7fe71ff87769": {
    "at": "2026-10-07T06:07:22+00:00",
    "company": "Baseten",
@@ -61761,6 +61771,17 @@
    "title": " Scaled Engagement Manager ",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8856932002"
   },
+  "greenhouse:databricks:8857696002": {
+   "at": "2026-11-16T06:40:52+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8857696002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Manager, Field Engineering (Launchpad Program)",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8857696002"
+  },
   "greenhouse:databricks:8859518002": {
    "at": "2026-10-29T18:31:36+00:00",
    "company": "Databricks",
@@ -85460,6 +85481,36 @@
    "title": "Senior Ecosystems Sales Manager: Scale, India",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8926435002"
   },
+  "greenhouse:gitlab:8926443002": {
+   "at": "2026-11-16T06:40:52+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Customer Success Engineer, India",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8926443002"
+  },
+  "greenhouse:gitlab:8926445002": {
+   "at": "2026-11-16T06:40:52+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Customer Success Engineer, Singapore",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8926445002"
+  },
+  "greenhouse:gitlab:8926449002": {
+   "at": "2026-11-16T06:40:52+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Customer Success Architect, Australia",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8926449002"
+  },
   "greenhouse:gitlab:8926653002": {
    "at": "2026-11-13T19:48:05+00:00",
    "company": "GitLab",
@@ -85839,6 +85890,16 @@
    "status": "rejected",
    "title": "Senior Engagement Manager - Professional Services Sales,  EMEA",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8937862002"
+  },
+  "greenhouse:gitlab:8940804002": {
+   "at": "2026-11-16T06:40:52+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Strategic Enterprise Account Executive (Sydney or Melbourne)",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8940804002"
   },
   "greenhouse:gleanwork:4006731005": {
    "at": "2026-09-30T06:59:08+00:00",
@@ -88839,6 +88900,16 @@
    "status": "rejected",
    "title": "Senior Manager - Corporate Marketing",
    "url": "https://job-boards.greenhouse.io/inmobi/jobs/8275871"
+  },
+  "greenhouse:inmobi:8280728": {
+   "at": "2026-11-16T06:40:52+00:00",
+   "company": "InMobi",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Supply Manager, Web & Non Enterprise - Tokyo, Japan",
+   "url": "https://job-boards.greenhouse.io/inmobi/jobs/8280728"
   },
   "greenhouse:inmobi:8281290": {
    "at": "2026-10-16T11:31:51+00:00",
@@ -103244,6 +103315,17 @@
    "status": "blocked-legitimacy",
    "title": "Regional Sales Manager, Enterprise",
    "url": "https://www.okta.com/company/careers/opportunity/8354795?gh_jid=8354795"
+  },
+  "greenhouse:okta:8354829": {
+   "at": "2026-11-16T06:40:52+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8354829?gh_jid=8354829",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Benefits Operations Specialist",
+   "url": "https://www.okta.com/company/careers/opportunity/8354829?gh_jid=8354829"
   },
   "greenhouse:okta:8355883": {
    "at": "2026-11-05T17:27:51+00:00",
@@ -124283,6 +124365,16 @@
    "status": "blocked-legitimacy",
    "title": "Staff, Software Engineer (L4)",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8319434"
+  },
+  "greenhouse:twilio:8319442": {
+   "at": "2026-11-16T06:40:52+00:00",
+   "company": "Twilio",
+   "reasons": [
+    "scam-style wording: 'gift cards'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Software Engineer (L1)",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/8319442"
   },
   "greenhouse:twilio:8324443": {
    "at": "2026-10-28T20:20:35+00:00",
