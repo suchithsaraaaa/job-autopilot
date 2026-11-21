@@ -41134,6 +41134,16 @@
    "title": "Strategic Account Executive, HCLS",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5480893008"
   },
+  "greenhouse:anthropic:5480986008": {
+   "at": "2026-11-21T19:23:01+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Manager, Applied AI Architect",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5480986008"
+  },
   "greenhouse:anthropic:5481096008": {
    "at": "2026-11-13T19:48:05+00:00",
    "company": "Anthropic",
@@ -41363,6 +41373,16 @@
    "status": "rejected",
    "title": "Corporate Network Engineer",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5489564008"
+  },
+  "greenhouse:anthropic:5489567008": {
+   "at": "2026-11-21T19:23:01+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "location: San Francisco, CA | New York City, NY | Seattle, WA"
+   ],
+   "status": "rejected",
+   "title": "Research Engineer, Finetuning",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5489567008"
   },
   "greenhouse:anthropic:5490122008": {
    "at": "2026-11-20T11:49:32+00:00",
@@ -48673,6 +48693,16 @@
    "status": "rejected",
    "title": "Senior Commercial Account Executive (Los Angeles)",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8406159?gh_jid=8406159"
+  },
+  "greenhouse:cloudflare:8406944": {
+   "at": "2026-11-21T19:23:01+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Senior Platform Engineer, Replicate",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8406944?gh_jid=8406944"
   },
   "greenhouse:coinbase:6784618": {
    "at": "2026-09-29T15:41:30+00:00",
