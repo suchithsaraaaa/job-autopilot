@@ -16808,6 +16808,16 @@
    "title": "Clean Energy and New Technology Lead",
    "url": "https://jobs.ashbyhq.com/openai/676d359b-0ef6-40a5-81d5-d4f2eb198eab"
   },
+  "ashby:openai:6785d983-8831-46d0-9c81-443f83664948": {
+   "at": "2026-11-22T19:46:34+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "location: San Francisco"
+   ],
+   "status": "rejected",
+   "title": "Research Engineer / Research Scientist, Health",
+   "url": "https://jobs.ashbyhq.com/openai/6785d983-8831-46d0-9c81-443f83664948"
+  },
   "ashby:openai:67c67c36-e710-4f21-bd9c-759eb72cfabf": {
    "at": "2026-09-29T15:41:32+00:00",
    "company": "OpenAI",
@@ -17527,6 +17537,16 @@
    "status": "rejected",
    "title": "Product Designer, Engineering Acceleration",
    "url": "https://jobs.ashbyhq.com/openai/73fdf2c0-4318-4b13-addc-b66bc1308ba4"
+  },
+  "ashby:openai:740b5d1b-f63d-49bb-962d-8e2778e925ef": {
+   "at": "2026-11-22T19:46:34+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "location: San Francisco"
+   ],
+   "status": "rejected",
+   "title": "Research Engineer / Research Scientist, Human Flourishing",
+   "url": "https://jobs.ashbyhq.com/openai/740b5d1b-f63d-49bb-962d-8e2778e925ef"
   },
   "ashby:openai:7447dd43-9bf5-445f-bb8c-ba57756c8d04": {
    "at": "2026-11-18T00:59:56+00:00",
@@ -21268,6 +21288,16 @@
    "title": "Deployment Lead, Forward Deployed Engineering (FDE) - Platform",
    "url": "https://jobs.ashbyhq.com/openai/bc80a3ae-1e69-4a8d-8366-77fcdd56ff61"
   },
+  "ashby:openai:bc85c1a9-0f75-4c3a-807b-6d2bb26c8445": {
+   "at": "2026-11-22T19:46:34+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "location: San Francisco"
+   ],
+   "status": "rejected",
+   "title": "Research Engineer/Research Scientist- Post Training, Model Experience",
+   "url": "https://jobs.ashbyhq.com/openai/bc85c1a9-0f75-4c3a-807b-6d2bb26c8445"
+  },
   "ashby:openai:bc88df2f-6268-45bc-966d-032bd05c9ad6": {
    "at": "2026-10-06T22:41:09+00:00",
    "company": "OpenAI",
@@ -22258,6 +22288,16 @@
    "title": "Legal Program Manager",
    "url": "https://jobs.ashbyhq.com/openai/cda6eab0-edab-4dfc-8923-40ca3b0928b5"
   },
+  "ashby:openai:ce15d226-65db-43f1-98ec-078e96a3a281": {
+   "at": "2026-11-22T19:46:34+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "location: San Francisco"
+   ],
+   "status": "rejected",
+   "title": "Research Engineer / Research Scientist, Post-Training \u2014 Collective Alignment (User Signals)",
+   "url": "https://jobs.ashbyhq.com/openai/ce15d226-65db-43f1-98ec-078e96a3a281"
+  },
   "ashby:openai:ce1a4c96-6eed-4167-a5c8-8e692cdc4c2e": {
    "at": "2026-09-29T15:41:31+00:00",
    "company": "OpenAI",
@@ -22467,6 +22507,16 @@
    "status": "rejected",
    "title": "Recruiter, G&A",
    "url": "https://jobs.ashbyhq.com/openai/d189f09f-fd23-4cda-8559-81fe5253e260"
+  },
+  "ashby:openai:d1906ab2-b829-4a13-b1f2-f4af97d699fa": {
+   "at": "2026-11-22T19:46:34+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "location: San Francisco"
+   ],
+   "status": "rejected",
+   "title": "Research Engineer/Research Scientist-Post Training, Proactivity",
+   "url": "https://jobs.ashbyhq.com/openai/d1906ab2-b829-4a13-b1f2-f4af97d699fa"
   },
   "ashby:openai:d1a10222-51ae-4fa4-9581-e4586917c024": {
    "at": "2026-09-29T15:41:32+00:00",
@@ -23955,6 +24005,16 @@
    "status": "rejected",
    "title": "Manufacturing Quality Engineer \u2013 Datacenter Infrastructure",
    "url": "https://jobs.ashbyhq.com/openai/ece054ea-ac75-4b8a-bdbf-5cdf19368312"
+  },
+  "ashby:openai:ecfe655c-1369-4bcd-aae0-4a3b75fdf61b": {
+   "at": "2026-11-22T19:46:34+00:00",
+   "company": "OpenAI",
+   "reasons": [
+    "location: San Francisco"
+   ],
+   "status": "rejected",
+   "title": "Research Engineer / Research Scientist - Post Training, Memory",
+   "url": "https://jobs.ashbyhq.com/openai/ecfe655c-1369-4bcd-aae0-4a3b75fdf61b"
   },
   "ashby:openai:ed37f572-0310-43fb-99b8-0600d9123638": {
    "at": "2026-11-03T06:55:27+00:00",
@@ -41463,6 +41523,36 @@
    "status": "rejected",
    "title": "Staff+ Software Engineer, Capacity Engineering",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5490979008"
+  },
+  "greenhouse:anthropic:5491573008": {
+   "at": "2026-11-22T19:46:34+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Program Manager, Cloud Partners",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5491573008"
+  },
+  "greenhouse:anthropic:5491575008": {
+   "at": "2026-11-22T19:46:34+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Campaign Manager",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5491575008"
+  },
+  "greenhouse:anthropic:5491578008": {
+   "at": "2026-11-22T19:46:34+00:00",
+   "company": "Anthropic",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Head of Campaign Operations",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5491578008"
   },
   "greenhouse:cloudflare:5390243": {
    "at": "2026-09-29T15:41:25+00:00",
