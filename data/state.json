@@ -49922,6 +49922,16 @@
    "title": "HR Operations Specialist (Full-time)",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8404717?gh_jid=8404717"
   },
+  "greenhouse:cloudflare:8405066": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Territory Account Executive (Based in Sydney)",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8405066?gh_jid=8405066"
+  },
   "greenhouse:cloudflare:8405075": {
    "at": "2026-11-25T19:22:33+00:00",
    "company": "Cloudflare",
@@ -50071,6 +50081,36 @@
    "status": "rejected",
    "title": "Chief of Staff, ETI",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8412125?gh_jid=8412125"
+  },
+  "greenhouse:cloudflare:8413294": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Account Executive, FedCiv",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8413294?gh_jid=8413294"
+  },
+  "greenhouse:cloudflare:8414193": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Senior Named Account Executive, Denmark",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8414193?gh_jid=8414193"
+  },
+  "greenhouse:cloudflare:8414208": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "Cloudflare",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Named Account Executive, Norway & Finland",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8414208?gh_jid=8414208"
   },
   "greenhouse:cloudflare:8414218": {
    "at": "2026-11-26T16:59:56+00:00",
@@ -69432,6 +69472,17 @@
    "title": "Manager, Field Engineering (Greater China)",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8963204002"
   },
+  "greenhouse:databricks:8963506002": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=8963506002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Manager, Delivery Solutions Architects",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8963506002"
+  },
   "greenhouse:datadog:1497543": {
    "at": "2026-09-29T15:41:26+00:00",
    "company": "Datadog",
@@ -76669,6 +76720,17 @@
    "status": "blocked-legitimacy",
    "title": "Manager, Corporate Security",
    "url": "https://careers.datadoghq.com/detail/8400860/?gh_jid=8400860"
+  },
+  "greenhouse:datadog:8401334": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8401334/?gh_jid=8401334",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Sales Engineer",
+   "url": "https://careers.datadoghq.com/detail/8401334/?gh_jid=8401334"
   },
   "greenhouse:datadog:8402937": {
    "at": "2026-11-19T20:44:31+00:00",
@@ -104167,6 +104229,28 @@
    "title": "Senior Solutions Architect - Application Modernisation",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8404811"
   },
+  "greenhouse:mongodb:8406014": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8406014",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Enterprise Account Executive",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8406014"
+  },
+  "greenhouse:mongodb:8406025": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8406025",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Enterprise Account Executive",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8406025"
+  },
   "greenhouse:mongodb:8406130": {
    "at": "2026-11-20T20:28:06+00:00",
    "company": "MongoDB",
@@ -104298,6 +104382,50 @@
    "status": "blocked-legitimacy",
    "title": "Account Executive - Mid Market (Spanish Speaker)",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8418808"
+  },
+  "greenhouse:mongodb:8419289": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8419289",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Solutions Architect",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8419289"
+  },
+  "greenhouse:mongodb:8419294": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8419294",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Solutions Architect",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8419294"
+  },
+  "greenhouse:mongodb:8419310": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8419310",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Solutions Architect",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8419310"
+  },
+  "greenhouse:mongodb:8419313": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "MongoDB",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.mongodb.com/careers/job/?gh_jid=8419313",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Senior Solutions Architect",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8419313"
   },
   "greenhouse:observeai:5107653008": {
    "at": "2026-09-30T06:59:07+00:00",
@@ -107532,6 +107660,17 @@
    "status": "blocked-legitimacy",
    "title": "Staff Software Engineer, Identity Administration",
    "url": "https://www.okta.com/company/careers/opportunity/8147071?gh_jid=8147071"
+  },
+  "greenhouse:okta:8147075": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8147075?gh_jid=8147075",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Staff Software Engineer",
+   "url": "https://www.okta.com/company/careers/opportunity/8147075?gh_jid=8147075"
   },
   "greenhouse:okta:8147222": {
    "at": "2026-09-29T15:41:29+00:00",
@@ -112539,6 +112678,17 @@
    "status": "blocked-legitimacy",
    "title": "Customer Acceleration Localization Coordinator",
    "url": "https://www.okta.com/company/careers/opportunity/8416402?gh_jid=8416402"
+  },
+  "greenhouse:okta:8419201": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "Okta",
+   "reasons": [
+    "link not on a known ATS or company domain: https://www.okta.com/company/careers/opportunity/8419201?gh_jid=8419201",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Customer Success Manager (Tokyo)",
+   "url": "https://www.okta.com/company/careers/opportunity/8419201?gh_jid=8419201"
   },
   "greenhouse:pinterest:5412514": {
    "at": "2026-09-29T15:41:30+00:00",
@@ -135607,6 +135757,16 @@
    "title": "Principal Engineer, Cloud Security",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8405813"
   },
+  "greenhouse:twilio:8405815": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "Twilio",
+   "reasons": [
+    "scam-style wording: 'gift cards'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Strategic Account Executive 3 (Central EMEA)",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/8405815"
+  },
   "greenhouse:twilio:8405824": {
    "at": "2026-11-20T20:28:06+00:00",
    "company": "Twilio",
@@ -135636,6 +135796,16 @@
    "status": "blocked-legitimacy",
    "title": "Technical Account Manager 3",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8406753"
+  },
+  "greenhouse:twilio:8406761": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "Twilio",
+   "reasons": [
+    "scam-style wording: 'gift cards'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Personalized Support Engineer 2",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/8406761"
   },
   "greenhouse:twilio:8406763": {
    "at": "2026-11-21T02:24:27+00:00",
@@ -136087,6 +136257,16 @@
    "title": "Associate Director - Commerce Platform",
    "url": "https://jobs.lever.co/meesho/1c610094-fbc4-42b0-b7f2-4b05c5569e9a"
   },
+  "lever:meesho:1d628f96-a365-441f-967d-11e647d2f587": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "Meesho",
+   "reasons": [
+    "title excluded (seniority/other field)"
+   ],
+   "status": "rejected",
+   "title": "Senior Software Engineer - Backend (Kirana Club)",
+   "url": "https://jobs.lever.co/meesho/1d628f96-a365-441f-967d-11e647d2f587"
+  },
   "lever:meesho:1de2fc88-e203-4f1a-8046-55df700de4be": {
    "at": "2026-09-29T15:41:20+00:00",
    "company": "Meesho",
@@ -136417,6 +136597,14 @@
    "title": "Director - Product",
    "url": "https://jobs.lever.co/meesho/65435df1-9a07-416e-9b97-381045f9f970"
   },
+  "lever:meesho:73db1822-f3de-4f9f-a2b3-944ea0b03702": {
+   "at": "2026-11-27T12:36:24+00:00",
+   "company": "Meesho",
+   "score": 76,
+   "status": "notified",
+   "title": "Software Engineer I - Backend  (Kirana Club)",
+   "url": "https://jobs.lever.co/meesho/73db1822-f3de-4f9f-a2b3-944ea0b03702"
+  },
   "lever:meesho:766519e2-7639-43ed-a2f6-511b7cf621c4": {
    "at": "2026-11-27T01:46:13+00:00",
    "company": "Meesho",
@@ -136556,6 +136744,16 @@
    "status": "rejected",
    "title": "Senior Product Manager - Data & Analytics Platform",
    "url": "https://jobs.lever.co/meesho/97ce9e5a-a8bb-446d-a8db-9078603b106f"
+  },
+  "lever:meesho:9ae5ca62-3b5f-4bc4-9986-5c475f597223": {
+   "at": "2026-11-27T12:36:23+00:00",
+   "company": "Meesho",
+   "reasons": [
+    "asks for 5+ years"
+   ],
+   "status": "rejected",
+   "title": "Software Engineer II \u2014 Backend (Kirana Club)",
+   "url": "https://jobs.lever.co/meesho/9ae5ca62-3b5f-4bc4-9986-5c475f597223"
   },
   "lever:meesho:9b5a5436-cdc3-4bcd-8e5e-b7294af185d5": {
    "at": "2026-11-03T06:55:27+00:00",
