@@ -6012,6 +6012,16 @@
    "title": "Deployment Strategist - Argentina",
    "url": "https://jobs.ashbyhq.com/elevenlabs/93a9916a-1fd7-48aa-937e-bc086d95f4e1"
   },
+  "ashby:elevenlabs:945abd50-09e6-4adb-b59b-0f0d17b9d507": {
+   "at": "2026-11-27T01:46:13+00:00",
+   "company": "ElevenLabs",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Product Marketing - Agents",
+   "url": "https://jobs.ashbyhq.com/ElevenLabs/945abd50-09e6-4adb-b59b-0f0d17b9d507"
+  },
   "ashby:elevenlabs:969bbf7d-037c-4965-812e-442105ce58c1": {
    "at": "2026-10-15T11:37:31+00:00",
    "company": "ElevenLabs",
@@ -55661,6 +55671,17 @@
    "title": "Senior Software Engineer - Data Platform",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7601580002"
   },
+  "greenhouse:databricks:7606848002": {
+   "at": "2026-11-27T01:46:13+00:00",
+   "company": "Databricks",
+   "reasons": [
+    "link not on a known ATS or company domain: https://databricks.com/company/careers/open-positions/job?gh_jid=7606848002",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Solutions Architect",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7606848002"
+  },
   "greenhouse:databricks:7619810002": {
    "at": "2026-09-29T15:41:23+00:00",
    "company": "Databricks",
@@ -76704,6 +76725,17 @@
    "title": "Commercial Account Executive (Saudi Arabia)",
    "url": "https://careers.datadoghq.com/detail/8411119/?gh_jid=8411119"
   },
+  "greenhouse:datadog:8413335": {
+   "at": "2026-11-27T01:46:13+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8413335/?gh_jid=8413335",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Strategic Account Executive",
+   "url": "https://careers.datadoghq.com/detail/8413335/?gh_jid=8413335"
+  },
   "greenhouse:datadog:8414413": {
    "at": "2026-11-24T23:56:22+00:00",
    "company": "Datadog",
@@ -93030,6 +93062,16 @@
    "status": "rejected",
    "title": "Business Development Representative, Australia\t",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8959549002"
+  },
+  "greenhouse:gitlab:8961167002": {
+   "at": "2026-11-27T01:46:13+00:00",
+   "company": "GitLab",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Enterprise Applications Engineer, Zendesk",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8961167002"
   },
   "greenhouse:gleanwork:4006731005": {
    "at": "2026-09-30T06:59:08+00:00",
@@ -132565,6 +132607,16 @@
    "title": "Account Executive Product, Crypto/Stablecoins",
    "url": "https://stripe.com/jobs/search?gh_jid=8412983"
   },
+  "greenhouse:stripe:8414067": {
+   "at": "2026-11-27T01:46:13+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Sales Development Representative (Dutch Fluency)",
+   "url": "https://stripe.com/jobs/search?gh_jid=8414067"
+  },
   "greenhouse:stripe:8414351": {
    "at": "2026-11-24T23:56:22+00:00",
    "company": "Stripe",
@@ -132634,6 +132686,16 @@
    "status": "rejected",
    "title": "Staff Software Engineer, Batch Compute",
    "url": "https://stripe.com/jobs/search?gh_jid=8417797"
+  },
+  "greenhouse:stripe:8419418": {
+   "at": "2026-11-27T01:46:13+00:00",
+   "company": "Stripe",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Sales Development Representative (Swedish Fluency)",
+   "url": "https://stripe.com/jobs/search?gh_jid=8419418"
   },
   "greenhouse:twilio:6372770": {
    "at": "2026-09-29T15:41:28+00:00",
@@ -135885,6 +135947,16 @@
    "title": "Deputy Manager - Revenue Intelligence and Governance",
    "url": "https://jobs.lever.co/meesho/07d86780-64fb-4ecf-b1d1-9b4602b436de"
   },
+  "lever:meesho:081a3505-e60b-46ed-bbf8-a6a0be5a933e": {
+   "at": "2026-11-27T01:46:13+00:00",
+   "company": "Meesho",
+   "reasons": [
+    "scam-style wording: 'WhatsApp'"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Assistant Program Manager - Growth (Kirana Club)",
+   "url": "https://jobs.lever.co/meesho/081a3505-e60b-46ed-bbf8-a6a0be5a933e"
+  },
   "lever:meesho:0a1226b1-1fff-4a4f-81a4-7e85087c8d08": {
    "at": "2026-10-14T12:00:53+00:00",
    "company": "Meesho",
@@ -136065,6 +136137,16 @@
    "title": "Assistant Manager - Business Finance",
    "url": "https://jobs.lever.co/meesho/22c4a7a0-43be-439e-9473-2f8074b3e8d5"
   },
+  "lever:meesho:2779eb08-9997-4962-815b-c7d441759764": {
+   "at": "2026-11-27T01:46:13+00:00",
+   "company": "Meesho",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Assistant Program Manager \u2013 Fulfilment & Experience (Strategic Initiatives) ( Kirana Club)",
+   "url": "https://jobs.lever.co/meesho/2779eb08-9997-4962-815b-c7d441759764"
+  },
   "lever:meesho:2b1ae28e-627b-40fd-8ed8-219c864178fa": {
    "at": "2026-09-29T15:41:20+00:00",
    "company": "Meesho",
@@ -136184,6 +136266,16 @@
    "status": "rejected",
    "title": "Manager-  Legal",
    "url": "https://jobs.lever.co/meesho/46754b37-ceb3-4a85-b59d-76b27a453f83"
+  },
+  "lever:meesho:47e8e25f-1cef-44cd-b2fa-ad84ed5685f8": {
+   "at": "2026-11-27T01:46:13+00:00",
+   "company": "Meesho",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Assistant Program Manager \u2013 Customer Experience & Automation (Kirana Club)",
+   "url": "https://jobs.lever.co/meesho/47e8e25f-1cef-44cd-b2fa-ad84ed5685f8"
   },
   "lever:meesho:4891a891-f431-4e98-99ae-0e31a21f0190": {
    "at": "2026-09-29T15:41:20+00:00",
@@ -136324,6 +136416,16 @@
    "status": "rejected",
    "title": "Director - Product",
    "url": "https://jobs.lever.co/meesho/65435df1-9a07-416e-9b97-381045f9f970"
+  },
+  "lever:meesho:766519e2-7639-43ed-a2f6-511b7cf621c4": {
+   "at": "2026-11-27T01:46:13+00:00",
+   "company": "Meesho",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Graphic Designer (Kirana Club)",
+   "url": "https://jobs.lever.co/meesho/766519e2-7639-43ed-a2f6-511b7cf621c4"
   },
   "lever:meesho:78b65759-cd43-405e-b3a8-d84d99e30d54": {
    "at": "2026-09-29T15:41:20+00:00",
