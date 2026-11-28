@@ -31002,6 +31002,16 @@
    "title": "Principal Solution Architect",
    "url": "https://jobs.ashbyhq.com/sarvam/fdf3a5c1-64b6-4c55-b3ed-a940f3835b29"
   },
+  "ashby:signoz:19c0a105-ac7d-445c-bc31-0af3294c694d": {
+   "at": "2026-11-28T07:57:14+00:00",
+   "company": "SigNoz",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Growth Engineer, Open Source",
+   "url": "https://jobs.ashbyhq.com/SigNoz/19c0a105-ac7d-445c-bc31-0af3294c694d"
+  },
   "ashby:signoz:2bccaba8-4b24-48c1-8c4a-cd97854a5dcd": {
    "at": "2026-09-30T06:59:07+00:00",
    "company": "SigNoz",
@@ -31091,6 +31101,16 @@
    "status": "rejected",
    "title": "Sr Product Manager - IC",
    "url": "https://jobs.ashbyhq.com/signoz/a41d80b2-389e-42c3-817e-feb7c3aa8fff"
+  },
+  "ashby:signoz:aa9c8222-2660-4318-9940-d0b9823d8d91": {
+   "at": "2026-11-28T07:57:14+00:00",
+   "company": "SigNoz",
+   "reasons": [
+    "title not in target roles"
+   ],
+   "status": "rejected",
+   "title": "Product Manager, Open Source Growth",
+   "url": "https://jobs.ashbyhq.com/SigNoz/aa9c8222-2660-4318-9940-d0b9823d8d91"
   },
   "ashby:signoz:bb540719-7344-4e98-88b9-92446d58f437": {
    "at": "2026-09-30T06:59:07+00:00",
@@ -76970,6 +76990,17 @@
    "status": "blocked-legitimacy",
    "title": "Senior Developer Advocate, OpenTelemetry",
    "url": "https://careers.datadoghq.com/detail/8418089/?gh_jid=8418089"
+  },
+  "greenhouse:datadog:8421876": {
+   "at": "2026-11-28T07:57:14+00:00",
+   "company": "Datadog",
+   "reasons": [
+    "link not on a known ATS or company domain: https://careers.datadoghq.com/detail/8421876/?gh_jid=8421876",
+    "apply link not on a known ATS or company domain"
+   ],
+   "status": "blocked-legitimacy",
+   "title": "Strategic Account Executive",
+   "url": "https://careers.datadoghq.com/detail/8421876/?gh_jid=8421876"
   },
   "greenhouse:discord:8214127002": {
    "at": "2026-09-29T15:41:30+00:00",
